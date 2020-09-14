@@ -1,0 +1,69 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Web Content Accessibility Guidelines (WCAG) 2.1
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Web Content Accessibility Guidelines 2.1
+      </h1>
+
+      <p>
+        The Web Content Accessibility Guidelines (WCAG) are a list of criteria your 
+        website or mobile application need to meet in order to be legally 
+        compliant.
+      </p>
+      <p>
+        In order for your website or application to be legally compliant, it needs 
+        to meet the level of double A. This is outlined in the 
+        <a href="/section/accessibility-and-the-law/accessibility-regulations">
+        accessibility regulations</a>. 
+      </p>
+  
+      <h2 class="govuk-heading-m">
+        Understanding WCAG
+      </h2>
+      <p>
+        WCAG 2.1 is a list of critera. Each one is specifically designed to consider 
+        a particular need, but will fit into one of the following 4 categories:
+      </p>
+      <ol class="govuk-list govuk-list--number">
+        <li>Perceivable</li>
+        <li>Operable</li>
+        <li>Understandable</li>
+        <li>Robust</li>
+      </ol>
+      <p>
+        The criteria make up 3 levels. A, double A and triple A. 
+        The levels build on one another, so to be double A compliant you need to 
+        meet all of the A and double A criteria. For A and double A there are 
+        around 50 criteria in total.
+      </p>
+
+      <p>
+        You can find a list of all the A and double A criteria you need to meet 
+        in the <a href="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa&showtechniques=132">
+          W3C WCAG 2.1 QuickRef guide
+        </a>.
+      </p>
+
+      <ul class="govuk-list">
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}

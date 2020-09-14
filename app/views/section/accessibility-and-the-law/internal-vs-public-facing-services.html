@@ -1,0 +1,45 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Internal vs public facing services
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Internal vs public facing service
+      </h1>
+
+      <p>
+        Whether your website or mobile application is used by staff or open to 
+        the public it will need to be accessible.
+      </p>
+      <p>
+        If your application runs in a browser or on a mobile device it will be 
+        covered by the Public Sector Bodies Accessibility Regulations 2018. If 
+        your application is a desktop application which is not browser based it 
+        will be covered by EN&nbsp;301&nbsp;549 - Accessibility requirements for 
+        ICT products and services.
+      </p>
+      <p>
+        Both standards require your application to be accessible and adhere to 
+        the <a href="/section/accessibility-and-the-law/web-content-accessibility-guidelines">
+        Web Content Accessibility Guidelines (WCAG) 2.1</a>.
+      </p>
+      <p>
+        You can <a href="/section/accessibility-and-the-law/accessibility-regulations">
+        read more about the accessibility regulations</a> in this manual.
+      </p>
+    </div>
+  </div>
+
+{% endblock %}

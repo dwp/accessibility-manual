@@ -1,0 +1,101 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Accessibility Regulations
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Accessibility Regulations
+      </h1>
+
+      <p>
+        Most of the time when people talk about the accessibility regulations, 
+        they are referring to the Public Sector Bodies Accessibility Regulations 
+        2018.
+      </p>
+
+      <h2 class="govuk-heading-m">
+        How to meet the regulations
+      </h2>
+      <p>
+        To be legally compliant, your website or mobile application will need to:
+      </p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li> 
+          meet the
+          <a href="/section/accessibility-and-the-law/web-content-accessibility-guidelines">
+            Web Content Accessibility Guidelines (WCAG) 2.1
+          </a> 
+        </li>
+        <li> 
+          publish a compliant 
+          <a href="/section/accessibility-and-the-law/accessibility-statements">
+            accessibility statement
+          </a>
+        </li>
+      </ul>
+      <p>
+        There is a 
+        <a href="/section/accessibility-and-the-law/accessibility-regulations-vs-the-service-standard">
+        difference between legal compliance and the Government Accessibility 
+        Requirements</a>. If you're working to the <a href="https://www.gov.uk/service-manual/service-standard">
+        GOV.UK Service</a> Standard you will need to do additional work to pass 
+        a service assessment.
+      </p>
+
+      <h2 class="govuk-heading-m">
+        The regulations explained
+      </h2>
+      <p>
+        In 2014 a European law was passed which stated that anything which is 
+        bought or built by a public sector body needs to meet the European 
+        Standards for accessibility known as EN&nbsp;301&nbsp;549. The deadline 
+        for this is 23 September 2020.
+      </p>
+      <p>
+        In 2018 the UK created it's own accessibility legislation called 
+        <a href="https://www.legislation.gov.uk/uksi/2018/952/contents/made">
+        The Public Sector Bodies Accessibility Regulations 2018</a>. It was 
+        designed specifically for website and mobile apps but also aligns 
+        with the European Standards. It applies to any website or mobile app 
+        (internal or public facing) which is bought or built by a public sector 
+        body in the UK.
+      </p>
+      <p>
+        <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">
+        EN&nbsp;301&nbsp;549 - Accessibility requirements for ICT products and services</a> 
+        is the full name of the European Standards. They apply to any software 
+        or hardware bought or built by a public sector body in Europe. It also 
+        covers websites and mobile apps, but if you're building or buying these 
+        in the UK, the Public Sector Bodies Accessibility Regulations 2018 would 
+        be the standard you would need to work to.
+      </p>
+      <p>
+        Because the UK standards align with the European Standards, the same 
+        deadline of 23 September 2020 applies, and if you meet 
+        the Public Sector Bodies Accessibility Regulations 2018 you will also 
+        meet EN&nbsp;301&nbsp;549 for your website or mobile application. 
+      </p>
+      <h2 class="govuk-heading-m">
+        What counts as a website?
+      </h2>
+      <p>
+        Sometimes there is confusion between what is a website or a computer programme. 
+        For the purposes of the legislation, a website is anything which runs in 
+        a web browser.
+      </p>
+    </div>
+  </div>
+
+{% endblock %}
