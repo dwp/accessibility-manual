@@ -1,0 +1,37 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Business analysts and accessibility
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Business analysts and accessibility
+      </h1>
+      <p>
+        As a Business Analyst in an agile team, you're involved in the critical 
+        parts where accessibility is often overlooked. Your role is often a 
+        facilitating role, to make sure user stories and conversations always 
+        include accessibility.
+      </p>
+
+      {% include "./partials/_things-to-consider.njk" %}
+
+      {% include "./partials/_definition-of-ready.njk" %}
+      {% include "./partials/_definition-of-done.njk" %}
+
+
+    </div>
+  </div>
+
+{% endblock %}
