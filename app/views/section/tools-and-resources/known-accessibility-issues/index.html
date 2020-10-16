@@ -1,0 +1,41 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Known accessibility issues
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Known accessibility issues
+      </h1>
+      <p>
+        Sometimes we find issues which are not unique to services. These can be 
+        due to bugs in the assistive technology tools or in the common components 
+        we use.
+      </p>
+
+      {% include "./partials/_things-to-consider.njk" %}
+
+      {% include "./partials/_aria-attributes-not-allowed-on-conditional-reveals.njk" %}
+      {% include "./partials/_colour-contrast-fails-on-hm-government-logo.njk" %}
+      {% include "./partials/_govuk-accordion-component-is-non-compliant.njk" %}
+      {% include "./partials/_govuk-conditional-reveals-are-non-compliant.njk" %}
+      {% include "./partials/_govuk-date-component-does-not-work-with-dragon.njk" %}
+      {% include "./partials/_govuk-details-component-does-not-work-with-dragon.njk" %}
+      {% include "./partials/_jaws-can-not-see-headings-inside-fieldsets.njk" %}
+      {% include "./partials/_screen-readers-read-out-p45-as-45p.njk" %}
+
+    </div>
+  </div>
+
+{% endblock %}
