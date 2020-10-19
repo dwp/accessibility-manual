@@ -1,0 +1,40 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Digital Performance Analysts and accessibility
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Digital Performance Analysts and accessibility
+      </h1>
+      <p>
+        As a Digital Performance Analyst, most of your considerations will be around 
+        presenting statistical data so that they don't exclude anybody that might 
+        not be able to perceive complex charts or tables of data.
+      </p>
+
+      {% include "./partials/_things-to-consider.njk" %}
+
+      {% include "./partials/_use-html-wherever-possible.njk" %}
+      {% include "./partials/_summarise-charts-and-graphs.njk" %}
+      {% include "./partials/_do-not-rely-on-sensory-characteristics.njk" %}
+      {% include "./partials/_use-sufficient-colour-contrast.njk" %}
+      {% include "./partials/_logical-reading-order.njk" %}
+      {% include "./partials/_do-not-merge-table-cells.njk" %}
+      {% include "./partials/_use-appropriate-table-headings.njk" %}
+
+    </div>
+  </div>
+
+{% endblock %}
