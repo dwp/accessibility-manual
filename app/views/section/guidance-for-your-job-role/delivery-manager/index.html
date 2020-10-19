@@ -1,0 +1,36 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Delivery managers and accessibility
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Delivery Managers and accessibility
+      </h1>
+      <p>
+        As a Delivery Manager you need to make sure that accessibility is considered 
+        when sizing up stories and that every feature is fully accessible before 
+        it is released.
+      </p>
+
+      {% include "./partials/_things-to-consider.njk" %}
+
+      {% include "./partials/_plan-for-accessibility.njk" %}
+      {% include "./partials/_definition-of-ready.njk" %}
+      {% include "./partials/_definition-of-done.njk" %}
+
+    </div>
+  </div>
+
+{% endblock %}
