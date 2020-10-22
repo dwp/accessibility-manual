@@ -1,0 +1,41 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Quality Assurance Testers and accessibility
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Quality Assurance Testers and accessibility
+      </h1>
+      <p>
+        As QA Tester, you're responsible for checking the finished product is 
+        actually accessible. This means running automated tests, manually checking 
+        the pages against the WCAG criteria, and testing usability with assistive 
+        technology.
+      </p>
+
+      {% include "./partials/_things-to-consider.njk" %}
+
+      {% include "./partials/_automated-accessibility-testing.njk" %}
+      {% include "./partials/_manual-accessibility-testing.njk" %}
+      {% include "./partials/_assistive-technology-testing.njk" %}
+      {% include "./partials/_recording-testing-evidence.njk" %}
+      {% include "./partials/_definition-of-done.njk" %}
+      {% include "./partials/_page-title.njk" %}
+      {% include "./partials/_page-url.njk" %}
+      
+    </div>
+  </div>
+
+{% endblock %}
