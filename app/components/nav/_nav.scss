@@ -1,0 +1,76 @@
+/* ==========================================================================
+   #NAV
+   ========================================================================== */
+
+.app-pane__nav {
+  background-color: govuk-colour("light-grey", $legacy: "grey-4");
+}
+
+.app-nav {
+  @include govuk-font(19);
+  margin-left: -15px;
+}
+
+
+.app-nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0 0 0px;
+  padding: 0;
+  white-space: nowrap;
+
+  @include govuk-media-query($until: tablet) {
+    overflow-y: scroll;
+  }
+
+}
+
+
+.app-nav__list-item {
+  display: flex;
+
+  a,
+  a:link,
+  a:visited {
+    border-bottom: 4px solid transparent;
+    color: govuk-colour("purple");
+    display: block;
+    font-weight: bold;
+    padding: govuk-spacing(3);
+    padding-bottom: govuk-spacing(3) - 4px; // Compensate for 4px border
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:focus {
+    position: relative;
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    border-bottom-color: $govuk-focus-text-colour;
+    box-shadow: none;
+  }
+
+}
+
+
+.app-nav__list-item--selected {
+
+  a,
+  a:link,
+  a:visited {
+    border-bottom-color: govuk-colour("purple");
+    color: govuk-colour("purple");
+  }
+
+  a:focus {
+    position: relative;
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    border-left-color: $govuk-focus-text-colour;
+    box-shadow: none;
+  }
+
+}

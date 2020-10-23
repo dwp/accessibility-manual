@@ -1,0 +1,102 @@
+$govuk-global-styles: true;
+
+
+// Import GOV.UK Frontend
+@import "node_modules/govuk-frontend/govuk/all";
+
+
+body {
+  margin: 0;
+}
+
+
+// App example
+.app-example-page {
+  margin-bottom: -1px;
+  padding: 30px;
+  padding-top: 60px;
+  position: relative;
+}
+
+
+// Recreate prose scope for use with markdown
+.app-prose-scope {
+
+  h1 {
+    @extend %govuk-heading-xl;
+  }
+
+  h2 {
+    @extend %govuk-heading-l;
+  }
+
+  h3 {
+    @extend %govuk-heading-m;
+  }
+
+  h4 {
+    @extend %govuk-heading-s;
+  }
+
+  p {
+    @extend %govuk-body-m;
+  }
+
+  strong,
+  b {
+    @include govuk-typography-weight-bold;
+  }
+
+  ul,
+  ol {
+    @extend %govuk-list;
+  }
+
+  ol {
+    @extend %govuk-list--number;
+  }
+
+  ul {
+    @extend %govuk-list--bullet;
+  }
+
+  hr {
+    @extend %govuk-section-break;
+    @extend %govuk-section-break--visible;
+    @extend %govuk-section-break--xl;
+  }
+
+  table {
+    @include govuk-font($size: 19);
+    @include govuk-text-colour;
+    @include govuk-responsive-margin(6, "bottom");
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th {
+    @include govuk-typography-weight-bold;
+    border-bottom: 1px solid $govuk-border-colour;
+    padding: govuk-em(govuk-spacing(2), 19px) govuk-em(govuk-spacing(4), 19px) govuk-em(govuk-spacing(2), 19px) 0;
+    text-align: left;
+  }
+
+  td {
+    border-bottom: 1px solid $govuk-border-colour;
+    padding: govuk-em(govuk-spacing(2), 19px) govuk-em(govuk-spacing(4), 19px) govuk-em(govuk-spacing(2), 19px) 0;
+    text-align: left;
+  }
+
+  th:last-child,
+  td:last-child {
+    padding-right: 0;
+  }
+
+  caption {
+    @include govuk-typography-weight-bold;
+    display: table-caption;
+    text-align: left;
+  }
+
+}

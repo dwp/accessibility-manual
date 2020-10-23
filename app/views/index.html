@@ -1,186 +1,90 @@
+{% extends "layouts/landing.html" %}
 
-{% extends "layout.html" %}
+{% set pageTitle = "Home" %}
 
-{% block pageTitle %}
-  DWP Accessibility Manual
-{% endblock %}
+{% block pageContent %}
 
-{% block content %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">
-        DWP Accessibility Manual
-        <span class="govuk-visually-hidden">Version</span> 
-        <span class="govuk-caption-xl">0.1.0</span>
-      </h1>
-      <p>
-        Guidance and best practice for building accessible services and meeting 
-        the Public Sector Bodies Accessibilty Regulations 2018.
-      </p>
-      <p>
-        This guidance is still being iterated and is likley to change.
-      </p>
+<div class="app-masthead">
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds-from-desktop">
 
-      <h2 class="govuk-heading-m">
-        Accessibility and the law
-      </h2>
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          <a href="/section/accessibility-and-the-law/accessibility-regulations">
-            Accessibility regulations
-          </a>
-        </li>
-        <li>
-          <a href="/section/accessibility-and-the-law/accessibility-regulations-vs-the-service-standard">
-            Accessibility regulations vs the GOV.UK Service Standard
-          </a>
-        </li>        
-        <li>
-          <a href="/section/accessibility-and-the-law/accessibility-statements">
-            Accessibility statements
-          </a>
-        </li>
-        <li>
-          <a href="/section/accessibility-and-the-law/disproportionate-burden">
-            Disproportionate burden
-          </a>
-        </li>
-        <li>
-          <a href="/section/accessibility-and-the-law/internal-vs-public-facing-services">
-            Internal vs public facing services
-          </a>
-        </li>
-        <li>
-          <a href="/section/accessibility-and-the-law/web-content-accessibility-guidelines">
-            Web Content Accessibility Guidelines (WCAG) 2.1
-          </a>
-        </li>
-      </ul>
+          <h1 class="govuk-heading-xl app-masthead__title">
+            DWP Accessibility Manual
+            <span class="govuk-visually-hidden">Version</span> 
+            <span class="govuk-caption-xl app-masthead__description">0.1.0</span>
+          </h1>
+          <p class="app-masthead__description govuk-!-margin-bottom-3">
+            Guidance and best practice for building accessible services and meeting 
+            the Public Sector Bodies Accessibility Regulations 2018.
+          </p>
+          <p class="app-masthead__description">
+            This guidance is still being iterated and is likely to change.
+          </p>
 
-      <h2 class="govuk-heading-m">
-        Guidance for your job role
-      </h2>
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          <a href="/section/guidance-for-your-job-role/business-analyst">
-            Business Analyst
-          </a>
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/content-designer">
-            Content Designer
-          </a>
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/digital-performance-analyst">
-            Digital Performance Analyst
-          </a>
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/delivery-manager">
-            Delivery Manager
-          </a>
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/interaction-designer">
-            Interaction Designer
-          </a>
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Product Manager
-          {# </a> #}
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/qa-tester">
-            QA Tester
-          </a>
-        </li>
-        <li>
-          <a href="/section/guidance-for-your-job-role/software-engineer-or-frontend-developer">
-            Software Engineer or Frontend Developer
-          </a>
-        </li>
-        <li>
-          {# <a href="#"> #}
-          User Researcher
-          </a>
-        {# </li> #}
-      </ul>
-
-      <h2 class="govuk-heading-m">
-        Best practice
-      </h2>
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          {# <a href="#"> #}
-            Agile teams
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Document structure
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Powerpoint slides
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Waterfall projects
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Word documents
-          {# </a> #}
-        </li>
-      </ul>
-
-      <h2 class="govuk-heading-m">
-        Tools and resources
-      </h2>
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          <a href="/section/tools-and-resources/known-accessibility-issues">
-            Known accessibility issues
-          </a>
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Document structure
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Powerpoint slides
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Waterfall projects
-          {# </a> #}
-        </li>
-        <li>
-          {# <a href="#"> #}
-            Word documents
-          {# </a> #}
-        </li>
-      </ul>
-
-      <h2 class="govuk-heading-m">
-        Talks and training courses
-      </h2>
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          {# <a href="#"> #}
-            Placeholder
-          {# </a> #}
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="govuk-width-container">
+  <div class="app-main-wrapper govuk-main-wrapper govuk-main-wrapper--l">
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-one-quarter govuk-!-margin-bottom-8">
+        <h2 class="govuk-heading-l">
+          Accessibility law
+        </h2>
+        <p>
+          Understand the Public Sector Bodies Accessibility Regulations 2018, 
+          the Government Accessibility Requirements and what you need to do to 
+          make sure your service is compliant.
+        <p>
+          <a class="app-link govuk-!-font-weight-bold" href="/styles">Browse styles</a>
+        </p>
+      </div>
+
+      <div class="govuk-grid-column-one-quarter govuk-!-margin-bottom-8">
+        <h2 class="govuk-heading-l">
+          Guidance for your job role
+        </h2>
+        <p>
+          ...
+        </p>
+        <p>
+          <a class="app-link govuk-!-font-weight-bold" href="/components">Browse components</a>
+        </p>
+      </div>
+
+      <div class="govuk-grid-column-one-quarter govuk-!-margin-bottom-8">
+        <h2 class="govuk-heading-l">
+          Best practices
+        </h2>
+        <p>
+          ...
+        </p>
+        <p>
+          <a class="app-link govuk-!-font-weight-bold" href="/patterns">Browse patterns</a>
+        </p>
+      </div>
+
+      <div class="govuk-grid-column-one-quarter govuk-!-margin-bottom-8">
+        <h2 class="govuk-heading-l">
+          Tools and resources
+        </h2>
+        <p>
+          ...
+        </p>
+        <p>
+          <a class="app-link govuk-!-font-weight-bold" href="/patterns">Browse patterns</a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 {% endblock %}

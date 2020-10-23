@@ -1,0 +1,11 @@
+<nav class="app-nav{% if params.classes %} {{ params.classes }}{% endif %}">
+  
+  <ul class="app-nav__list">
+
+    {% for item in params.items %}
+    <li class="app-nav__list-item{% if item.selected %} app-nav__list-item--selected{% endif %}"><a href="{{item.link}}"{% if item.selected %} aria-current="page"{% endif %}>{{item.title}}</a></li>
+    {% endfor %}
+
+  </ul>
+
+</nav>

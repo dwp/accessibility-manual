@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+	<title>{{pageTitle}} - DWP Accessibility Manual</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><link href="/public/stylesheets/code-ie8.css" rel="stylesheet"><![endif]-->
+	<!--[if gt IE 8]><!--><link href="/public/stylesheets/code.css" rel="stylesheet"><!--<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="/public/javascripts/vendor/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+	{% block body %}{% endblock %}
+	<script src="/node_modules/govuk-frontend/govuk/all.js"></script>
+	<script>window.GOVUKFrontend.initAll()</script>
+	{% block pageScripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,47 @@
+{%- from "example/macro.njk" import dsExample -%}
+{%- from "contact-panel/macro.njk" import dsContactPanel -%}
+{%- from "nav/macro.njk" import dsNav -%}
+{%- from "subnav/macro.njk" import dsSubnav -%}
+{%- from "tag/macro.njk" import govukTag -%}
+{% from "phase-banner/macro.njk" import govukPhaseBanner %}
+
+<!DOCTYPE html>
+<html class="app-template" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{pageTitle}} - DWP Accessibility Manual</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#0b0c0c">
+	<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/public/images/dwp-apple-touch-icon-152x152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="/public/images/dwp-apple-touch-icon-120x120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="/public/images/dwp-apple-touch-icon-76x76.png" sizes="76x76">
+	<link rel="apple-touch-icon" href="/public/images/dwp-apple-touch-icon-60x60.png">
+	<meta name="description" content="Design your service using DWP styles, components and patterns">
+	<meta property="og:image" content="/public/images/dwp-opengraph-image.png">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+	<!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet"><![endif]-->
+	<!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" rel="stylesheet"><!--<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="/public/javascripts/vendor/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+<body class="app-template__body">
+	<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+	{% block body %}{% endblock %}
+
+	{% include "svg.html" %}
+
+	{% block bodyEnd %}
+		{% block scripts %}
+			{% include "scripts.html" %}
+			{% block pageScripts %}{% endblock %}
+		{% endblock %}
+	{% endblock %}
+
+</body>
+</html>

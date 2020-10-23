@@ -1,0 +1,21 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "guidance-for-your-job-role" %}
+{% set pageId = "interaction-designer" %}
+{% set pageTitle = "Interaction Designers and accessibility" %}
+
+{% block subNav %}
+  {% include "../subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">
+    {{pageTitle}}
+  </h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "accessibility-law" %}
+{% set pageId = "internal-vs-public-facing-services" %}
+{% set pageTitle = "Internal vs public facing services" %}
+
+{% block subNav %}
+  {% include "../subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">
+    {{pageTitle}}
+  </h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+{% endblock %}

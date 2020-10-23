@@ -1,16 +1,7 @@
-/*
-  clean.js
-  ===========
-  removes folders:
-    - public
-*/
+const gulp = require('gulp');
+const clean = require('gulp-clean');
 
-const del = require('del')
-const gulp = require('gulp')
-
-const config = require('./config.json')
-
-gulp.task('clean', function (done) {
-  return del([config.paths.public + '/*',
-    '.port.tmp'])
-})
+gulp.task('clean', () => {
+  return gulp.src('public', { read: false, allowEmpty: true })
+  .pipe(clean());
+});

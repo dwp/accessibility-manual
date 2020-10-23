@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+  <div class="app-pane">
+
+    {% include "header.html" %}
+
+    {% include "nav.html" %}
+
+    <div class="app-pane__content">
+
+      {% block content %}{% endblock %}
+
+    </div>
+
+  </div>
+
+{% endblock %}
