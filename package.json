@@ -20,6 +20,7 @@
     "node": "12.13.1"
   },
   "dependencies": {
+    "basic-auth": "^2.0.1",
     "express": "^4.16.3",
     "govuk-frontend": "^3.0.0",
     "gray-matter": "^4.0.1",
