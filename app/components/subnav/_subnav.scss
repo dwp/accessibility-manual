@@ -1,3 +1,5 @@
+@include govuk-exports("app-subnav") {
+
   .app-subnav {
     // Since the back to top link is outside the flow of the document we need to create a space for it.
     // This number is magic and was determined by manually judging the visual spacing.
@@ -12,14 +14,12 @@
     list-style-type: none;
   }
 
-  a.app-subnav__link {
-    color: govuk-colour("purple");
-  }
   .app-subnav__link {
     padding: 2px 0;
     text-decoration: none;
-    
+
     &:not(:focus):hover {
+      color: $govuk-link-colour;
       text-decoration: underline;
     }
   }
@@ -34,7 +34,7 @@
     $_current-indicator-width: 4px;
     margin-left: -(govuk-spacing(2) + $_current-indicator-width);
     padding-left: govuk-spacing(2);
-    border-left: $_current-indicator-width solid govuk-colour("purple");
+    border-left: $_current-indicator-width solid govuk-colour("blue");
     background-color: govuk-colour("white");
   }
 
@@ -65,3 +65,4 @@
     color: govuk-colour("dark-grey");
     @include govuk-font(19);
   }
+}

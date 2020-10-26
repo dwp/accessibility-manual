@@ -1,52 +1,59 @@
-/* ==========================================================================
-   #HEADER
-   ========================================================================== */
+@include govuk-exports("app-header") {
 
-.app-header {
-  background-color: govuk-colour("black");
-  color: govuk-colour("white");
-  padding: govuk-spacing(2) 0;
-  border-bottom: govuk-spacing(2) solid govuk-colour("purple");
-}
-
-.app-header__link {
-  color: govuk-colour("white");
-  display: inline-block;
-  text-decoration: none;
-
-  &:link,
-  &:visited {
-    color: inherit;
+  // Move the blue border from the container to the header so that it spans
+  // the full width of the page
+  .app-header {
+    border-bottom: 10px solid $govuk-brand-colour;
   }
 
-  &:focus {
-    color: govuk-colour("black");
+  .app-header__container {
+    margin-bottom: 0;
+    border-bottom: 0;
   }
 
-  &:hover {
-    margin-bottom: -1px;
-   border-bottom: 1px solid; 
+  // Override the default 33% width on the logo in GOV.UK Frontend (prevents
+  // unnecessary wrapping of "GOV.UK Design System" on smaller tablet / desktop
+  // viewports)
+  .app-header__logo {
+    width: auto;
   }
-}
 
+  .app-header-mobile-nav-toggler-wrapper {
+    display: block;
+    float: right;
+  }
 
-.app-header__logotype-crest {
-  fill: currentColor;
-  height: 45px;
-  margin-right: govuk-spacing(2);
-  vertical-align: middle;
-  width: 50px;
-}
+  .app-header-mobile-nav-toggler {
+    display: none;
+    min-height: 40px; // match the height of the search box
+    margin-top: govuk-spacing(2);
+    margin-bottom: govuk-spacing(2);
+    padding-right: govuk-spacing(1);
+    padding-left: govuk-spacing(1);
+    border: 1px solid transparent; // Override the button default border, keep this around for when users change their colours
+    box-shadow: none; // Override the button default box shadow
 
+    &,
+    &:hover {
+      background-color: transparent; // Override the button default green
+    }
 
-.app-header__logotype-text {
-  @include govuk-font($size: 24, $weight: bold);
-  vertical-align: middle;
-}
+    &::after {
+      @include govuk-shape-arrow($direction: down, $base: 10px, $display: inline-block);
+      content: "";
+      margin-left: govuk-spacing(1);
+      border-top-color: currentColor;
+    }
 
+    &--active::after {
+      @include govuk-shape-arrow($direction: up, $base: 10px, $display: inline-block);
+      border-bottom-color: currentColor;
+    }
 
-.app-header__title {
-  @include govuk-font($size: 24);
-  vertical-align: middle;
-
+    .js-enabled & {
+      @include govuk-media-query($until: tablet) {
+        display: inline;
+      }
+    }
+  }
 }

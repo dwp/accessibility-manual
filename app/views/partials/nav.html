@@ -1,34 +1,25 @@
-<div class="app-pane__nav">
-  <div class="govuk-width-container">
-  {{dsNav({
-    items: [
-    {
-        title: 'Accessibility law',
-        link: '/accessibility-law',
-        selected: sectionId == 'accessibility-law'
-      },
-      {
-        title: 'Guidance for you job role',
-        link: '/guidance-for-your-job-role',
-        selected: sectionId == 'guidance-for-your-job-role'
-      },
-      {
-        title: 'Best practice',
-        link: '/best-practice',
-        selected: sectionId == 'best-practice'
-      },
-      {
-        title: 'Tools and resources',
-        link: '/tools-and-resources',
-        selected: sectionId == 'tools-and-resources'
-      },
-      {
-        title: 'Community',
-        link: '/community',
-        selected: sectionId == 'community'
-      }
-    ]
-  }) }}
-</div>
-
-</div>
+<nav class="app-navigation govuk-clearfix">
+  <ul class="app-navigation__list app-width-container">
+    
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/get-started/" data-topnav="Get started">Get started</a>
+    </li>
+    
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/styles/" data-topnav="Styles">Styles</a>
+    </li>
+    
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/components/" data-topnav="Components">Components</a>
+    </li>
+    
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/patterns/" data-topnav="Patterns">Patterns</a>
+    </li>
+    
+    <li class="app-navigation__list-item">
+      <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/community/" data-topnav="Community">Community</a>
+    </li>
+    
+  </ul>
+</nav>

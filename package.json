@@ -4,7 +4,8 @@
   "description": "DWP Accessibility Manual",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,8 @@
     "nunjucks-highlight.js": "0.0.5",
     "nunjucks-markdown": "^2.0.1",
     "require-dir": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^15.0.0"
   }
 }

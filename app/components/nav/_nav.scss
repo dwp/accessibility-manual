@@ -1,76 +1,63 @@
-/* ==========================================================================
-   #NAV
-   ========================================================================== */
+$navigation-height: 50px;
 
-.app-pane__nav {
-  background-color: govuk-colour("light-grey", $legacy: "grey-4");
-}
-
-.app-nav {
-  @include govuk-font(19);
-  margin-left: -15px;
-}
-
-
-.app-nav__list {
-  display: flex;
-  list-style: none;
-  margin: 0 0 0px;
-  padding: 0;
-  white-space: nowrap;
+.app-navigation {
+  @include govuk-font(19, $weight: bold);
+  box-sizing: border-box;
+  width: 100%;
+  background-color: govuk-colour("light-grey");
+;
 
   @include govuk-media-query($until: tablet) {
-    overflow-y: scroll;
+    display: none;
   }
-
 }
 
+.app-navigation__list {
+  position: relative;
+  left: -(govuk-spacing(3));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-.app-nav__list-item {
-  display: flex;
+.app-navigation__list-item {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  height: $navigation-height;
+  padding: 0 govuk-spacing(3);
+  float: left;
+  line-height: $navigation-height;
+}
 
-  a,
-  a:link,
-  a:visited {
-    border-bottom: 4px solid transparent;
-    color: govuk-colour("purple");
-    display: block;
-    font-weight: bold;
-    padding: govuk-spacing(3);
-    padding-bottom: govuk-spacing(3) - 4px; // Compensate for 4px border
-    text-decoration: none;
+.app-navigation__list-item--current {
+  border-bottom: 4px solid govuk-colour("blue");
+}
+
+.app-navigation__link {
+  @include govuk-typography-weight-bold;
+  text-decoration: none;
+
+  &:not(:focus):visited {
+    color: $govuk-link-colour;
   }
 
-  a:hover {
+  &:not(:focus):hover {
+    color: $govuk-link-colour;
     text-decoration: underline;
   }
 
-  a:focus {
-    position: relative;
-    color: $govuk-focus-text-colour;
-    background-color: $govuk-focus-colour;
-    border-bottom-color: $govuk-focus-text-colour;
-    box-shadow: none;
+  // Extend the touch area of the link to the list
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
-
 }
 
-
-.app-nav__list-item--selected {
-
-  a,
-  a:link,
-  a:visited {
-    border-bottom-color: govuk-colour("purple");
-    color: govuk-colour("purple");
-  }
-
-  a:focus {
-    position: relative;
-    color: $govuk-focus-text-colour;
-    background-color: $govuk-focus-colour;
-    border-left-color: $govuk-focus-text-colour;
-    box-shadow: none;
-  }
-
+.app-navigation__list-item--current .app-navigation__link:hover {
+  text-decoration: none;
 }
