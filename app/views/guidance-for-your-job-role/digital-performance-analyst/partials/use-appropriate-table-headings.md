@@ -35,35 +35,32 @@ For example, the following table is to show the number of different beverages se
 </table>
 
 The HTML structure for the table is as follows:
-
-<pre>
-  <code class="html">
-    &lt;table>
-      &lt;caption>Daily beverage consumption&lt;/caption>
-      &lt;thead>
-        &lt;tr>
-          &lt;th>Person&lt;/th>
-          &lt;th>Cold drink&lt;/th>
-          &lt;th>Hot drink&lt;/th>
-        &lt;/tr>
-      &lt;/thead>
-      &lt;tbody>
-        &lt;tr>
-          &lt;th>Chris&lt;/th>
-          &lt;td>5 cups&lt;/td>
-          &lt;td>0 cups&lt;/td>
-        &lt;/tr>
-        &lt;tr>
-          &lt;th>Paul&lt;/th>
-          &lt;td>2 cups&lt;/td>
-          &lt;td>4 cups&lt;/td>
-        &lt;/tr>
-        &lt;tr>
-          &lt;th>Sarah&lt;/th>
-          &lt;td>0 cups&lt;/td>
-          &lt;td>5 cups&lt;/td>
-        &lt;/tr>
-      &lt;/tbody>
-    &lt;/table>
-  </code>
-</pre>
+```html
+      <table>
+        <caption>Daily beverage consumption</caption>
+        <thead>
+          <tr>
+            <th>Person</th>
+            <th>Cold drink</th>
+            <th>Hot drink</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Chris</th>
+            <td>5 cups</td>
+            <td>0 cups</td>
+          </tr>
+          <tr>
+            <th>Paul</th>
+            <td>2 cups</td>
+            <td>4 cups</td>
+          </tr>
+          <tr>
+            <th>Sarah</th>
+            <td>0 cups</td>
+            <td>5 cups</td>
+          </tr>
+        </tbody>
+      </table>
+```

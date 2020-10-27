@@ -5,11 +5,10 @@ If the content contains images and/or other non-text content such as graphs or c
 If an image is purely decorative then you don't need to provide alternative text, but if it adds context to the content, then it should have a description.
 
 For example:
-<pre>
-<code>
-&lt;img src="cat.jpg" alt="A cat wearing sunglasses." />
-</code>
-</pre>
+```html
+      <img src="cat.jpg" alt="A cat wearing sunglasses." />
+```
+
 You should work with an Interaction Designer and a Frontend Developer to make sure alternative text is provided for images that need it.
 
 For charts or graphs, you should summarise what the chart is showing and provide the data you used to generate the chart. This means people who can't see it can still easily understand what it is showing, but can also access the raw data if they want to look at it themselves in more detail.

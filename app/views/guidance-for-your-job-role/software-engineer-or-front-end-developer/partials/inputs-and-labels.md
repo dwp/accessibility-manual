@@ -9,9 +9,7 @@ Any input without a label will fail WCAG 3.3.2 Labels or Instructions. A label s
 You should not use placeholder text instead of a label. A label should describe instruction for the input, and placeholder text should be reserved for an example if it is needed. If you use placeholder text instead of a label, you cannot then check what you entered against the instructions without deleting it back out the field.
 
 For example:
-<pre>
-  <code class="html">
-    &lt;label for="reference">Enter your reference&lt;/label>
-    &lt;input id="reference" placeholder="ABC-123-123" name="reference" type="text" />
-  </code>
-</pre>
+```html
+      <label for="reference">Enter your reference</label>
+      <input id="reference" placeholder="ABC-123-123" name="reference" type="text" />
+```

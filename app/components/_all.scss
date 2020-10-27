@@ -4,23 +4,16 @@ $app-code-color: #d13118;
 
 // App-specific components
 @import "back-to-top/back-to-top";
-@import "contact-panel/contact-panel";
-@import "example/example";
 @import "footer/footer";
 @import "header-component/header";
 @import "highlight/highlight";
-@import "inverted-button/inverted-button";
 @import "masthead/masthead";
 @import "mobile-navigation/mobile-navigation";
 @import "navigation/navigation";
-@import "options/options";
 @import "page-navigation/page-navigation";
 @import "pane/pane";
 @import "phase-banner-component/phase-banner";
 @import "subnav/subnav";
-@import "tabs/tabs";
-@import "table/table";
-@import "tag/tag";
 @import "app";
 
 // We don't change the global width container width so that examples are the current width.

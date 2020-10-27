@@ -6,13 +6,10 @@
 
     {% include "header.html" %}
 
-    
-    {% include "nav.html" %}
-
     <div class="app-pane__content">
 
       <main id="content" role="main">
-      {% block pageContent %}{% endblock %}
+        {% block pageContent %}{% endblock %}
       </main>
 
       {% include "footer.html" %}

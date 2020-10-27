@@ -4,11 +4,10 @@ The standard format for titles on a service is to set the context in 3 parts and
 'Page context – Service context – Domain context`.
 
 For example:
-<pre>
-  <code class="html">
-    &lt;title>What is your name? – Apply for Universal Credit – GOV.UK&lt;/title>
-  </code>
-</pre>
+```html
+      <title>What is your name? – Apply for Universal Credit – GOV.UK</title>
+```
+
 Page context should describe the topic or purpose of the page. They are usually identical to the H1, apart from when the H1 contains identifiable information.
 
 For example, if the H1 is "What is your date of birth?" then the title would be the same.

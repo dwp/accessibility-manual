@@ -14,5 +14,15 @@
 {% endblock %}
 
 {% block pageContent %}
-  <div class="app-prose-scope">{% markdown %}{% include "./README.md" %}{% endmarkdown %}</div>
+
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">
+    Guidance for your job role
+  </h1>
+
+  {{appPageNavigation(subNavParams)}}
+  
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+  
 {% endblock %}

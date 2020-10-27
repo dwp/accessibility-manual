@@ -7,11 +7,9 @@ Every label should describe what is expected in the input. Keep labels simple at
 There are some examples of inputs without labels such as the Search field at the top of the GOV.UK site. These will still need descriptive labels, even if they're not visible on the screen.
 
 For example:
-<pre>
-  <code class="html">
-    &lt;label for="search" class="govuk-visually-hidden">
-      Search DWP
-    &lt;/label>
-    &lt;input type="search" id="search" class="govuk-input" ... />
-  </code>
-</pre>
+```html
+      <label for="search" class="govuk-visually-hidden">
+        Search DWP
+      </label>
+      <input type="search" id="search" class="govuk-input" ... />
+```
