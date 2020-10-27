@@ -1,11 +1,17 @@
 {% extends "layouts/guidance.html" %}
+{% import './../../_globals/navigation-data.njk' as globals %}
 
 {% set sectionId = "accessibility-law" %}
 {% set pageId = "the-public-sector-bodies-accessibility-regulations-2018" %}
 {% set pageTitle = "The Public Sector Bodies Accessibility Regulations 2018" %}
+{% set subNavParams = {
+  pageId: pageId,
+  sectionId: sectionId,
+  navItems: globals.navItems
+} %}
 
 {% block subNav %}
-  {% include "../subnav.html" %}
+  {{dsSubnav(subNavParams)}}
 {% endblock %}
 
 {% block pageContent %}

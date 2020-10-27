@@ -2,22 +2,11 @@
 
 {% block body %}
   <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
-  <div class="app-pane" id="top">
+  <div class="app-pane app-pane--enabled" id="top">
 
     {% include "header.html" %}
 
-    {{ govukPhaseBanner({
-      classes: "app-phase-banner govuk-width-container",
-      tag: {
-        text: "alpha"
-      },
-      html: 'This is a new service – your <a class="govuk-link" href="/get-in-touch">feedback</a> will help us to improve it.'
-    }) }}
-
-    {% include "nav.html" %}
-
-    <div class="app-pane__body">
-
+    <div class="app-pane__body app-width-container">
       <div class="app-pane__subnav">
         {% block subNav %}{% endblock %}
       </div>

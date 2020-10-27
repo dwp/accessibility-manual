@@ -1,11 +1,17 @@
 {% extends "layouts/guidance.html" %}
+{% import './../../_globals/navigation-data.njk' as globals %}
 
 {% set sectionId = "accessibility-law" %}
 {% set pageId = "en301549-accessibility-requirements-for-ict" %}
 {% set pageTitle = "EN 301 549 - Accessibility requirements for ICT" %}
+{% set subNavParams = {
+  pageId: pageId,
+  sectionId: sectionId,
+  navItems: globals.navItems
+} %}
 
 {% block subNav %}
-  {% include "../subnav.html" %}
+  {{dsSubnav(subNavParams)}}
 {% endblock %}
 
 {% block pageContent %}

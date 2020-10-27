@@ -1,19 +1,21 @@
 <nav class="app-subnav{% if params.classes %} {{ params.classes }}{% endif %}">
-
-  {% if params.sections %}
-    {% for section in params.sections %}
-      <h4 class="app-subnav__title">{{section.heading.text}}</h4>
-      <ul class="app-subnav__section">
-        {% for item in section.items %}
-          <li class="app-subnav__section-item{% if item.selected %} app-subnav__section-item--current{% endif %}">
-            <a class="app-subnav__link" href="{{item.link}}"{% if item.selected %} aria-current="location"{% endif %}>
-              {{item.title}}
+  {# {% if section.heading %}
+    <h4 class="app-subnav__title">{{section.heading.text}}</h4>
+  {% endif %} #}
+  <ul class="app-subnav__section">
+    {% for item in params.navItems.items %}
+      {% if item.id === params.sectionId %}
+        {% for subItem in item.subsections %}
+          {% set current = (subItem.id === params.pageId) %}
+          <li class="app-subnav__section-item{{' app-subnav__section-item--current' if current }}">
+            <a class="app-subnav__link govuk-link--no-visited-state" href="{{subItem.link}}"{{' aria-current="location"' if current}}>
+              {{subItem.title}}
             </a>
-            {% if item.jumpLinks and item.selected %}
+            {% if current and (subItem.subsections.length > 0) %}
               <ul class="app-subnav__section app-subnav__section--nested">
-                {% for jumpLink in item.jumpLinks %}
+                {% for jumpLink in subItem.subsections %}
                   <li class="app-subnav__section-item">
-                    <a class="app-subnav__link app-link app-link--no-visited-state" href="#{{jumpLink.id}}">
+                    <a class="govuk-subnav__link app-link govuk-link--no-visited-state" href="#{{jumpLink.id}}">
                       {{jumpLink.title}}
                     </a>
                   </li>
@@ -22,8 +24,7 @@
             {% endif %}
           </li>
         {% endfor %}
-      </ul>
+      {% endif %}
     {% endfor %}
-  {% endif %}
-
+  </ul>
 </nav>

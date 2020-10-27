@@ -1,11 +1,17 @@
 {% extends "layouts/guidance.html" %}
+{% import './../../_globals/navigation-data.njk' as globals %}
 
 {% set sectionId = "accessibility-law" %}
 {% set pageId = "internal-vs-public-facing-services" %}
 {% set pageTitle = "Internal vs public facing services" %}
+{% set subNavParams = {
+  pageId: pageId,
+  sectionId: sectionId,
+  navItems: globals.navItems
+} %}
 
 {% block subNav %}
-  {% include "../subnav.html" %}
+  {{dsSubnav(subNavParams)}}
 {% endblock %}
 
 {% block pageContent %}

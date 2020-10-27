@@ -1,50 +1,76 @@
-/* ==========================================================================
-   #EXAMPLE
-   ========================================================================== */
+// Example styles
+.app-example-wrapper {
+  @include govuk-responsive-margin(6, "top");
+  @include govuk-responsive-margin(6, "bottom");
+}
 
 .app-example {
-  background-color: govuk-colour("white");
+  position: relative;
   border: 1px solid $govuk-border-colour;
-  position: relative;
+  // Add a 'checkerboard' background
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJUlEQVQoU2P88ePHfwY0wMHBwYguxjgUFKI7GsTH5m4M3w1ChQAZTSeO0/AZpgAAAABJRU5ErkJggg==") repeat;
 }
 
+.app-example--tabs {
+  @include govuk-responsive-margin(0, "bottom");
 
-.app-example__frame {
-  background-color: govuk-colour("white");
-  border: 0;
-  display: block;
-  width: 100%;
+  @include govuk-media-query($from: desktop) {
+    margin-bottom: -1px;
+  }
 }
 
-.app-example-page {
-  margin-bottom: -1px;
-  padding: 30px;
-  padding-top: 60px;
-  position: relative;
+.app-example__toolbar {
+  padding: 10px;
+  border-bottom: 1px solid $govuk-border-colour;
+  background: $govuk-body-background-colour;
 }
 
 .app-example__new-window {
-  @include govuk-font($size: 14);
-  border: 1px solid $govuk-border-colour;
-  position: absolute; top: -1px; right: -1px;
+  @include govuk-font(14);
+}
 
-  a,
-  a:link,
-  a:visited {
-    background-color: white;
-    color: govuk-colour("purple");
-    display: block;
-    padding: 5px 10px;
-    text-decoration: none;
+.app-example__frame {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  border-right: 1px solid $govuk-border-colour;
+  background: govuk-colour("white");
+}
+
+// Default size
+.app-example__iframe,
+.app-example__frame--xs {
+  height: 150px;
+}
+
+.app-example__frame--s {
+  height: 250px;
+}
+
+.app-example__frame--m {
+  height: 350px;
+}
+
+.app-example__frame--l {
+  height: 450px;
+}
+
+.app-example__frame--xl {
+  height: 550px;
+}
+
+.app-example__frame--resizable {
+  min-width: 230px;
+  min-height: govuk-spacing(6) * 2;
+  overflow: auto;
+  transform: translate3d(0, 0, 0);
+  @include govuk-media-query($from: desktop) {
+    resize: both;
   }
+}
 
-  a:hover {
-    color: govuk-colour("light-purple");
-  }
-
-  a:focus {
-    background-color: $govuk-focus-colour;
-  }
-
-
+.app-example__code {
+  position: relative;
+  @include govuk-font($size: 19);
 }

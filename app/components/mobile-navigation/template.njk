@@ -1,0 +1,24 @@
+<nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation" aria-hidden="true">
+	<ul class="app-mobile-nav__list">
+		{% for item in params.items %}
+			<li>
+				<div class="app-mobile-nav-subnav-toggler">
+					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.title}}" id="js-mobile-nav-subnav-toggler-0" aria-expanded="false" aria-controls="js-mobile-nav__subnav-0">
+						{{item.title}}
+					</a>
+				</div>
+				{% if item.subsections %}
+					<ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Get started" id="js-mobile-nav__subnav-0" aria-hidden="true">
+						{% for subItem in item.subsections %}
+							<li class="app-mobile-nav__subnav-item">
+								<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
+									{{subItem.title}}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+</nav>

@@ -1,0 +1,13 @@
+<nav class="app-navigation govuk-clearfix">
+  <ul class="app-navigation__list app-width-container">
+
+    {% for item in params.items %}
+      <li class="app-navigation__list-item{{ ' app-nav__list-item--selected' if item.selected }}">
+        <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="{{item.link}}" data-topnav="{{item.title}}" {{ ' aria-current="page"' if item.selected}}>
+          {{item.title}}
+        </a>
+      </li>
+    {% endfor %}
+
+  </ul>
+</nav>

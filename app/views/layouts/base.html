@@ -1,9 +1,11 @@
+{%- from "header-component/macro.njk" import appHeader -%}
+{%- from "mobile-navigation/macro.njk" import appMobileNavigation -%}
 {%- from "example/macro.njk" import dsExample -%}
-{%- from "contact-panel/macro.njk" import dsContactPanel -%}
-{%- from "nav/macro.njk" import dsNav -%}
+{%- from "contact-panel/macro.njk" import appContactPanel -%}
+{%- from "navigation/macro.njk" import appNavigation -%}
 {%- from "subnav/macro.njk" import dsSubnav -%}
 {%- from "tag/macro.njk" import govukTag -%}
-{% from "phase-banner/macro.njk" import govukPhaseBanner %}
+{%- from "phase-banner-component/macro.njk" import appPhaseBanner -%}
 
 <!DOCTYPE html>
 <html class="app-template" lang="en">
@@ -29,7 +31,7 @@
 	<![endif]-->
 
 </head>
-<body class="app-template__body">
+<body class="govuk-template__body">
 	<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
 	{% block body %}{% endblock %}
