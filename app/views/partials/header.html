@@ -1,6 +1,12 @@
 {% import '../_globals/navigation-data.njk' as globals %}
 
+{% set navItems = {
+  sectionId: sectionId,
+  pageId: pageId,
+  navItems: globals.navItems
+} %}
+
 {{appHeader()}}
-{{appMobileNavigation(globals.navItems)}}
+{{appMobileNavigation(navItems)}}
 {{appPhaseBanner()}}
-{{appNavigation(globals.navItems)}}
+{{appNavigation(navItems)}}

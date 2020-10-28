@@ -1,19 +1,17 @@
 <ul class="app-page-navigation">
-  {% for item in params.navItems.items %}
+  {% for item in params.navItems %}
     {% if item.id === params.sectionId %}
       {% for subItem in item.subsections %}
 
         {# Page subnav #}
-        {% if params.pageId %}
-          {% if subItem.id === params.pageId %}
-            {% for jumpLink in subItem.subsections %}
-              <li class="app-page-navigation__item">
-                <a class="govuk-link" href="#{{jumpLink.id}}">
-                  {{jumpLink.title}}
-                </a>
-              </li>
-            {% endfor %}
-          {% endif %}
+        {% if subItem.id === params.pageId %}
+          {% for jumpLink in subItem.subsections %}
+            <li class="app-page-navigation__item">
+              <a class="govuk-link" href="#{{jumpLink.id}}">
+                {{jumpLink.title}}
+              </a>
+            </li>
+          {% endfor %}
         
         {# Section subnav #}
         {% else %}

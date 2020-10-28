@@ -1,23 +1,28 @@
 <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation" aria-hidden="true">
 	<ul class="app-mobile-nav__list">
-		{% for item in params.items %}
+		{% for item in params.navItems %}
+			{% set currentSection = (params.sectionId === item.id) %}
 			<li>
-				<div class="app-mobile-nav-subnav-toggler">
-					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.title}}" id="js-mobile-nav-subnav-toggler-0" aria-expanded="false" aria-controls="js-mobile-nav__subnav-0">
+				<div class="app-mobile-nav-subnav-toggler{{' app-mobile-nav__subnav-toggler--active' if currentSection}}">
+					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.link}}" id="js-mobile-nav-subnav-toggler-0">
 						{{item.title}}
 					</a>
 				</div>
-				{% if item.subsections %}
-					<ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Get started" id="js-mobile-nav__subnav-0" aria-hidden="true">
-						{% for subItem in item.subsections %}
-							<li class="app-mobile-nav__subnav-item">
-								<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
-									{{subItem.title}}
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
-				{% endif %}
+				<ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav{{' app-mobile-nav__subnav--active' if currentSection}}" aria-label="{{item.title}}">
+					<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if item.id === params.pageId}}">
+						<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{item.link}}">
+							{{item.title}} overview
+						</a>
+						</li>
+					{% for subItem in item.subsections %}
+						{% set currentPage = (subItem.id === params.pageId) %}
+						<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
+							<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
+								{{subItem.title}}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
 			</li>
 		{% endfor %}
 	</ul>
