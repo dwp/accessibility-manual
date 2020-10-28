@@ -1,0 +1,11 @@
+.app-navigation__link:not(:focus):visited {
+  color: govuk-colour('purple');
+}
+
+.app-navigation__link:not(:focus):hover {
+  color: govuk-colour('purple');
+}
+
+.app-header {
+  border-color: govuk-colour('purple');
+}

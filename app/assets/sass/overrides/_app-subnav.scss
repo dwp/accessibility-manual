@@ -1,0 +1,7 @@
+.app-subnav__link:not(:focus):hover {
+  color: govuk-colour('purple');
+}
+
+.app-subnav__section-item--current {
+  border-color: govuk-colour('purple');
+}

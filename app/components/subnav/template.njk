@@ -8,14 +8,14 @@
         {% for subItem in item.subsections %}
           {% set current = (subItem.id === params.pageId) %}
           <li class="app-subnav__section-item{{' app-subnav__section-item--current' if current }}">
-            <a class="app-subnav__link govuk-link--no-visited-state" href="{{subItem.link}}"{{' aria-current="location"' if current}}>
+            <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="{{subItem.link}}"{{' aria-current="location"' if current}}>
               {{subItem.title}}
             </a>
             {% if current and (subItem.subsections.length > 0) %}
               <ul class="app-subnav__section app-subnav__section--nested">
                 {% for jumpLink in subItem.subsections %}
                   <li class="app-subnav__section-item">
-                    <a class="govuk-subnav__link app-link govuk-link--no-visited-state" href="#{{jumpLink.id}}">
+                    <a class="app-subnav__link govuk-link app-link govuk-link--no-visited-state" href="#{{jumpLink.id}}">
                       {{jumpLink.title}}
                     </a>
                   </li>

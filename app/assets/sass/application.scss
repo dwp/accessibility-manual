@@ -1,5 +1,14 @@
 // Import GOV.UK Frontend
 @import "node_modules/govuk-frontend/govuk/all";
 
-// Import App Styles
+// Import App Components
 @import "../../components/all";
+
+// Import App Styles
+@import "../../assets/sass/app";
+
+// Override GOV.UK Styles
+@import "../../assets/sass/overrides/app-subnav";
+@import "../../assets/sass/overrides/app-navigation";
+@import "../../assets/sass/overrides/govuk-link";
+@import "../../assets/sass/overrides/govuk-tag";
