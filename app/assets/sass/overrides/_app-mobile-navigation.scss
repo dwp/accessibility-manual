@@ -1,0 +1,8 @@
+
+.app-mobile-nav-subnav-toggler__link:not(:focus):hover {
+  color: govuk-colour('purple');
+}
+
+.app-mobile-nav__subnav-item--current {
+  border-color: govuk-colour('purple');
+}

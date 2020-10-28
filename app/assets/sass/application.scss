@@ -8,7 +8,8 @@
 @import "../../assets/sass/app";
 
 // Override GOV.UK Styles
-@import "../../assets/sass/overrides/app-subnav";
+@import "../../assets/sass/overrides/app-mobile-navigation";
 @import "../../assets/sass/overrides/app-navigation";
+@import "../../assets/sass/overrides/app-subnav";
 @import "../../assets/sass/overrides/govuk-link";
 @import "../../assets/sass/overrides/govuk-tag";
