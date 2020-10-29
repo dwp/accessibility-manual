@@ -60,7 +60,7 @@ marked.setOptions({
   gfm: true,
   tables: true,
   breaks: true,
-  pedantic: true,
+  pedantic: false,
   sanitize: false,
   smartLists: true,
   smartypants: true,
