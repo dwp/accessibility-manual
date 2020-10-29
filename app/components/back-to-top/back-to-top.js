@@ -1,3 +1,5 @@
+import 'govuk-frontend/govuk/vendor/polyfills/Function/prototype/bind'
+
 function BackToTop ($module) {
   this.$module = $module
 }
@@ -60,6 +62,4 @@ BackToTop.prototype.init = function () {
   observer.observe($subNav)
 }
 
-// Initialise back to top
-var $backToTop = document.querySelector('[data-module="app-back-to-top"]')
-new BackToTop($backToTop).init()
+export default BackToTop

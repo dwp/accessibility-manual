@@ -1,9 +1,10 @@
-const gulp = require('gulp');
+const gulp = require('gulp')
 
 gulp.task('copy-assets', () => {
   return gulp.src([
     '!app/assets/sass{,/**/*}',
-    'app/assets/**/*'
+    'app/assets/images{,/**/*}',
+    'app/assets/videos{,/**/*}'
   ])
-  .pipe(gulp.dest('public/'));
-});
+    .pipe(gulp.dest('public/'))
+})

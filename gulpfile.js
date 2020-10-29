@@ -7,9 +7,10 @@ gulp.task('generate-assets', gulp.series(
   'clean',
   gulp.parallel(
     'copy-assets',
-    'copy-component-javascript',
+    'compile-app-js',
     'sass'
-  )
+  ),
+  'copy-html5-shiv'
 ))
 
 gulp.task('watch', gulp.parallel(
