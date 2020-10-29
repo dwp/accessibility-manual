@@ -1,11 +1,11 @@
-const gulp = require('gulp');
-const nodemon = require('gulp-nodemon');
+const gulp = require('gulp')
+const nodemon = require('gulp-nodemon')
 
 gulp.task('server', () => {
   nodemon({
     script: 'server.js',
-    ext: 'js',
+    ext: 'js'
   }).on('quit', () => {
-    process.exit(0);
-  });
-});
+    process.exit(0)
+  })
+})
