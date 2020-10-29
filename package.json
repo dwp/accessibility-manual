@@ -2,7 +2,7 @@
   "name": "dwp-design-system",
   "version": "1.0.0-alpha",
   "description": "DWP Accessibility Manual",
-  "main": "index.js",
+  "main": "index.njk",
   "scripts": {
     "start": "gulp",
     "lint": "standard"

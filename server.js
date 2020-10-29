@@ -42,7 +42,7 @@ nunjucksEnvironment.addGlobal('getNunjucksCode', fileHelper.getNunjucksCode)
 nunjucksEnvironment.addGlobal('getHtmlCode', fileHelper.getHtmlCode)
 
 // Set view engine
-app.set('view engine', 'html')
+app.set('view engine', 'njk')
 
 // Middleware to serve static assets
 app.use('/public', express.static(path.join(__dirname, '/public')))

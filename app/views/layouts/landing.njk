@@ -1,10 +1,10 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/base.njk" %}
 
 {% block body %}
 
   <div class="app-pane">
 
-    {% include "header.html" %}
+    {% include "header.njk" %}
 
     <div class="app-pane__content">
 
@@ -12,7 +12,7 @@
         {% block pageContent %}{% endblock %}
       </main>
 
-      {% include "footer.html" %}
+      {% include "footer.njk" %}
 
     </div>
 
