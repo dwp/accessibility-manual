@@ -1,11 +1,4 @@
 {% extends "layouts/base.njk" %}
-{% import './../_globals/navigation-data.njk' as globals %}
-
-{% set subNavParams = {
-    pageId: pageId,
-    sectionId: sectionId,
-    navItems: globals.navItems
-  } %}
 
 {% if (sectionId === pageId) %}
   {% set pathToREADME = sectionId + '/README.md' %}

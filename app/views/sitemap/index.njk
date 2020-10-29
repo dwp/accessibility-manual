@@ -1,0 +1,39 @@
+{% extends "layouts/landing.njk" %}
+
+{% set pageTitle = "Sitemap" %}
+
+{% block pageContent %}
+
+<div class="app-width-container">
+  <div class="govuk-main-wrapper govuk-main-wrapper--l">
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-three-quarters">
+        <h1 class="govuk-heading-xl">
+          Sitemap
+        </h1>
+        {% for item in subNavParams.navItems %}
+          <h2 class="govuk-heading-l">
+            <a href="item.link" class="govuk-link">
+              {{item.title}}
+            </a>
+          </h2>
+
+          {% if item.subsections %}
+            <ul class="govuk-list">
+              {% for subItem in item.subsections %}
+                <li class="govuk-!-margin-bottom-2">
+                  <a class="govuk-link" href="{{subItem.link}}">
+                    {{subItem.title}}
+                  </a>            
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
