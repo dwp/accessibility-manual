@@ -28,7 +28,7 @@ exports.getNunjucksCode = path => {
 }
 
 // This helper function takes a path of a *.md.njk file and
-// returns the frontmatter as an object
+// returns the front matter as an object
 exports.getFrontmatter = path => {
   const fileContents = this.getFileContents(path)
   const parsedFile = matter(fileContents)
