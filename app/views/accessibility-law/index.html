@@ -1,20 +1,5 @@
 {% extends "layouts/guidance.html" %}
-{% import './../_globals/navigation-data.njk' as globals %}
 
 {% set sectionId = "accessibility-law" %}
 {% set pageTitle = "Accessibility law" %}
 {% set pageId = 'accessibility-law' %}
-
-{% set subNavParams = {
-  pageId: pageId,
-  sectionId: sectionId,
-  navItems: globals.navItems
-} %}
-
-{% block subNav %}
-  {{dsSubnav(subNavParams)}}
-{% endblock %}
-
-{% block pageContent %}
-  <div class="app-prose-scope">{% markdown %}{% include "./README.md" %}{% endmarkdown %}</div>
-{% endblock %}

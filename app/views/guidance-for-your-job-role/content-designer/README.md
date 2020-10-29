@@ -1,3 +1,5 @@
+# Content Designer
+
 Making the content as easy to understand as possible makes it better for everybody. There are common scenarios where people might benefit from simple content. For example, people where English is not their first language or people who have Dyslexia.
 
 ## Things to consider <span class="govuk-visually-hidden">as a Content Designer</span>

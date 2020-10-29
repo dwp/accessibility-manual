@@ -1,4 +1,17 @@
 {% extends "layouts/base.html" %}
+{% import './../_globals/navigation-data.njk' as globals %}
+
+{% set subNavParams = {
+    pageId: pageId,
+    sectionId: sectionId,
+    navItems: globals.navItems
+  } %}
+
+{% if (sectionId === pageId) %}
+  {% set pathToREADME = sectionId + '/README.md' %}
+{% else %}
+  {% set pathToREADME = sectionId + '/' + pageId + '/README.md' %}
+{% endif %}
 
 {% block body %}
   <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
@@ -8,19 +21,23 @@
 
     <div class="app-pane__body app-width-container">
       <div class="app-pane__subnav">
-        {% block subNav %}{% endblock %}
+        {% block subNav %}
+          {{dsSubnav(subNavParams)}}
+        {% endblock %}
       </div>
 
       <div class="app-pane__content">
         <main class="app-content" role="main" id="main-content">
-          {% block pageContent %}{% endblock %}
+          {{appPageNavigation(subNavParams)}}
+          
+          <div class="app-prose-scope">
+            {% markdown %}{% include pathToREADME %}{% endmarkdown %}
+          </div>
         </main>
       </div>
       {% include "../../components/back-to-top/template.njk" %}
     </div>
-
     {% include "footer.html" %}
-
   </div>
 
 {% endblock %}

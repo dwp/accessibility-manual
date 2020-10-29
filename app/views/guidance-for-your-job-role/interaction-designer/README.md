@@ -1,3 +1,5 @@
+# Interaction Designer
+
 As an Interaction Designer, you play an important part of making sure a service or website is accessible.
 
 Making screens and interactions simple makes things easier for everybody. Overcomplicated designs or using inaccessible design patterns can have a knock-on effect when it's time for developers to code up your designs.

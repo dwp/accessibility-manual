@@ -1,3 +1,5 @@
+# Disproportionate burden
+
 The only way your service can be non-compliant and still legal is following a thorough disproportionate burden assessment.
 
 Disproportionate burden means that making your website or mobile application compliant is likely to have a significant impact on your organisations ability to function. For example, if commissioning an accessibility audit would cost more than your usual budget for the financial year.

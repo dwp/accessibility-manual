@@ -1,3 +1,5 @@
+# Web Content Accessibility Guidelines (WCAG)
+
 The Web Content Accessibility Guidelines (WCAG) are a list of criteria your website or mobile application need to meet in order to be legally compliant.
 
 In order for your website or application to be legally compliant, it needs to meet the level of AA. This is outlined in the [accessibility regulations](section/accessibility-and-the-law/accessibility-regulations). 

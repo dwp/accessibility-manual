@@ -1,3 +1,5 @@
+# Digital Performance Analyst
+
 As a Digital Performance Analyst, most of your considerations will be around presenting statistical data so that they don't exclude anybody that might not be able to perceive complex charts or tables of data.
 
 ## Things to consider <span class="govuk-visually-hidden">as a Digital Performance Analyst</span>

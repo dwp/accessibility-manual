@@ -1,27 +1,5 @@
 {% extends "layouts/guidance.html" %}
-{% import './../../_globals/navigation-data.njk' as globals %}
 
 {% set sectionId = "accessibility-law" %}
 {% set pageId = "en301549-accessibility-requirements-for-ict" %}
 {% set pageTitle = "EN 301 549 - Accessibility requirements for ICT" %}
-{% set subNavParams = {
-  pageId: pageId,
-  sectionId: sectionId,
-  navItems: globals.navItems
-} %}
-
-{% block subNav %}
-  {{dsSubnav(subNavParams)}}
-{% endblock %}
-
-{% block pageContent %}
-
-  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">
-    {{pageTitle}}
-  </h1>
-
-  <div class="app-prose-scope">
-    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
-  </div>
-
-{% endblock %}
