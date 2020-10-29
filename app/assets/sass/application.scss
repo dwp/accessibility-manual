@@ -1,3 +1,9 @@
+// Plugins
+@import '../../../node_modules/highlight.js/styles/github';
+
+// Override GOVUK Colour variables
+@import "../../assets/sass/overrides/dwp-colour-palette";
+
 // Import GOV.UK Frontend
 @import "node_modules/govuk-frontend/govuk/all";
 
@@ -7,12 +13,10 @@
 // Import App Styles
 @import "../../assets/sass/app";
 
-// Override GOV.UK Styles
-@import "../../assets/sass/overrides/app-mobile-navigation";
+// Override GOVUK Design System styles
 @import "../../assets/sass/overrides/app-navigation";
+@import "../../assets/sass/overrides/app-mobile-navigation";
 @import "../../assets/sass/overrides/app-subnav";
-@import "../../assets/sass/overrides/govuk-link";
-@import "../../assets/sass/overrides/govuk-tag";
 
-// Highlight JS
-@import '../../../node_modules/highlight.js/styles/github';
+// Override GOVUK Frontend Styles
+@import "../../assets/sass/overrides/govuk-tag";

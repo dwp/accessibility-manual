@@ -1,0 +1,14 @@
+// DWP colour palette
+$dwp-brand-colour: #513184;
+$app-purple: $dwp-brand-colour;
+$app-light-purple: #7c57cc;
+$app-mid-purple: #38206b;
+$app-dark-purple: #1c1037;
+
+
+// Overrides
+$govuk-brand-colour: $dwp-brand-colour;
+
+$govuk-link-colour: $app-purple;
+$govuk-link-hover-colour: $app-dark-purple;
+$govuk-link-visited-colour: $app-light-purple;
