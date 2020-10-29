@@ -15,10 +15,12 @@
   // unnecessary wrapping of "GOV.UK Design System" on smaller tablet / desktop
   // viewports)
   .app-header__logo {
-    width: auto;
+    max-width: 70%;
+    display: inline;
   }
 
   .app-header-mobile-nav-toggler-wrapper {
+    margin-top: -10px;
     display: block;
     float: right;
   }
