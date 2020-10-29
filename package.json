@@ -42,5 +42,10 @@
   },
   "devDependencies": {
     "standard": "^15.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "**/html5shiv.js"
+    ]
   }
 }

@@ -1,5 +1,5 @@
-const express = require('express');
-const router = express.Router();
+const express = require('express')
+const router = express.Router()
 
 router.use(function (req, res, next) {
   const basicAuth = require('basic-auth')
@@ -26,8 +26,8 @@ router.use(function (req, res, next) {
   next()
 })
 
-router.get('/', function(req, res) {
-  res.render('index');
-});
+router.get('/', function (req, res) {
+  res.render('index')
+})
 
-module.exports = router;
+module.exports = router
