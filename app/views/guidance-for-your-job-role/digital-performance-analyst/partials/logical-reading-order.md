@@ -7,5 +7,5 @@ For statistical data, this usually means keeping all of the content together whe
 You should always summarise charts and graphs, and if you need to refer back to them then it is more accessible just to provide the summary again. For example:
 
 <div class="govuk-inset-text">
-...if we refer back to the example in section 2 which shows that 45% of people over State Pension age have a disability...
+  ...if we refer back to the example in section 2 which shows that 45% of people over State Pension age have a disability...
 </div>

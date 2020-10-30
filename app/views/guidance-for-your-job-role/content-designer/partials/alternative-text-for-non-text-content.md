@@ -5,8 +5,8 @@ If the content contains images and/or other non-text content such as graphs or c
 If an image is purely decorative then you don't need to provide alternative text, but if it adds context to the content, then it should have a description.
 
 For example:
-```html
-      <img src="cat.jpg" alt="A cat wearing sunglasses." />
+```html  
+~~<img src="cat.jpg" alt="A cat wearing sunglasses." />
 ```
 
 You should work with an Interaction Designer and a Frontend Developer to make sure alternative text is provided for images that need it.

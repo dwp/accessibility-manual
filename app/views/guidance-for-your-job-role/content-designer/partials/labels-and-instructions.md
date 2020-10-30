@@ -8,8 +8,8 @@ There are some examples of inputs without labels such as the Search field at the
 
 For example:
 ```html
-      <label for="search" class="govuk-visually-hidden">
-        Search DWP
-      </label>
-      <input type="search" id="search" class="govuk-input" ... />
+~~<label for="search" class="govuk-visually-hidden">
+~~  Search DWP
+~~</label>
+~~<input type="search" id="search" class="govuk-input" ... />
 ```

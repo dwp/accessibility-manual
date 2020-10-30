@@ -5,7 +5,7 @@ The standard format for titles on a service is to set the context in 3 parts and
 
 For example:
 ```html
-      <title>What is your name? – Apply for Universal Credit – GOV.UK</title>
+~~<title>What is your name? – Apply for Universal Credit – GOV.UK</title>
 ```
 
 Page context should describe the topic or purpose of the page. They are usually identical to the H1, apart from when the H1 contains identifiable information.

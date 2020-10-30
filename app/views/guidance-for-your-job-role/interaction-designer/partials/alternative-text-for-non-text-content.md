@@ -6,7 +6,7 @@ If an image is meaningful, you must provide alternative text. This means somebod
 
 For example:
 ```html
-      <img src="cat.jpg" alt="A cat wearing sunglasses." />
+~~<img src="cat.jpg" alt="A cat wearing sunglasses." />
 ```
 
 You should work with a Content Designer to make sure your alternative text is clear and simple.

@@ -4,9 +4,9 @@ It should be clear from the URL what the purpose of the page is. URLs are often 
 
 An example of a good url:
 ```text
-  /guidance/help-with-your-tax-return
+~~/guidance/help-with-your-tax-return
 ```
 An example of a bad url: 
 ```text
-  /user/5625665526/post/87837847.php
+~~/user/5625665526/post/87837847.php
 ```

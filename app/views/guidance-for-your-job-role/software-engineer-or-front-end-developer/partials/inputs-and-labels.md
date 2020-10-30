@@ -10,6 +10,6 @@ You should not use placeholder text instead of a label. A label should describe 
 
 For example:
 ```html
-      <label for="reference">Enter your reference</label>
-      <input id="reference" placeholder="ABC-123-123" name="reference" type="text" />
+~~<label for="reference">Enter your reference</label>
+~~<input id="reference" placeholder="ABC-123-123" name="reference" type="text" />
 ```

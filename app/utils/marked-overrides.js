@@ -10,7 +10,7 @@ const overrides = {
             code = out
           }
         }
-
+        code = code.replace(/~~/g, '')
         if (!lang) {
           return `<pre tabindex="0"><code>${(escaped ? code : escape(code, true))}</code></pre>\n`
         }
