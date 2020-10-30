@@ -94,6 +94,10 @@ $app-code-color: #d13118;
     font-family: monospace, monospace; // [1]
     font-size: 1em; // [2]
   }
+  pre {
+    border: 3px solid #0b0c0c;
+    outline: 3px solid #fd0;
+  }
 }
 
 .app-example-page {
