@@ -1,14 +1,14 @@
 const express = require('express')
 const router = express.Router()
 
+// Local Variables
+const env = (process.env.NODE_ENV)
+const useAuth = true
+const username = process.env.USERNAME
+const password = process.env.PASSWORD
+
 router.use(function (req, res, next) {
   const basicAuth = require('basic-auth')
-
-  // Local Variables
-  const env = (process.env.NODE_ENV)
-  const useAuth = true
-  const username = process.env.USERNAME
-  const password = process.env.PASSWORD
 
   if (env === 'production' && useAuth === true) {
     if (!username || !password) {
@@ -23,6 +23,15 @@ router.use(function (req, res, next) {
       return res.sendStatus(401)
     }
   }
+  next()
+})
+
+router.use('/axe-url-generator', function (req, res, next) {
+  if (env === 'production') {
+    return res.status(404).send('Page not found')
+  }
+  const port = process.env.PORT || 3000
+  res.locals.port = port
   next()
 })
 

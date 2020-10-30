@@ -41,6 +41,7 @@
     "webpack-stream": "^6.1.0"
   },
   "devDependencies": {
+    "gulp-axe-webdriver": "^3.1.3",
     "standard": "^15.0.0"
   },
   "standard": {

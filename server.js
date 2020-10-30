@@ -53,7 +53,10 @@ app.use('/node_modules/govuk-frontend', express.static(path.join(__dirname, '/no
 app.use(routes)
 app.use(autoRoutes)
 
+// Override code blocks to use tabindex on <PRE?
 const renderer = new marked.Renderer()
+const { overrides } = require('./app/utils/marked-overrides')
+overrides.marked.code(renderer)
 
 marked.setOptions({
   renderer: renderer,

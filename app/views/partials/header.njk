@@ -6,7 +6,9 @@
   navItems: globals.navItems
 } %}
 
-{{appHeader()}}
-{{appMobileNavigation(navItems)}}
-{{appPhaseBanner()}}
+<header role="banner" data-module="govuk-header">
+  {{appHeader()}}
+  {{appMobileNavigation(navItems)}}
+  {{appPhaseBanner()}}
+</header>
 {{appNavigation(navItems)}}
