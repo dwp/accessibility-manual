@@ -2,7 +2,22 @@
 
 As an Software Engineer or Frontend Developer, you have one of the most important roles when it comes to accessibility. A design can have considered accessibility, but it's up to you to build it to work correctly.
 
-By using existing libraries and frameworks such as GOV.UK Frontend and DWP CASA, you can get a lot of accessibility for free.
+By using existing libraries and frameworks such as GOV.UK Frontend and DWP CASA, you can get a lot of good practices for accessiblity built in, however we need to be mindful of how we apply them.
+
+<blockquote class="govuk-inset-text">
+  Using GOV.UK Frontend does not mean your service automatically meets level AA of WCAG 2.1. You’ll still need to make sure your service as a whole meets accessibility requirements.
+
+  From the [GOV.UK Accessiblity statement information](https://design-system.service.gov.uk/accessibility/#using-the-design-system-and-frontend-in-your-service)
+</blockquote>
+
+## Working with others
+
+You will need to work closely with [interaction designers](/guidance-for-your-job-role/interaction-designer) and [content designers](/guidance-for-your-job-role/content-designer) to make sure things like hover states, error messages and hidden text are considered.
+
+You will also want to work with [QA Testers](guidance-for-your-job-role/qa-tester) to make sure automated processes are in place for checking things with tools like aXe and putting in place accessibility criteria are part of your definition of done.
+
+
+
 
 ## Things to consider <span class="govuk-visually-hidden">as a Software Engineer or Front-End Developer</span>
 

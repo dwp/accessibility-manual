@@ -8,7 +8,13 @@ It is recommended that forms on a page are only validated once the user submits 
 
 If you do opt to do real-time validation, you will need to consider how that is announced to a screenreader. If you're appending error messages to the page using JavaScript then you will need to do additional work to make sure you have used the right aria tags to announce the errors to a screenreader user in a non-intrusive way.
 
-#### Allow whitespace
+### On submit validation
+
+If we do in browser validation on submit, we need to make sure that the user is alerted to the error each time they click submit, and they are taken to the relvant error.
+
+When we don't do this, often secondary form errors are not highlighted to screen reader users, as there is no change of state on the page. 
+
+#### Dealing with user input
 
 If you know what you're expecting, it can be tempting to lock down the fields. But you should not use limitations like a maxlength attribute. These can cause difficulties for people using voice recognition software such as Dragon.
 
