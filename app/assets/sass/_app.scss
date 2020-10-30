@@ -93,14 +93,16 @@ $app-code-color: #d13118;
   //
   // source:
   // http://code.iamkate.com/html-and-css/fixing-browsers-broken-monospace-font-handling/
+  
   pre,
   code {
     font-family: monospace, monospace; // [1]
     font-size: 1em; // [2]
   }
   pre:focus {
-    border: 3px solid #0b0c0c;
+    box-shadow: inset 0 0 0 2px govuk-colour('black');
     outline: 3px solid #fd0;
+    border-color: govuk-colour('black');
   }
 }
 
