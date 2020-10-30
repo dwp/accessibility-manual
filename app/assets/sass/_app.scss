@@ -17,6 +17,10 @@ $app-code-color: #d13118;
     padding-bottom: govuk-spacing(8);
   }
 
+  blockquote.govuk-inset-text {
+    margin-left: 0;
+  }
+
   h1 {
     max-width: 15em;
   }
