@@ -15,8 +15,12 @@
   // unnecessary wrapping of "GOV.UK Design System" on smaller tablet / desktop
   // viewports)
   .app-header__logo {
-    max-width: 70%;
     display: inline;
+
+    @include govuk-media-query($from: tablet) {
+      width: 100%;
+      display: block;
+    }
   }
 
   .app-header-mobile-nav-toggler-wrapper {
