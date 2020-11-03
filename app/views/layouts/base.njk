@@ -5,15 +5,6 @@
 {%- from "subnav/macro.njk" import dsSubnav -%}
 {%- from "phase-banner-component/macro.njk" import appPhaseBanner -%}
 
-{% import './../_globals/navigation-data.njk' as globals %}
-
-{% set subNavParams = {
-    pageId: pageId,
-		pageTitle: pageTitle,
-    sectionId: sectionId,
-    navItems: globals.navItems
-  } %}
-	
 <!DOCTYPE html>
 <html class="app-template" lang="en">
 	<head>

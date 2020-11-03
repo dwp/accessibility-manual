@@ -26,15 +26,6 @@ router.use(function (req, res, next) {
   next()
 })
 
-router.use('/axe-url-generator', function (req, res, next) {
-  if (env === 'production') {
-    return res.status(404).send('Page not found')
-  }
-  const port = process.env.PORT || 3000
-  res.locals.port = port
-  next()
-})
-
 router.get('/', function (req, res) {
   res.render('index')
 })

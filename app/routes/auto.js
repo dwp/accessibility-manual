@@ -11,6 +11,9 @@ router.get(/\.html?$/i, function (req, res) {
 
 router.get(/^\/([^.]+)$/, function (req, res) {
   var path = (req.params[0])
+  const { navItems } = require('../views/_globals/navigation-data.json')
+  res.locals.navItems = navItems
+
   res.render(path, function (err, html) {
     if (err) {
       res.render(path + '/index', function (err2, html) {
