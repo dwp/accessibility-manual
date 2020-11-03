@@ -5,14 +5,13 @@
 
 @include govuk-media-query($from: tablet) {
   .app-back-to-top {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     margin-top: auto;
     margin-bottom: govuk-spacing(8);
     // Offset the same width as the subnav 
     // due to moving it inside the main tag
-    margin-left: -260px;
   }
 
   .js-enabled .app-back-to-top--fixed {
@@ -20,6 +19,7 @@
     top: calc(100% - #{govuk-spacing(8)});
     bottom: auto;
     left: auto;
+    margin-left: -290px;
   }
 
   .js-enabled .app-back-to-top--hidden .app-back-to-top__link {
