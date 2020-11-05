@@ -223,6 +223,13 @@
             { "title": "Axe", "id": "axe" },
             { "title": "Wave", "id": "wave" }
           ]
+        },
+        {
+          "title": "SCULPT",
+          "id": "sculpt",
+          "link": "/tools-and-resources/sculpt",
+          "sectionId": "sculpt",
+          "subsections": []
         }
       ]
     },
