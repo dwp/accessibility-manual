@@ -230,7 +230,15 @@
       "title": "Community",
       "id": "community",
       "link": "/community",
-      "subsections": []
+      "subsections": [
+        {
+          "title": "Collaborators",
+          "id": "collaborators",
+          "link": "/community/collaborators",
+          "sectionId": "community",
+          "subsections": []
+        }
+      ]
     }
   ]
 }
