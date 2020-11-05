@@ -1,5 +1,8 @@
 const express = require('express')
 const router = express.Router()
+const { navigationDataLoader } = require('../utils/navigation-data-loader')
+
+router.use(navigationDataLoader)
 
 // Local Variables
 const env = (process.env.NODE_ENV)

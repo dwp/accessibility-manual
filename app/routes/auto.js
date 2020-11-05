@@ -1,5 +1,8 @@
 const express = require('express')
 const router = express.Router()
+const { navigationDataLoader } = require('../utils/navigation-data-loader')
+
+router.use(navigationDataLoader)
 
 router.get(/\.html?$/i, function (req, res) {
   var path = req.path
@@ -11,8 +14,6 @@ router.get(/\.html?$/i, function (req, res) {
 
 router.get(/^\/([^.]+)$/, function (req, res) {
   var path = (req.params[0])
-  const { navItems } = require('../views/_globals/navigation-data.json')
-  res.locals.navItems = navItems
 
   res.render(path, function (err, html) {
     if (err) {
