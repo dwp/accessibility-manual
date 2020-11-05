@@ -4,7 +4,7 @@ This manual would not be possible without contributions from the community. To e
 
 If you'd like to [collaborate, give feedback or add some content](https://github.com/dwp/accessibility-manual/issues/new), please let us know.
 
-## Thanks to
+## People who have contributed so far
 - [Craig Abbott](https://twitter.com/abbott567)
 - [Colin Oakley](https://twitter.com/htmlandbacon)
 - [Jon Hurrell](https://twitter.com/monsterthoughts)
