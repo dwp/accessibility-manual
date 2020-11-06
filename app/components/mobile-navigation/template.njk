@@ -1,34 +1,52 @@
 <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation" aria-hidden="true">
 	<ul class="app-mobile-nav__list">
+
+		{# Loop through all the nav items #}
 		{% for item in params.navItems %}
+
+			{# Work out if this section is currently being viewed #}
 			{% set currentSection = (params.sectionId === item.id) %}
+
+			{# Output section links nav as togglers and set it to have the current class if it is currently being viewed #}
 			<li>
 				<div class="app-mobile-nav-subnav-toggler{{' app-mobile-nav__subnav-toggler--active' if currentSection}}">
 					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.link}}" id="js-mobile-nav-subnav-toggler-0">
 						{{item.title}}
 					</a>
 				</div>
+
+				{# Create a list for the section and add an overview page as the first item #}
 				<ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav{{' app-mobile-nav__subnav--active' if currentSection}}" aria-label="{{item.title}}">
 					<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if item.id === params.pageId}}">
 						<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{item.link}}">
 							{{item.title}} overview
 						</a>
-						</li>
+					</li>
+
+					{# Loop through the subsections for this section #}
 					{% for pageSubsection in item.subsections %}
+
+            {# Output the section header if it's not blank #}
 						{% if pageSubsection.sectionHeading !== '' %}
 							<h4 class="app-mobile-nav__theme">
 								{{pageSubsection.sectionHeading}}
 							</h4>
 						{% endif %}
+
+						{# Loop through the pages for this section #}
 						{% for subItem in pageSubsection.subsections %}
+
+							{# Work out if the page is the page currently being viewed #}
 							{% set currentPage = (subItem.id === params.pageId) %}
+
+							{# Add the page into list and set it to have the current class if it is currently being viewed #}
 							<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
 								<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
 									{{subItem.title}}
 								</a>
 							</li>
+						{% endfor %}
 					{% endfor %}
-				{% endfor %}
 				</ul>
 			</li>
 		{% endfor %}

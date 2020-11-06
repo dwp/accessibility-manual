@@ -1,14 +1,23 @@
+{# If the page is a section overview put the nav on the page #}
 {% if params.pageId === params.sectionId %}
   <div class="app-pane__subnav-mobile-overview govuk-!-padding-top-4">
     <nav class="govuk-!-padding-bottom-6">
+
+      {# Loop through all the nav items #}
       {% for item in params.navItems %}
+
+        {# Loop through the subsections for this section #}
         {% if item.id === params.sectionId %}
           {% for pageSubsection in item.subsections %}
+
+            {# Output the header if it's not blank #}
             {% if pageSubsection.sectionHeading !== '' %}
               <h2 class="govuk-heading-m">
                 {{pageSubsection.sectionHeading}}
               </h2>
             {% endif %}
+
+            {# Add the pages for this section into the nav menu #}
             {% for subItem in pageSubsection.subsections %}
               <ul class="govuk-list">
                 <li class="govuk-!-margin-bottom-2">
@@ -18,6 +27,7 @@
                 </li>
               </ul>
             {% endfor %}
+            
           {% endfor %}
         {% endif%}
       {% endfor %}
