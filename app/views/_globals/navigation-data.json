@@ -232,7 +232,7 @@
           "sectionHeading": "Accessibility Testing",
           "subsections": [
             {
-              "title": "Automated accessibility testing",
+              "title": "Automated testing",
               "id": "automated-accessibility-testing",
               "link": "/tools-and-resources/automated-accessibility-testing",
               "sectionId": "tools-and-resources",
