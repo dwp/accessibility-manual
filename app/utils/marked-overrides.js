@@ -22,10 +22,13 @@ const overrides = {
       renderer.heading = function (text, level) {
         const braces = (text || '').match(/\{(.*?)\}/)
         const pageHeading = text.replace(/\{(.*?)\}/, '').trim()
+        const id = pageHeading.toLowerCase().replace(/([~!@#$%^&*()_+=`{}[\]|\\:;'<>,./? ])+/g, '-')
+
         if (braces) {
           const sectionHeading = braces[0].replace(/\{|\}/g, '')
+
           return `
-            <h${level}>
+            <h${level} id="${id}">
               <span class="govuk-caption-xl">
                 ${sectionHeading}
               </span>
@@ -34,7 +37,7 @@ const overrides = {
           `
         }
         return `
-          <h${level}>
+          <h${level} id="${id}">
             ${text}
           </h${level}>
         `
