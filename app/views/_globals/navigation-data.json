@@ -241,6 +241,16 @@
                 { "title": "Axe", "id": "axe" },
                 { "title": "Wave", "id": "wave" }
               ]
+            },
+            {
+              "title": "Manual testing",
+              "id": "manual-accessibility-testing",
+              "link": "/tools-and-resources/manual-accessibility-testing",
+              "sectionId": "tools-and-resources",
+              "subsections": [
+                { "title": "Accessibility Insights", "id": "accessibility-insights" },
+                { "title": "WebAim WCAG 2.1 checklist", "id": "webaim-wcag-21-checklist" }
+              ]
             }
           ]
         },
