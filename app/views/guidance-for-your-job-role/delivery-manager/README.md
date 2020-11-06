@@ -7,3 +7,4 @@ As a Delivery Manager you need to make sure that accessibility is considered whe
 {% include './partials/definition-of-done.md' %}
 {% include './partials/definition-of-ready.md' %}
 {% include './partials/plan-for-accessibility.md' %}
+{% include './partials/understand-the-risks.md' %}

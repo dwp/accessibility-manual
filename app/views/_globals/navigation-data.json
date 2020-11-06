@@ -108,7 +108,8 @@
               "subsections": [
                 { "title": "Definition of done", "id": "definition-of-done" },
                 { "title": "Definition of ready", "id": "definition-of-ready" },
-                { "title": "Plan for accessibility", "id": "plan-for-accessibility" }
+                { "title": "Plan for accessibility", "id": "plan-for-accessibility" },
+                { "title": "Understand the risks", "id": "understand-the-risks" }
               ]
             },
             {
