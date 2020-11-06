@@ -1,4 +1,5 @@
 ### Definition of ready
+
 When writing user stories, we outline criteria for when they are ready to build. This is usually when it's been through usability testing and the acceptance tests have been defined. But these discussions should also include accessibility.
 
 As part of the stories definition of ready, make sure the team have discussed how the proposed design can be made accessible, and include important content in the story such as page titles and URLs as these can affect accessibility.
