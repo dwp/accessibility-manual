@@ -6,16 +6,16 @@ if (env !== 'production') {
 
   // Build URLS from JSON
   const { navItems } = require('../app/views/_globals/navigation-data.json')
-  const urls = []
   const prefix = `http://localhost:${process.env.AXEPORT || 3000}`
-  for (let i = 0; i < navItems.length; i++) {
-    urls.push(prefix + navItems[i].link)
-    if (navItems[i].subsections) {
-      for (let i2 = 0; i2 < navItems[i].subsections.length; i2++) {
-        urls.push(prefix + navItems[i].subsections[i2].link)
-      }
-    }
-  }
+  const urls = []
+  navItems.forEach(function (navObject) {
+    urls.push(`${prefix}${navObject.link}`)
+    navObject.subsections.forEach(function (section) {
+      section.subsections.forEach(function (subNav) {
+        urls.push(`${prefix}${subNav.link}`)
+      })
+    })
+  })
 
   gulp.task('axe', function () {
     var options = {
