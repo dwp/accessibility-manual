@@ -1,7 +1,7 @@
-### No reliance on JavaScript
+### Orientation and reflow
 
-When building any website or service, it must work without JavaScript turned on.
+Every page must work regardless of the orientation of the device. This means switching between portrait and landscape should not cause any parts of the site to break.
 
-JavaScript should be introduced as an enhancement and not as an essential component of the page, so if a user has it turned off or if it does not load then the page still functions.
+The content should reflow if you scale the size of the window, and at no point should any text become unreadable at a minimum of 256px wide.
 
-There are many reasons why JavaScript might not load, especially on poor internet connections or mobile devices. You should never assume that only the 1% of people who deliberately disable JavaScript will be the only people affected.
+No items should scroll horizontally unless meaning would be lost otherwise. For example, an image or a complex data table.
