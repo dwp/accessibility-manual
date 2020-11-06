@@ -57,6 +57,7 @@ app.use(autoRoutes)
 const renderer = new marked.Renderer()
 const { overrides } = require('./app/utils/marked-overrides')
 overrides.marked.code(renderer)
+overrides.marked.heading(renderer)
 
 marked.setOptions({
   renderer: renderer,

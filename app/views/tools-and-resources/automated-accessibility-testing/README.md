@@ -1,4 +1,4 @@
-# Automated accessibility testing
+# {Accessibility testing} Automated testing
 
 Automated accessibility testing is an easy way to find obvious errors. It should always be a check you do against anything you build, but it is not enough to guarantee accessibility.
 
