@@ -225,6 +225,22 @@
           ]
         },
         {
+          "title": "Known accessibility issues",
+          "id": "known-accessibility-issues",
+          "link": "/tools-and-resources/known-accessibility-issues",
+          "sectionId": "tools-and-resources",
+          "subsections": [
+            { "title": "Aria attributes not allowed on conditional reveals", "id": "aria-attributes-not-allowed-on-conditional-reveals" },
+            { "title": "Colour contrast fails on HM Government logo", "id": "colour-contrast-fails-on-hm-government-logo" },
+            { "title": "GOV.UK Accordion component is non-compliant", "id": "govuk-accordion-component-is-non-compliant" },
+            { "title": "GOV.UK conditional reveals are non-compliant", "id": "govuk-conditional-reveals-are-non-compliant" },
+            { "title": "GOV.UK Date component does not work with Dragon", "id": "govuk-date-component-does-not-work-with-dragon" },
+            { "title": "GOV.UK Details component does not work with Dragon", "id": "govuk-details-component-does-not-work-with-dragon" },
+            { "title": "JAWS cannot see headings in fieldsets", "id": "jaws-cannot-see-headings-inside-fieldsets" },
+            { "title": "Screenreaders read out P45 as 45p", "id": "screenreaders-read-out-p45-as-45p" }
+          ]
+        },
+        {
           "title": "SCULPT",
           "id": "sculpt",
           "link": "/tools-and-resources/sculpt",
