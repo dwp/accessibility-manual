@@ -6,53 +6,58 @@
       "link": "/accessibility-law",
       "subsections": [
         {
-          "title": "The Public Sector Bodies Accessibility Regulations 2018",
-          "id": "the-public-sector-bodies-accessibility-regulations-2018",
-          "link": "/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "EN 301 549 - Accessibility requirements for ICT",
-          "id": "en301549-accessibility-requirements-for-ict",
-          "link": "/accessibility-law/en301549-accessibility-requirements-for-ict",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "Accessibility regulations vs the GOV.UK Service Standard",
-          "id": "accessibility-regulations-vs-the-govuk-service-standard",
-          "link": "/accessibility-law/accessibility-regulations-vs-the-govuk-service-standard",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "Accessibility statements",
-          "id": "accessibility-statements",
-          "link": "/accessibility-law/accessibility-statements",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "Disproportionate burden",
-          "id": "disproportionate-burden",
-          "link": "/accessibility-law/disproportionate-burden",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "Internal vs Public facing services",
-          "id": "internal-vs-public-facing-services",
-          "link": "/accessibility-law/internal-vs-public-facing-services",
-          "sectionId": "accessibility-law",
-          "subsections": []
-        },
-        {
-          "title": "Web Content Accessibility Guidelines (WCAG)",
-          "id": "web-content-accessibility-guidelines",
-          "link": "/accessibility-law/web-content-accessibility-guidelines",
-          "sectionId": "accessibility-law",
-          "subsections": []
+          "sectionHeading": "",
+          "subsections": [
+            {
+              "title": "The Public Sector Bodies Accessibility Regulations 2018",
+              "id": "the-public-sector-bodies-accessibility-regulations-2018",
+              "link": "/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "EN 301 549 - Accessibility requirements for ICT",
+              "id": "en301549-accessibility-requirements-for-ict",
+              "link": "/accessibility-law/en301549-accessibility-requirements-for-ict",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "Accessibility regulations vs the GOV.UK Service Standard",
+              "id": "accessibility-regulations-vs-the-govuk-service-standard",
+              "link": "/accessibility-law/accessibility-regulations-vs-the-govuk-service-standard",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "Accessibility statements",
+              "id": "accessibility-statements",
+              "link": "/accessibility-law/accessibility-statements",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "Disproportionate burden",
+              "id": "disproportionate-burden",
+              "link": "/accessibility-law/disproportionate-burden",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "Internal vs Public facing services",
+              "id": "internal-vs-public-facing-services",
+              "link": "/accessibility-law/internal-vs-public-facing-services",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            },
+            {
+              "title": "Web Content Accessibility Guidelines (WCAG)",
+              "id": "web-content-accessibility-guidelines",
+              "link": "/accessibility-law/web-content-accessibility-guidelines",
+              "sectionId": "accessibility-law",
+              "subsections": []
+            }
+          ]
         }
       ]
     },
@@ -62,143 +67,148 @@
       "link": "/guidance-for-your-job-role",
       "subsections": [
         {
-          "title": "Business Analyst",
-          "id": "business-analyst",
-          "link": "/guidance-for-your-job-role/business-analyst",
-          "sectionId": "guidance-for-your-job-role",
+          "sectionHeading": "",
           "subsections": [
-            { "title": "Definition of ready", "id": "definition-of-ready" },
-            { "title": "Definition of done", "id": "definition-of-done" }
+            {
+              "title": "Business Analyst",
+              "id": "business-analyst",
+              "link": "/guidance-for-your-job-role/business-analyst",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Definition of ready", "id": "definition-of-ready" },
+                { "title": "Definition of done", "id": "definition-of-done" }
+              ]
+            },
+            {
+              "title": "Content Designer",
+              "id": "content-designer",
+              "link": "/guidance-for-your-job-role/content-designer",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
+                { "title": "Captions and transcripts", "id": "captions-and-transcripts" },
+                { "title": "Consistent content", "id": "consistent-content" },
+                { "title": "Error messages", "id": "error-messages" },
+                { "title": "Heading hierarchy", "id": "heading-hierarchy" },
+                { "title": "Hidden content", "id": "hidden-content" },
+                { "title": "Labels and instructions", "id": "labels and instructions" },
+                { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
+                { "title": "Logical reading order", "id": "logical-reading-order" },
+                { "title": "Page title", "id": "page-title" },
+                { "title": "Page URL", "id": "page-url" },
+                { "title": "Reading age", "id": "reading-age" },
+                { "title": "Unique headings", "id": "unique-headings" }
+              ]
+            },
+            {
+              "title": "Delivery Manager",
+              "id": "delivery-manager",
+              "link": "/guidance-for-your-job-role/delivery-manager",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Definition of done", "id": "definition-of-done" },
+                { "title": "Definition of ready", "id": "definition-of-ready" },
+                { "title": "Plan for accessibility", "id": "plan-for-accessibility" }
+              ]
+            },
+            {
+              "title": "Digital Performance Analyst",
+              "id": "digital-performance-analyst",
+              "link": "/guidance-for-your-job-role/digital-performance-analyst",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Do not merge table cells", "id": "do-not-merge-table-cells" },
+                { "title": "Do not rely on sensory characteristics", "id": "do-not-rely-on-sensory-characteristics" },
+                { "title": "Logical reading order", "id": "logical-reading-order" },
+                { "title": "Summarise charts and graphs", "id": "summarise-charts-and-graphs" },
+                { "title": "Use appropriate table headers", "id": "use-appropriate-table-headers" },
+                { "title": "Use HTML wherever possible", "id": "use-html-wherever-possible" },
+                { "title": "Use sufficient colour contrast", "id": "use-sufficient-colour-contrast" }
+              ]
+            },
+            {
+              "title": "Interaction Designer",
+              "id": "interaction-designer",
+              "link": "/guidance-for-your-job-role/interaction-designer",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "1 thing per page", "id": "1-thing-per-page" },
+                { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
+                { "title": "Announce dynamic content", "id": "announce-dynamic-content" },
+                { "title": "Conditionally revealing content", "id": "conditionally-revealing-content" },
+                { "title": "Do not rely on sensory characteristics", "id": "do-not-rely-on-sensory-characteristics" },
+                { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
+                { "title": "Logical reading order", "id": "logical-reading-order" },
+                { "title": "Minimise visual stimulus", "id": "minimise-visual-stimulus" },
+                { "title": "Start with existing patterns and components", "id": "start-with-existing-patterns-and-components" },
+                { "title": "Summarise charts and graphs", "id": "summarise-charts-and-graphs" },
+                { "title": "Unique headings", "id": "unique-headings" },
+                { "title": "Use of columns", "id": "use-of-columns" },
+                { "title": "Use of links and buttons", "id": "use-of-links-and-buttons" },
+                { "title": "Use sufficient colour contrast", "id": "use-sufficient-colour-contrast" },
+                { "title": "Use up to date styles", "id": "use-up-to-date-styles" }
+              ]
+            },
+            {
+              "title": "Product Manager",
+              "id": "product-manager",
+              "link": "/guidance-for-your-job-role/product-manager",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": []
+            },
+            {
+              "title": "QA Tester",
+              "id": "qa-tester",
+              "link": "/guidance-for-your-job-role/qa-tester",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Assistive technology testing", "id": "assistive-technology-testing" },
+                { "title": "Automated accessibility testing", "id": "automated-accessibility-testing" },
+                { "title": "Definition of done", "id": "definition-of-done" },
+                { "title": "Manual accessibility testing", "id": "manual-accessibility-testing" },
+                { "title": "Page title", "id": "page-title" },
+                { "title": "Page url", "id": "page-url" },
+                { "title": "Recording testing evidence", "id": "recording-testing-evidence" }
+              ]
+            },
+            {
+              "title": "Software Engineer or Front-end Developer",
+              "id": "software-engineer-or-front-end-developer",
+              "link": "/guidance-for-your-job-role/software-engineer-or-front-end-developer",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": [
+                { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
+                { "title": "Announce dynamic content", "id": "announce-dynamic-content" },
+                { "title": "Content and focus order", "id": "content-and-focus-order" },
+                { "title": "Cookie consent", "id": "cookie-consent" },
+                { "title": "Correct roles", "id": "correct-roles" },
+                { "title": "DWP CASA", "id": "dwp-casa" },
+                { "title": "Existing patterns and components", "id": "existing-patterns-and-components" },
+                { "title": "GOV.UK Frontend", "id": "govuk-frontend" },
+                { "title": "Heading hierarchy", "id": "heading-hierarchy" },
+                { "title": "Inputs and labels", "id": "inputs-and-labels" },
+                { "title": "Keyboard focus", "id": "keyboard-focus" },
+                { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
+                { "title": "No keyboard traps", "id": "no-keyboard-traps" },
+                { "title": "No reliance on JavaScript", "id": "no-reliance-on-javascript" },
+                { "title": "Orientation and reflow", "id": "orientation-and-reflow" },
+                { "title": "Page title", "id": "page-title" },
+                { "title": "Page URL", "id": "page-url" },
+                { "title": "Setting the language", "id": "setting-the-language" },
+                { "title": "Skip links", "id": "skip-links" },
+                { "title": "Timeouts", "id": "timeouts" },
+                { "title": "Valid code", "id": "valid-code" },
+                { "title": "Validation and error messages", "id": "validation-and-error-messages" }
+              ]
+            },
+            {
+              "title": "User Researcher",
+              "id": "user-researcher",
+              "link": "/guidance-for-your-job-role/user-researcher",
+              "sectionId": "guidance-for-your-job-role",
+              "subsections": []
+            }
           ]
-        },
-        {
-          "title": "Content Designer",
-          "id": "content-designer",
-          "link": "/guidance-for-your-job-role/content-designer",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
-            { "title": "Captions and transcripts", "id": "captions-and-transcripts" },
-            { "title": "Consistent content", "id": "consistent-content" },
-            { "title": "Error messages", "id": "error-messages" },
-            { "title": "Heading hierarchy", "id": "heading-hierarchy" },
-            { "title": "Hidden content", "id": "hidden-content" },
-            { "title": "Labels and instructions", "id": "labels and instructions" },
-            { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
-            { "title": "Logical reading order", "id": "logical-reading-order" },
-            { "title": "Page title", "id": "page-title" },
-            { "title": "Page URL", "id": "page-url" },
-            { "title": "Reading age", "id": "reading-age" },
-            { "title": "Unique headings", "id": "unique-headings" }
-          ]
-        },
-        {
-          "title": "Delivery Manager",
-          "id": "delivery-manager",
-          "link": "/guidance-for-your-job-role/delivery-manager",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "Definition of done", "id": "definition-of-done" },
-            { "title": "Definition of ready", "id": "definition-of-ready" },
-            { "title": "Plan for accessibility", "id": "plan-for-accessibility" }
-          ]
-        },
-        {
-          "title": "Digital Performance Analyst",
-          "id": "digital-performance-analyst",
-          "link": "/guidance-for-your-job-role/digital-performance-analyst",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "Do not merge table cells", "id": "do-not-merge-table-cells" },
-            { "title": "Do not rely on sensory characteristics", "id": "do-not-rely-on-sensory-characteristics" },
-            { "title": "Logical reading order", "id": "logical-reading-order" },
-            { "title": "Summarise charts and graphs", "id": "summarise-charts-and-graphs" },
-            { "title": "Use appropriate table headers", "id": "use-appropriate-table-headers" },
-            { "title": "Use HTML wherever possible", "id": "use-html-wherever-possible" },
-            { "title": "Use sufficient colour contrast", "id": "use-sufficient-colour-contrast" }
-          ]
-        },
-        {
-          "title": "Interaction Designer",
-          "id": "interaction-designer",
-          "link": "/guidance-for-your-job-role/interaction-designer",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "1 thing per page", "id": "1-thing-per-page" },
-            { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
-            { "title": "Announce dynamic content", "id": "announce-dynamic-content" },
-            { "title": "Conditionally revealing content", "id": "conditionally-revealing-content" },
-            { "title": "Do not rely on sensory characteristics", "id": "do-not-rely-on-sensory-characteristics" },
-            { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
-            { "title": "Logical reading order", "id": "logical-reading-order" },
-            { "title": "Minimise visual stimulus", "id": "minimise-visual-stimulus" },
-            { "title": "Start with existing patterns and components", "id": "start-with-existing-patterns-and-components" },
-            { "title": "Summarise charts and graphs", "id": "summarise-charts-and-graphs" },
-            { "title": "Unique headings", "id": "unique-headings" },
-            { "title": "Use of columns", "id": "use-of-columns" },
-            { "title": "Use of links and buttons", "id": "use-of-links-and-buttons" },
-            { "title": "Use sufficient colour contrast", "id": "use-sufficient-colour-contrast" },
-            { "title": "Use up to date styles", "id": "use-up-to-date-styles" }
-          ]
-        },
-        {
-          "title": "Product Manager",
-          "id": "product-manager",
-          "link": "/guidance-for-your-job-role/product-manager",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": []
-        },
-        {
-          "title": "QA Tester",
-          "id": "qa-tester",
-          "link": "/guidance-for-your-job-role/qa-tester",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "Assistive technology testing", "id": "assistive-technology-testing" },
-            { "title": "Automated accessibility testing", "id": "automated-accessibility-testing" },
-            { "title": "Definition of done", "id": "definition-of-done" },
-            { "title": "Manual accessibility testing", "id": "manual-accessibility-testing" },
-            { "title": "Page title", "id": "page-title" },
-            { "title": "Page url", "id": "page-url" },
-            { "title": "Recording testing evidence", "id": "recording-testing-evidence" }
-          ]
-        },
-        {
-          "title": "Software Engineer or Front-end Developer",
-          "id": "software-engineer-or-front-end-developer",
-          "link": "/guidance-for-your-job-role/software-engineer-or-front-end-developer",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": [
-            { "title": "Alternative text for non-text content", "id": "alternative-text-for-non-text-content" },
-            { "title": "Announce dynamic content", "id": "announce-dynamic-content" },
-            { "title": "Content and focus order", "id": "content-and-focus-order" },
-            { "title": "Cookie consent", "id": "cookie-consent" },
-            { "title": "Correct roles", "id": "correct-roles" },
-            { "title": "DWP CASA", "id": "dwp-casa" },
-            { "title": "Existing patterns and components", "id": "existing-patterns-and-components" },
-            { "title": "GOV.UK Frontend", "id": "govuk-frontend" },
-            { "title": "Heading hierarchy", "id": "heading-hierarchy" },
-            { "title": "Inputs and labels", "id": "inputs-and-labels" },
-            { "title": "Keyboard focus", "id": "keyboard-focus" },
-            { "title": "Links make sense out of context", "id": "links-make-sense-out-of-context" },
-            { "title": "No keyboard traps", "id": "no-keyboard-traps" },
-            { "title": "No reliance on JavaScript", "id": "no-reliance-on-javascript" },
-            { "title": "Orientation and reflow", "id": "orientation-and-reflow" },
-            { "title": "Page title", "id": "page-title" },
-            { "title": "Page URL", "id": "page-url" },
-            { "title": "Setting the language", "id": "setting-the-language" },
-            { "title": "Skip links", "id": "skip-links" },
-            { "title": "Timeouts", "id": "timeouts" },
-            { "title": "Valid code", "id": "valid-code" },
-            { "title": "Validation and error messages", "id": "validation-and-error-messages" }
-          ]
-        },
-        {
-          "title": "User Researcher",
-          "id": "user-researcher",
-          "link": "/guidance-for-your-job-role/user-researcher",
-          "sectionId": "guidance-for-your-job-role",
-          "subsections": []
         }
       ]
     },
@@ -206,7 +216,12 @@
       "title": "Best practice",
       "id": "best-practice",
       "link": "/best-practice",
-      "subsections": []
+      "subsections": [
+        {
+          "sectionHeading": "",
+          "subsections": []
+        }
+      ]
     },
     {
       "title": "Tools and resources",
@@ -214,38 +229,32 @@
       "link": "/tools-and-resources",
       "subsections": [
         {
-          "title": "Automated accessibility testing",
-          "id": "automated-accessibility-testing",
-          "link": "/tools-and-resources/automated-accessibility-testing",
-          "sectionId": "tools-and-resources",
+          "sectionHeading": "Accessibility Testing",
           "subsections": [
-            { "title": "Accessibility Insights", "id": "accessibility-insights" },
-            { "title": "Axe", "id": "axe" },
-            { "title": "Wave", "id": "wave" }
+            {
+              "title": "Automated accessibility testing",
+              "id": "automated-accessibility-testing",
+              "link": "/tools-and-resources/automated-accessibility-testing",
+              "sectionId": "tools-and-resources",
+              "subsections": [
+                { "title": "Accessibility Insights", "id": "accessibility-insights" },
+                { "title": "Axe", "id": "axe" },
+                { "title": "Wave", "id": "wave" }
+              ]
+            }
           ]
         },
         {
-          "title": "Known accessibility issues",
-          "id": "known-accessibility-issues",
-          "link": "/tools-and-resources/known-accessibility-issues",
-          "sectionId": "tools-and-resources",
+          "sectionHeading": "Accessible documents",
           "subsections": [
-            { "title": "Aria attributes not allowed on conditional reveals", "id": "aria-attributes-not-allowed-on-conditional-reveals" },
-            { "title": "Colour contrast fails on HM Government logo", "id": "colour-contrast-fails-on-hm-government-logo" },
-            { "title": "GOV.UK Accordion component is non-compliant", "id": "govuk-accordion-component-is-non-compliant" },
-            { "title": "GOV.UK conditional reveals are non-compliant", "id": "govuk-conditional-reveals-are-non-compliant" },
-            { "title": "GOV.UK Date component does not work with Dragon", "id": "govuk-date-component-does-not-work-with-dragon" },
-            { "title": "GOV.UK Details component does not work with Dragon", "id": "govuk-details-component-does-not-work-with-dragon" },
-            { "title": "JAWS cannot see headings in fieldsets", "id": "jaws-cannot-see-headings-inside-fieldsets" },
-            { "title": "Screenreaders read out P45 as 45p", "id": "screenreaders-read-out-p45-as-45p" }
+            {
+              "title": "SCULPT",
+              "id": "sculpt",
+              "link": "/tools-and-resources/sculpt",
+              "sectionId": "sculpt",
+              "subsections": []
+            }
           ]
-        },
-        {
-          "title": "SCULPT",
-          "id": "sculpt",
-          "link": "/tools-and-resources/sculpt",
-          "sectionId": "sculpt",
-          "subsections": []
         }
       ]
     },
@@ -253,7 +262,12 @@
       "title": "Community",
       "id": "community",
       "link": "/community",
-      "subsections": []
+      "subsections": [
+        {
+          "sectionHeading": "",
+          "subsections": []
+        }
+      ]
     }
   ]
 }

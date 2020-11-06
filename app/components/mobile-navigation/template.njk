@@ -14,14 +14,21 @@
 							{{item.title}} overview
 						</a>
 						</li>
-					{% for subItem in item.subsections %}
-						{% set currentPage = (subItem.id === params.pageId) %}
-						<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
-							<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
-								{{subItem.title}}
-							</a>
-						</li>
+					{% for pageSubsection in item.subsections %}
+						{% if pageSubsection.sectionHeading !== '' %}
+							<h4 class="app-mobile-nav__theme">
+								{{pageSubsection.sectionHeading}}
+							</h4>
+						{% endif %}
+						{% for subItem in pageSubsection.subsections %}
+							{% set currentPage = (subItem.id === params.pageId) %}
+							<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
+								<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
+									{{subItem.title}}
+								</a>
+							</li>
 					{% endfor %}
+				{% endfor %}
 				</ul>
 			</li>
 		{% endfor %}

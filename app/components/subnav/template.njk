@@ -1,30 +1,34 @@
 <nav class="app-subnav{% if params.classes %} {{ params.classes }}{% endif %}" aria-label="{{params.pageTitle}}">
-  {# {% if section.heading %}
-    <h4 class="app-subnav__title">{{section.heading.text}}</h4>
-  {% endif %} #}
-  <ul class="app-subnav__section">
-    {% for item in params.navItems %}
-      {% if item.id === params.sectionId %}
-        {% for subItem in item.subsections %}
-          {% set current = (subItem.id === params.pageId) %}
-          <li class="app-subnav__section-item{{' app-subnav__section-item--current' if current }}">
-            <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="{{subItem.link}}"{{' aria-current="location"' if current}}>
-              {{subItem.title}}
-            </a>
-            {% if current and (subItem.subsections.length > 0) %}
-              <ul class="app-subnav__section app-subnav__section--nested">
-                {% for jumpLink in subItem.subsections %}
-                  <li class="app-subnav__section-item">
-                    <a class="app-subnav__link govuk-link app-link govuk-link--no-visited-state" href="#{{jumpLink.id}}">
-                      {{jumpLink.title}}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% for item in params.navItems %}
+    {% if item.id === params.sectionId %}
+      {% for pageSubsection in item.subsections %}
+        {% if pageSubsection.sectionHeading !== '' %}
+          <h4 class="app-subnav__theme">
+            {{pageSubsection.sectionHeading}}
+          </h4>
+        {% endif %}
+        <ul class="app-subnav__section">
+          {% for subItem in pageSubsection.subsections %}
+            {% set current = (subItem.id === params.pageId) %}
+            <li class="app-subnav__section-item{{' app-subnav__section-item--current' if current }}">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="{{subItem.link}}"{{' aria-current="location"' if current}}>
+                {{subItem.title}}
+              </a>
+              {% if current and (subItem.subsections.length > 0) %}
+                <ul class="app-subnav__section app-subnav__section--nested">
+                  {% for jumpLink in subItem.subsections %}
+                    <li class="app-subnav__section-item">
+                      <a class="app-subnav__link govuk-link app-link govuk-link--no-visited-state" href="#{{jumpLink.id}}">
+                        {{jumpLink.title}}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 </nav>

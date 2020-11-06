@@ -28,11 +28,12 @@
 
       <div class="app-pane__content">
         <main class="app-content" role="main" id="main-content">
-          {{appPageNavigation(subNavParams)}}
-          
           <div class="app-prose-scope">
             {% markdown %}{% include pathToREADME %}{% endmarkdown %}
           </div>
+
+          {{appPageNavigation(subNavParams)}}
+
           {% include "../../components/back-to-top/template.njk" %}
         </main>
       </div>

@@ -1,29 +1,26 @@
-<ul class="app-page-navigation">
-  {% for item in params.navItems %}
-    {% if item.id === params.sectionId %}
-    
-      {% for subItem in item.subsections %}
-        {# Page subnav #}
-        {% if subItem.id === params.pageId %}
-
-          {% for jumpLink in subItem.subsections %}
-            <li class="app-page-navigation__item">
-              <a class="govuk-link" href="#{{jumpLink.id}}">
-                {{jumpLink.title}}
-              </a>
-            </li>
+{% if params.pageId === params.sectionId %}
+  <div class="app-pane__subnav-mobile-overview govuk-!-padding-top-4">
+    <nav class="govuk-!-padding-bottom-6">
+      {% for item in params.navItems %}
+        {% if item.id === params.sectionId %}
+          {% for pageSubsection in item.subsections %}
+            {% if pageSubsection.sectionHeading !== '' %}
+              <h2 class="govuk-heading-m">
+                {{pageSubsection.sectionHeading}}
+              </h2>
+            {% endif %}
+            {% for subItem in pageSubsection.subsections %}
+              <ul class="govuk-list">
+                <li class="govuk-!-margin-bottom-2">
+                  <a class="govuk-link" href="{{subItem.link}}">
+                    {{subItem.title}}
+                  </a>
+                </li>
+              </ul>
+            {% endfor %}
           {% endfor %}
-        {% endif %}
-
-        {# Section subnav #}
-        {% if subItem.sectionId === params.pageId %}
-          <li class="app-page-navigation__item">
-            <a class="govuk-link" href="{{subItem.link}}">
-              {{subItem.title}}
-            </a>
-          </li>
-        {% endif %}
+        {% endif%}
       {% endfor %}
-    {% endif%}
-  {% endfor %}
-</ul>
+    </nav>
+  </div>
+{% endif %}
