@@ -19,9 +19,16 @@
             </a>
           </h2>
 
-          {% if item.subsections %}
+
+          {% for pageSubsection in item.subsections %}
+            {% if pageSubsection.sectionHeading !== '' %}
+              <h2 class="govuk-heading-m">
+                {{pageSubsection.sectionHeading}}
+              </h2>
+            {% endif %}
+
             <ul class="govuk-list">
-              {% for subItem in item.subsections %}
+              {% for subItem in pageSubsection.subsections %}
                 <li class="govuk-!-margin-bottom-2">
                   <a class="govuk-link" href="{{subItem.link}}">
                     {{subItem.title}}
@@ -29,7 +36,7 @@
                 </li>
               {% endfor %}
             </ul>
-          {% endif %}
+          {% endfor %}
         {% endfor %}
       </div>
     </div>
