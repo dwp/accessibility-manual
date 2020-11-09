@@ -224,8 +224,8 @@
             {
               "title": "Automated testing",
               "id": "automated-accessibility-testing",
-              "link": "/tools-and-resources/automated-accessibility-testing",
-              "sectionId": "tools-and-resources",
+              "link": "/best-practice/automated-accessibility-testing",
+              "sectionId": "best-practice",
               "subsections": [
                 { "title": "Accessibility Insights", "id": "accessibility-insights" },
                 { "title": "Axe", "id": "axe" },
@@ -235,8 +235,8 @@
             {
               "title": "Manual testing",
               "id": "manual-accessibility-testing",
-              "link": "/tools-and-resources/manual-accessibility-testing",
-              "sectionId": "tools-and-resources",
+              "link": "/best-practice/manual-accessibility-testing",
+              "sectionId": "best-practice",
               "subsections": [
                 { "title": "Accessibility Insights", "id": "accessibility-insights" },
                 { "title": "WebAim colour contrast checker", "id": "webaim-colour-contrast-checker" },
@@ -246,8 +246,8 @@
             {
               "title": "Known issues",
               "id": "known-accessibility-issues",
-              "link": "/tools-and-resources/known-accessibility-issues",
-              "sectionId": "tools-and-resources",
+              "link": "/best-practice/known-accessibility-issues",
+              "sectionId": "best-practice",
               "subsections": [
                 { "title": "ARIA attributes not allowed on conditional reveals", "id": "aria-attributes-not-allowed-on-conditional-reveals" },
                 { "title": "Colour contrast fails on HM Government logo", "id": "colour-contrast-fails-on-hm-government-logo" },
