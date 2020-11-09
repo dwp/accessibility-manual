@@ -226,22 +226,14 @@
               "id": "automated-accessibility-testing",
               "link": "/best-practice/automated-accessibility-testing",
               "sectionId": "best-practice",
-              "subsections": [
-                { "title": "Accessibility Insights", "id": "accessibility-insights" },
-                { "title": "Axe", "id": "axe" },
-                { "title": "Wave", "id": "wave" }
-              ]
+              "subsections": []
             },
             {
               "title": "Manual testing",
               "id": "manual-accessibility-testing",
               "link": "/best-practice/manual-accessibility-testing",
               "sectionId": "best-practice",
-              "subsections": [
-                { "title": "Accessibility Insights", "id": "accessibility-insights" },
-                { "title": "WebAim colour contrast checker", "id": "webaim-colour-contrast-checker" },
-                { "title": "WebAim WCAG 2.1 checklist", "id": "webaim-wcag-21-checklist" }
-              ]
+              "subsections": []
             },
             {
               "title": "Known issues",
