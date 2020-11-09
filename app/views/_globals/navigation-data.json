@@ -339,10 +339,26 @@
               "link": "/tools-and-resources/govuk-resources",
               "sectionId": "tools-and-resources",
               "subsections": [
+                { "title": "Accessibility for Developers: Introduction", "id": "accessibility-for-developers-introduction" },
                 { "title": "Common assistive technologies", "id": "common-assistive-technologies" },
+                { "title": "Make things accessible and inclusive", "id": "make-things-accessible-and-inclusive" },
+                { "title": "Record a goose sighting training", "id": "record-a-goose-sighting-training" },
                 { "title": "Service Manual", "id": "service-manual" },
-                { "title": "User profiles", "id": "user-profiles" }
+                { "title": "Service Manual: Design guidance", "id": "service-manual-design-guidance" },
+                { "title": "Services for Government users", "id": "services-for-government-users" },
+                { "title": "Technology code of practice", "id": "technology-code-of-practice" },
+                { "title": "User profiles", "id": "user-profiles" },
+                { "title": "Using progressive enhancement", "id": "using-progressive-enhancement" },
+                { "title": "Writing for GOV.UK", "id": "writing-for-govuk"},
+                { "title": "Writing for user interfaces", "id": "writing-for-user-interfaces"}
               ]
+            },
+            {
+              "title": "Home Office posters",
+              "id": "home-office-posters",
+              "link": "/tools-and-resources/home-office-posters",
+              "sectionId": "tools-and-resources",
+              "subsections": []
             },
             {
               "title": "Known issues",
@@ -358,7 +374,6 @@
                 { "title": "GOV.UK Details component does not work with Dragon", "id": "gov-uk-details-component-does-not-work-with-dragon" },
                 { "title": "JAWs cannot see headings inside fieldsets", "id": "jaws-cannot-see-headings-inside-fieldsets" },
                 { "title": "Screenreaders read out P45 as 45p", "id": "screenreaders-read-out-p45-as-45p" }
-
               ]
             },
             {
