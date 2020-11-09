@@ -257,7 +257,6 @@
                 { "title": "GOV.UK Details component does not work with Dragon", "id": "gov-uk-details-component-does-not-work-with-dragon" },
                 { "title": "JAWs cannot see headings inside fieldsets", "id": "jaws-cannot-see-headings-inside-fieldsets" },
                 { "title": "Screenreaders read out P45 as 45p", "id": "screenreaders-read-out-p45-as-45p" }
-
               ]
             }
           ]
@@ -276,6 +275,13 @@
               "title": "Waterfall projects",
               "id": "waterfall-projects",
               "link": "/best-practice/waterfall-projects",
+              "sectionId": "best-practice",
+              "subsections": []
+            },
+            {
+              "title": "WCAG AA and AAA",
+              "id": "wcag-aa-and-aa",
+              "link": "/best-practice/wcag-aa-and-aaa",
               "sectionId": "best-practice",
               "subsections": []
             }
