@@ -398,16 +398,9 @@
           "sectionHeading": "Training",
           "subsections": [
             {
-              "title": "Online courses",
-              "id": "online-courses",
-              "link": "/tools-and-resources/online-courses",
-              "sectionId": "training",
-              "subsections": []
-            },
-            {
-              "title": "Webinars",
-              "id": "webinars",
-              "link": "/tools-and-resources/webinars",
+              "title": "Free events and videos",
+              "id": "free-events-and-videos",
+              "link": "/tools-and-resources/free-events-and-videos",
               "sectionId": "training",
               "subsections": []
             }
