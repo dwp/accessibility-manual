@@ -155,7 +155,13 @@
               "id": "product-manager",
               "link": "/guidance-for-your-job-role/product-manager",
               "sectionId": "guidance-for-your-job-role",
-              "subsections": []
+              "subsections": [
+                { "title": "Make sure stakeholders are informed", "id": "make-sure-stakeholders-are-informed" },
+                { "title": "Make sure the team know their responsibilities", "id": "make-sure-the-team-know-their-responsibilities" },
+                { "title": "Plan for accessibility", "id": "plan-for-accessibility" },
+                { "title": "Prioritise accessibility", "id": "prioritise-accessibility" },
+                { "title": "Understand the risks", "id": "understand-the-risks" }
+              ]
             },
             {
               "title": "QA Tester",
