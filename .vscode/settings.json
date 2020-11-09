@@ -19,8 +19,10 @@
     "axepackage",
     "casa",
     "cdnjs",
+    "cheatsheet",
     "checkbox",
     "checkboxes",
+    "checklist",
     "clearfix",
     "contentinfo",
     "endblock",
@@ -44,6 +46,7 @@
     "opengraph",
     "placeholder",
     "plugins",
+    "powerpoint",
     "programmatically",
     "rasterised",
     "rasterizing",
@@ -71,6 +74,7 @@
     "topnav",
     "uppercase",
     "viewports",
+    "webaim",
     "whitespaces"
   ]
 }
