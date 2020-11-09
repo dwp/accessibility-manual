@@ -4,6 +4,6 @@ As a user researcher, you will help the team to understand the needs of the peop
 
 <h2>Things to consider <span class="govuk-visually-hidden">as a User Researcher</span></h2>
 
-{% include './partials/making-sure-the-team-consider-accessibility.md' %}
+{% include './partials/make-sure-the-team-consider-accessibility.md' %}
 {% include './partials/research-with-a-range-of-users.md' %}
 {% include './partials/usability-testing.md' %}

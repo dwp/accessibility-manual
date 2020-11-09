@@ -213,7 +213,11 @@
               "id": "user-researcher",
               "link": "/guidance-for-your-job-role/user-researcher",
               "sectionId": "guidance-for-your-job-role",
-              "subsections": []
+              "subsections": [
+                { "title": "Make sure the team consider accessibility", "id": "make-sure-the-team-consider-accessibility" },
+                { "title": "Research with a range of users", "id": "research-with-a-range-of-users" },
+                { "title": "Usability testing", "id": "usability-testing" }
+              ]
             }
           ]
         }

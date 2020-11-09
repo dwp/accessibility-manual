@@ -1,4 +1,4 @@
-### Making sure the team consider accessibility
+### Make sure the team consider accessibility
 
 As the direct link between the team and the users, it is important that the user researcher makes sure their needs aren't de-prioritised.
 
