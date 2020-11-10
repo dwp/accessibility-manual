@@ -243,7 +243,15 @@
               "id": "manual-accessibility-testing",
               "link": "/best-practice/manual-accessibility-testing",
               "sectionId": "best-practice",
-              "subsections": []
+              "subsections": [
+                { "title": "Before doing any manual testing", "id": "before-doing-any-manual-testing" },
+                { "title": "Manual testing against WCAG", "id": "manual-testing-against-wcag" },
+                { "title": "Using Accessibility Insights", "id": "using-accessibility-insights" },
+                { "title": "Keyboard only", "id": "keyboard-only" },
+                { "title": "Screenreader testing", "id": "screenreader-testing" },
+                { "title": "Voice recognition testing", "id": "voice-recognition-testing" },
+                { "title": "Screen magnifier testing", "id": "screen-magnifier-testing" }
+              ]
             }
           ]
         },
