@@ -4,5 +4,5 @@ As a Business Analyst in an agile team, you're involved in the critical parts wh
 
 <h2>Things to consider <span class="govuk-visually-hidden">as a Business Analyst</span></h2>
 
-{% include './partials/definition-of-done.md' %}
 {% include './partials/definition-of-ready.md' %}
+{% include './partials/definition-of-done.md' %}
