@@ -1,0 +1,2 @@
+## Headings
+Headings are one of the easiest way to structure your content. All of your content should sit under a heading and be related. If you jump between topics and don't have relevant headings users can quickly get lost in the content.

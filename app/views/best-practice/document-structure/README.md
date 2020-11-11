@@ -1,1 +1,27 @@
 # Document structure
+This guidance will apply to any document format. If you're making a Word or PowerPoint document there is some additional guidance you can follow.
+
+[SCULPT](tools-and-resources/sculpt) by [Worcestershire County Council](https://www.worcestershire.gov.uk/) is a great tool to help you write accessible documents.
+
+{% include './partials/layout.md' %}
+{% include './partials/logical-reading-order.md' %}
+{% include './partials/sensory-characteristics.md' %}
+{% include './partials/font.md' %}
+{% include './partials/font-size.md' %}
+{% include './partials/font-style.md' %}
+{% include './partials/headings.md' %}
+{% include './partials/use-headings.md' %}
+{% include './partials/use-correct-heading-level.md' %}
+{% include './partials/correct-formatting.md' %}
+{% include './partials/link-text.md' %}
+{% include './partials/images.md' %}
+{% include './partials/alternative-text.md' %}
+{% include './partials/decorative-images.md' %}
+{% include './partials/text-as-images.md' %}
+{% include './partials/colour.md' %}
+{% include './partials/traffic-light-systems.md' %}
+{% include './partials/colour-contrast.md' %}
+{% include './partials/language.md' %}
+{% include './partials/reading-age.md' %}
+{% include './partials/accessibility-checkers.md' %}
+{% include './partials/export-with-tags.md' %}
