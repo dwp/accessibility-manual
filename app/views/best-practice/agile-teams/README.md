@@ -10,11 +10,11 @@ The Public Sector Bodies Accessibility Regulations will apply to anything you re
 
 ## Discovery
 
-In Discovery, you should be finding out what your users need. The Public Sector Bodies Accessibility Regulations won't play a huge part in discovery, but that doesn't mean they should be ignored.
+In Discovery, you should be finding out what your users need.
 
 Even though the accessibility regulations may not apply at this stage, the Equality Act 2010 states we cannot discriminate against anybody with a disability. So, although you don't have to do any technical accessibility work, you still need to include people with impairments in your user research. You need to understand how any products you build may have an impact on them and what additional needs they may have. 
 
-You cannot build a service which works for everybody if you only include and design for non-impaired people.
+You cannot build a service which works for everybody if you only include and design for people who don't have impairments.
 
 ## Alpha
 
