@@ -263,7 +263,16 @@
               "id": "agile-teams",
               "link": "/best-practice/agile-teams",
               "sectionId": "best-practice",
-              "subsections": []
+              "subsections": [
+                { "title": "Discovery", "id": "discovery" },
+                { "title": "Alpha", "id": "alpha" },
+                { "title": "Private Beta", "id": "private-beta" },
+                { "title": "Definition of ready", "id": "definition-of-ready" },
+                { "title": "Definition of done", "id": "definition-of-done" },
+                { "title": "Public Beta", "id": "public-beta" },
+                { "title": "Minimum Viable Product (MVP)", "id": "minimum-viable-product-mvp-" },
+                { "title": "Live", "id": "live" }
+              ]
             },
             {
               "title": "Waterfall projects",
