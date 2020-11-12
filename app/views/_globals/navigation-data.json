@@ -313,20 +313,6 @@
                 { "title": "Accessibility checkers", "id": "accessibility-checkers"},
                 { "title": "Export with tags", "id": "export-with-tags"}
               ]
-            },
-            {
-              "title": "Powerpoint slides",
-              "id": "powerpoint-slides",
-              "link": "/best-practice/powerpoint-slides",
-              "sectionId": "best-practice",
-              "subsections": []
-            },
-            {
-              "title": "Word documents",
-              "id": "word-documents",
-              "link": "/best-practice/word-documents",
-              "sectionId": "best-practice",
-              "subsections": []
             }
           ]
         }
