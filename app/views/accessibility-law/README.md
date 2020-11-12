@@ -1,8 +1,9 @@
 # Accessibility law
 
-The DWP Design System is an extension of the GOV.UK Design System. And has been designed to work in tandem with it. The DWP Design System contains styles, components and patterns that are:
+Accessibility is a part of several laws and standards we must follow. Each of the standards feed into the [Equality Act 2010](https://www.gov.uk/guidance/equality-act-2010-guidance) and the [Public Sector Equality Duty](https://www.gov.uk/government/publications/public-sector-equality-duty).
 
-- not yet in the GOV.UK Design System
-- unique to DWP services
+If you are building anything which runs in a browser, you will need to meet the [Public Sector Bodies Accessibility Regulations 2018](/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018).
 
-Therefore you should reference the GOV.UK Design System first. And only use this if you can't find what you need.
+If you are procuring hardware or software you will need to meet the [EN 301 549 Accessibility Requirements for ICT products and services](/accessibility-law/en301549-accessibility-requirements-for-ict-products-and-services).
+
+If you are working to the GOV.UK Service Standard you will also need to meet the [Government Accessibility Requirements](/accessibility-law/accessibility-regulations-vs-the-govuk-service-standard). 
