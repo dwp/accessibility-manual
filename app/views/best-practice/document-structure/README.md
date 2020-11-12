@@ -1,7 +1,7 @@
 # Document structure
 This guidance will apply to any document format. If you're making a Word or PowerPoint document there is some additional guidance you can follow.
 
-[SCULPT](tools-and-resources/sculpt) by [Worcestershire County Council](https://www.worcestershire.gov.uk/) is a great tool to help you write accessible documents.
+[SCULPT](/tools-and-resources/sculpt) by [Worcestershire County Council](https://www.worcestershire.gov.uk/) is a great tool to help you write accessible documents.
 
 {% include './partials/layout.md' %}
 {% include './partials/logical-reading-order.md' %}
