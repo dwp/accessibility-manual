@@ -309,6 +309,7 @@
                 { "title": "Images", "id": "images"},
                 { "title": "Colour", "id": "colour"},
                 { "title": "Language", "id": "language"},
+                { "title": "Tables", "id": "tables"},
                 { "title": "Accessibility checkers", "id": "accessibility-checkers"},
                 { "title": "Export with tags", "id": "export-with-tags"}
               ]

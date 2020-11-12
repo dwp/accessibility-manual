@@ -23,5 +23,6 @@ This guidance will apply to any document format. If you're making a Word or Powe
 {% include './partials/colour-contrast.md' %}
 {% include './partials/language.md' %}
 {% include './partials/reading-age.md' %}
+{% include './partials/tables.md' %}
 {% include './partials/accessibility-checkers.md' %}
 {% include './partials/export-with-tags.md' %}
