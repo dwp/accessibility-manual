@@ -8,6 +8,7 @@ if (env !== 'production') {
   const { navItems } = require('../app/views/_globals/navigation-data.json')
   const prefix = `http://localhost:${process.env.AXEPORT || 3000}`
   const urls = []
+  urls.push(prefix)
   navItems.forEach(function (navObject) {
     urls.push(`${prefix}${navObject.link}`)
     navObject.subsections.forEach(function (section) {
