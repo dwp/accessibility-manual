@@ -89,10 +89,7 @@ if (env !== 'production') {
           checkStatus(url)
           checkLinksIn(url, 'main')
         })
-      })
-      .then(() => {
-        console.log('Finished checking pages'.colour200)
-        done()
+        return done()
       })
   })
 }
