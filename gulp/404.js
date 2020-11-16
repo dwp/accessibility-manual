@@ -48,32 +48,51 @@ if (env !== 'production') {
       })
   }
 
-  function checkPageURLs (url) {
+  function checkLinksIn (url, element) {
     return got(url)
       .then(res => {
+        if (element !== 'main') {
+          console.log(`Checking links in: ${element}`.colourURL)
+        }
         const $ = cheerio.load(res.body)
-        $('main').find('a').each(function () {
+        $(element).find('a').each(function () {
           const href = $(this).attr('href')
           if (href.charAt(0) !== '#' || href.match(/^(.pdf)/)) {
             let hrefURL
             if (href.match(/(http)/)) {
               hrefURL = href
             } else if (href.charAt(0) === '/') {
-              hrefURL = `http://localhost:3000${href}`
+              hrefURL = `${prefix}${href}`
             } else {
-              hrefURL = `http://localhost:3000/${href}`
+              hrefURL = `${prefix}/${href}`
             }
-            checkStatus(hrefURL, url)
+            return checkStatus(hrefURL, url)
           }
         })
+        if (element !== 'main') {
+          console.log(`Finished ${element}`.colour200)
+        }
       })
   }
 
   gulp.task('404', function (done) {
-    urls.forEach(url => {
-      checkStatus(url)
-      checkPageURLs(url)
-    })
-    done()
+    return checkLinksIn(prefix, 'header')
+      .then(() => {
+        return checkLinksIn(prefix, '.app-navigation')
+      })
+      .then(() => {
+        return checkLinksIn(prefix, 'footer')
+      })
+      .then(() => {
+        console.log('Checking URLs on pages'.colourURL)
+        urls.forEach(url => {
+          checkStatus(url)
+          checkLinksIn(url, 'main')
+        })
+      })
+      .then(() => {
+        console.log('Finished checking pages'.colour200)
+        done()
+      })
   })
 }
