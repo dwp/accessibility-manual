@@ -7,10 +7,10 @@ The [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard
 ## The Accessibility Regulations
 
 To be legally compliant your service needs to:
-- meet the [Web Content Accessibility Guidelines (WCAG) 2.1](/section/accessibility-and-the-law/web-content-accessibility-guidelines)
-- publish a compliant [accessibility statement](/section/accessibility-and-the-law/accessibility-statements)
+- meet the [Web Content Accessibility Guidelines (WCAG) 2.1](/accessibility-law/web-content-accessibility-guidelines)
+- publish a compliant [accessibility statement](/accessibility-law/accessibility-statements)
 
-You can read a more in depth explanation about the [accessibility regulations](/section/accessibility-and-the-law/accessibility-regulations) in this manual.
+You can read a more in depth explanation about the [accessibility regulations](/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018) in this manual.
 
 ## The Government Accessibility Requirements
 

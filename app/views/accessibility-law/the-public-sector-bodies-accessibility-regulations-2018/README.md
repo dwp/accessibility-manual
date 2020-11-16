@@ -12,12 +12,12 @@ The deadlines are:
 ## How to meet the regulations
 
 To be legally compliant, your website or mobile application will need to:
-- meet the [Web Content Accessibility Guidelines (WCAG) 2.1](/section/accessibility-and-the-law/web-content-accessibility-guidelines)
-- publish a compliant [accessibility statement](section/accessibility-and-the-law/accessibility-statements)
+- meet the [Web Content Accessibility Guidelines (WCAG) 2.1](/accessibility-law/web-content-accessibility-guidelines)
+- publish a compliant [accessibility statement](/accessibility-law/accessibility-statements)
 
 <div class="govuk-inset-text">
   
-  There is a [difference between legal compliance and the Government Accessibility Requirements](/section/accessibility-and-the-law/accessibility-regulations-vs-the-service-standard). If you're working to the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard) you will need to do additional work to pass a service assessment.
+  There is a [difference between legal compliance and the Government Accessibility Requirements](/accessibility-law/accessibility-regulations-vs-the-govuk-service-standard). If you're working to the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard) you will need to do additional work to pass a service assessment.
 
 </div>
 

@@ -8,8 +8,8 @@ An accessibility statement is a page of content on your service which:
 - helps our services to be legally compliant
 
 There is a recommended format for accessibility statements in Government. GDS have created two templates:
-- [<span class="govuk-visually-hidden">accessibility statement </span>template for GOV.UK services](https://www.gov.uk/service-manual/helping-people-to-use-your-service/publishing-information-about-your-services-accessibility")
-- [<span class="govuk-visually-hidden">accessibility statement</span> template for a public sector website which is not part of GOV.UK](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website)
+- [template for GOV.UK services](https://www.gov.uk/service-manual/helping-people-to-use-your-service/publishing-information-about-your-services-accessibility)
+- [template for a public sector website which is not part of GOV.UK](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website)
 
 There is also [additional guidance on accessibility statements on GOV.UK](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement).
 
