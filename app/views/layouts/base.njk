@@ -34,11 +34,11 @@
 
 		{% block body %}{% endblock %}
 
-		{% include "svg.njk" %}
+		{% include "./partials/svg.njk" %}
 
 		{% block bodyEnd %}
 			{% block scripts %}
-				{% include "scripts.njk" %}
+				{% include "./partials/scripts.njk" %}
 				{% block pageScripts %}{% endblock %}
 			{% endblock %}
 		{% endblock %}
