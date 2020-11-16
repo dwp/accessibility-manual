@@ -76,20 +76,21 @@ if (env !== 'production') {
   }
 
   gulp.task('404', function (done) {
-    return checkLinksIn(prefix, 'header')
+    const appLinks = [
+      checkLinksIn(prefix, 'header'),
+      checkLinksIn(prefix, '.app-navigation'),
+      checkLinksIn(prefix, 'footer')
+    ]
+    const pageLinks = []
+    urls.forEach(url => {
+      pageLinks.push(checkStatus(url))
+      pageLinks.push(checkLinksIn(url, 'main'))
+    })
+    return Promise.all(appLinks)
       .then(() => {
-        return checkLinksIn(prefix, '.app-navigation')
+        console.log('Checking page links'.colourURL)
+        return Promise.all(pageLinks)
       })
-      .then(() => {
-        return checkLinksIn(prefix, 'footer')
-      })
-      .then(() => {
-        console.log('Checking URLs on pages'.colourURL)
-        urls.forEach(url => {
-          checkStatus(url)
-          checkLinksIn(url, 'main')
-        })
-        return done()
-      })
+      .then(done())
   })
 }
