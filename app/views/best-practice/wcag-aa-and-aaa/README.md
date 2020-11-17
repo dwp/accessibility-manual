@@ -21,7 +21,7 @@ There is a number of additional elements in standard that we need to consider, s
 Some of the AAA criteria relate to additional formats that may not be relevant to your service, however, if you are providing video you will want to consider how these are consumed.
 
 AAA criteria relating to video:
-- [1.2.6 Sign Language (Prerecorded)](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded)
+- [1.2.6 Sign Language (Pre-recorded)](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded)
 - [1.2.7 Extended Audio Description](https://www.w3.org/TR/WCAG21/#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative](https://www.w3.org/TR/WCAG21/#media-alternative-prerecorded)
 - [1.2.9 Audio-only](https://www.w3.org/TR/WCAG21/#audio-only-live)

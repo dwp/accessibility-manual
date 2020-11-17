@@ -10,7 +10,7 @@ If you do opt to do real-time validation, you will need to consider how that is 
 
 ### On submit validation
 
-If we do in browser validation on submit, we need to make sure that the user is alerted to the error each time they click submit, and they are taken to the relvant error.
+If we do in browser validation on submit, we need to make sure that the user is alerted to the error each time they click submit, and they are taken to the relevant error.
 
 When we don't do this, often secondary form errors are not highlighted to screen reader users, as there is no change of state on the page. 
 
