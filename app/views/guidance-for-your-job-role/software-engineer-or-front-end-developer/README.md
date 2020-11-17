@@ -1,4 +1,4 @@
-# Software Engineer or Front-end Developer
+# Software Engineer or Frontend Developer
 
 As an Software Engineer or Frontend Developer, you have one of the most important roles when it comes to accessibility. A design can have considered accessibility, but it's up to you to build it to work correctly.
 
@@ -16,7 +16,7 @@ You will need to work closely with [interaction designers](/guidance-for-your-jo
 
 You will also want to work with [QA Testers](guidance-for-your-job-role/qa-tester) to make sure automated processes are in place for checking things with tools like aXe and putting in place accessibility criteria are part of your definition of done.
 
-<h2>Things to consider <span class="govuk-visually-hidden">as a Software Engineer or Front-End Developer</span></h2>
+<h2>Things to consider <span class="govuk-visually-hidden">as a Software Engineer or Frontend Developer</span></h2>
 
 {% include './partials/alternative-text-for-non-text-content.md' %}
 {% include './partials/announce-dynamic-content.md' %}

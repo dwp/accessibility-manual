@@ -10,4 +10,4 @@ The [GOV.UK Design System](https://design-system.service.gov.uk) is a repository
 
 By using these resources you will leverage a lot of best practices and research on accessibility automatically.
 
-For more in-depth accessibility considerations when building frontends you should read the [Software Engineer or Frontend Developer](/guidance-for-your-job-role/software-engineer-or-front-end-developer) guidance.
+For more in-depth accessibility considerations when building frontends you should read the [Software Engineer or Frontend Developer](/guidance-for-your-job-role/software-engineer-or-frontend-developer) guidance.

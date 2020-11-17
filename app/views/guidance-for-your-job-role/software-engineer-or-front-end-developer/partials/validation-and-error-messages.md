@@ -1,6 +1,6 @@
 ### Validation and error messages
 
-Validation might be done in the front-end, in the back-end, or both. There are accessibility considerations for any kind of validation.
+Validation might be done in the frontend, in the back-end, or both. There are accessibility considerations for any kind of validation.
 
 #### Real time validation
 
