@@ -1,6 +1,6 @@
 # Community
 
-This manual would not be possible without contributions from the community. To everybody that edited content, pushed code, helped figure out bugs, thank you!
+This manual is for everyone. it would not be possible without contributions from the community. To everybody that edited content, pushed code, helped figure out bugs, thank you!
 
 If you'd like to [collaborate, give feedback or add some content](https://github.com/dwp/accessibility-manual/issues/new), please let us know.
 
