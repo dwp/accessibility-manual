@@ -194,7 +194,7 @@
                 { "title": "Content and focus order", "id": "content-and-focus-order" },
                 { "title": "Cookie consent", "id": "cookie-consent" },
                 { "title": "Correct roles", "id": "correct-roles" },
-                { "title": "DWP CASA", "id": "dwp-casa" },
+                { "title": "DWP CASA Framework", "id": "dwp-casa-framework" },
                 { "title": "Existing patterns and components", "id": "existing-patterns-and-components" },
                 { "title": "GOV.UK Frontend", "id": "govuk-frontend" },
                 { "title": "Heading hierarchy", "id": "heading-hierarchy" },
@@ -241,7 +241,10 @@
               "id": "automated-accessibility-testing",
               "link": "/best-practice/automated-accessibility-testing",
               "sectionId": "best-practice",
-              "subsections": []
+              "subsections": [
+                { "title": "Continuous integration", "id": "continuous-integration" },
+                { "title": "Using browser plugins", "id": "using-browser-plugins" }
+              ]
             },
             {
               "title": "Manual testing",
@@ -257,6 +260,32 @@
                 { "title": "Voice recognition testing", "id": "voice-recognition-testing" },
                 { "title": "Screen magnifier testing", "id": "screen-magnifier-testing" }
               ]
+            }
+          ]
+        },
+        {
+          "sectionHeading": "Design and development",
+          "subsections": [
+            {
+              "title": "Designing screens",
+              "id": "designing-screens",
+              "link": "/best-practice/designing-screens",
+              "sectionId": "best-practice",
+              "subsections": []
+            },
+            {
+              "title": "Building frontends",
+              "id": "building-frontends",
+              "link": "/best-practice/building-frontends",
+              "sectionId": "best-practice",
+              "subsections": []
+            },
+            {
+              "title": "Writing content",
+              "id": "writing-content",
+              "link": "/best-practice/writing-content",
+              "sectionId": "best-practice",
+              "subsections": []
             }
           ]
         },
