@@ -77,19 +77,31 @@ function buildPageFromURL (url) {
 }
 
 function getNavURLs () {
-  // Creates an empty array ready for Nav objects
-  const urls = []
+  // Creates an set ready for Nav objects
   // Pushes the home page into the Nav as it's not in the navigation menu
-  urls.push({
-    title: 'Home page',
-    url: testURL
-  })
+  const urls = new Set([
+    {
+      title: 'Home page',
+      url: testURL
+    }
+  ])
+  console.log('here')
+
   // For each of the nav items in the navigation menu
   navItems.forEach(function (navObject) {
     // Pushes the URL and the title into the array ready for testing
-    urls.push({
+    urls.add({
       title: navObject.title,
       url: `${testURL}${navObject.link}`
+    })
+
+    navObject.subsections.forEach(function (section) {
+      section.subsections.forEach(function (subObject) {
+        urls.add({
+          title: subObject.title,
+          url: `${testURL}${subObject.link}`
+        })
+      })
     })
   })
   // Returns an array of URL objects
