@@ -18,4 +18,4 @@ You can find a list of all the A and double A criteria you need to meet in the [
 
 Full AAA compliance is not recommended as a general policy. It is not always possible to satisfy all of the criteria, and doing so will make your service appear inconsistent with the rest of GOV.UK. 
 
-You should understand [the WCAG 2.1 AAA criteria](http://localhost:3000/best-practice/wcag-aa-and-aaa) and choose those which apply to your content and will have a positive impact on your users.
+You should understand [the WCAG 2.1 AAA criteria](/best-practice/wcag-aa-and-aaa) and choose those which apply to your content and will have a positive impact on your users.

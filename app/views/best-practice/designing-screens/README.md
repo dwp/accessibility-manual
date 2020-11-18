@@ -11,5 +11,5 @@ When you want to build working prototypes, you can use the [GOV.UK Prototyping K
 By using these resources you will leverage a lot of best practices and research on accessibility automatically.
 
 For more in-depth accessibility considerations when designing screens you should read the following job role guidance:
-- [Interaction Designer](http://localhost:3000/guidance-for-your-job-role/interaction-designer)
-- [Content Designer](http://localhost:3000/guidance-for-your-job-role/interaction-designer)
+- [Interaction Designer](/guidance-for-your-job-role/interaction-designer)
+- [Content Designer](/guidance-for-your-job-role/interaction-designer)
