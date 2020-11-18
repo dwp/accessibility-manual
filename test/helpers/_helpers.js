@@ -1,6 +1,8 @@
 const got = require('got')
 const cheerio = require('cheerio')
-const prefix = `http://localhost:${process.env.PORT || 3000}`
+const { navItems } = require('../../app/views/_globals/navigation-data.json')
+
+const testURL = `http://localhost:${process.env.PORT || 3000}`
 
 function buildPageLinks (page) {
   // Create a new set ready to be populateds
@@ -19,10 +21,10 @@ function buildPageLinks (page) {
         hrefURL = href
       } else if (href.charAt(0) === '/') {
         // If the url is a relative path starting with a slash build correct url
-        hrefURL = `${prefix}${href}`
+        hrefURL = `${testURL}${href}`
       } else {
         // If the url is a relative path starting without a slash build correct url
-        hrefURL = `${prefix}/${href}`
+        hrefURL = `${testURL}/${href}`
       }
     }
     if (hrefURL.length > 0) {
@@ -56,26 +58,48 @@ function checkURL (url) {
 }
 
 function buildPageFromURL (url) {
+  // Starts a new page object
   const page = {
     url,
     links: new Set()
   }
 
+  // Does a HTTP request on the URL
   return got(url)
     .then(res => {
+      // Adds the response body to the page object
       page.body += res.body
-      if (res.statusCode === 200) {
-        page.statusCode = 200
-      } else {
-        page.statusCode = 'Error'
-      }
+      // Adds the status code to the page object
+      page.statusCode = res.statusCode
+      // Returns the page object
       return page
     })
 }
 
+function getNavURLs () {
+  // Creates an empty array ready for Nav objects
+  const urls = []
+  // Pushes the home page into the Nav as it's not in the navigation menu
+  urls.push({
+    title: 'Home page',
+    url: testURL
+  })
+  // For each of the nav items in the navigation menu
+  navItems.forEach(function (navObject) {
+    // Pushes the URL and the title into the array ready for testing
+    urls.push({
+      title: navObject.title,
+      url: `${testURL}${navObject.link}`
+    })
+  })
+  // Returns an array of URL objects
+  return urls
+}
+
 module.exports = {
-  prefix,
+  testURL,
   checkURL,
   buildPageFromURL,
-  buildPageLinks
+  buildPageLinks,
+  getNavURLs
 }
