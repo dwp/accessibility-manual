@@ -1,6 +1,8 @@
 const { expect } = require('chai')
 const { prefix } = require('./_helpers')
 
+const app = require('../server')
+
 const {
   loadThePage,
   checkBrokenLinks,
@@ -22,49 +24,57 @@ navItems.forEach(function (navObject) {
   })
 })
 
-urls.forEach(pageTest => {
-  // Output which page is being checked
-  describe(pageTest.title, function () {
-    // Create full path URL
-    const url = `${pageTest.url}`
-    // Create a blank
-    let page
+describe('Test application', function (done) {
+  let server = null
 
-    it('should load the page', function () {
-      return loadThePage(url)
-        .then(pageInfo => {
-          page = pageInfo
-          expect(pageInfo.statusCode).to.eql(200)
-        })
-    })
+  before(function (done) {
+    server = app.listen(done)
+  })
 
-    it('should have a single H1', function () {
-      return checkTheH1(page)
-        .then(numberOfH1s => {
-          expect(numberOfH1s).to.eql(1)
-        })
-        .catch(err => {
-          throw err
-        })
-    })
+  urls.forEach(pageTest => {
+    // Output which page is being checked
+    describe(pageTest.title, function () {
+      // Create full path URL
+      const url = `${pageTest.url}`
+      // Create a blank
+      let page
 
-    it('should have no broken links on the page', function () {
-      return checkBrokenLinks(page)
-        .then((links) => {
-          links.forEach(result => {
-            expect(result.statusCode).to.eql(200)
+      it('should load the page', function () {
+        return loadThePage(url)
+          .then(pageInfo => {
+            page = pageInfo
+            expect(pageInfo.statusCode).to.eql(200)
           })
-        })
-        .catch(err => {
-          throw err
-        })
-    })
+      })
 
-    it('should have no accessibility errors', function () {
-      return checkAccessibility(url)
-        .catch(() => {
-          throw Error('Accessibility fails')
-        })
+      it('should have a single H1', function () {
+        return checkTheH1(page)
+          .then(numberOfH1s => {
+            expect(numberOfH1s).to.eql(1)
+          })
+          .catch(err => {
+            throw err
+          })
+      })
+
+      it('should have no broken links on the page', function () {
+        return checkBrokenLinks(page)
+          .then((links) => {
+            links.forEach(result => {
+              expect(result.statusCode).to.eql(200)
+            })
+          })
+          .catch(err => {
+            throw err
+          })
+      })
+
+      it('should have no accessibility errors', function () {
+        return checkAccessibility(url)
+          .catch(() => {
+            throw Error('Accessibility fails')
+          })
+      })
     })
   })
 })

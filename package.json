@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp",
     "lint": "standard",
-    "test": "mocha --timeout 10000"
+    "test": "PORT=8080 mocha --timeout 10000 --exit"
   },
   "repository": {
     "type": "git",

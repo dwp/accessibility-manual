@@ -83,7 +83,7 @@ app.listen(port, (err) => {
   if (err) {
     throw err
   } else {
-    console.log('Listening on port 3000 url: http://localhost:3000')
+    console.log(`Listening on port ${port} url: http://localhost:${port}`)
   }
 })
 

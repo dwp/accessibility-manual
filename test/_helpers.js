@@ -1,6 +1,6 @@
 const got = require('got')
 const cheerio = require('cheerio')
-const prefix = `http://localhost:${process.env.AXEPORT || 3000}`
+const prefix = `http://localhost:${process.env.PORT || 3000}`
 
 function buildPageLinks (page) {
   // Create a new set ready to be populateds
