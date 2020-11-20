@@ -38,6 +38,24 @@ function checkTheH1 (page) {
   })
 }
 
+function checkForContent (page) {
+  // Returns a new promise
+  return new Promise((resolve, reject) => {
+    // Creates a fake DOM using the HTML from the page body
+    const $ = cheerio.load(page.body)
+    // Gets any P elements
+    const $p = $('main').find('p')
+    // Checks if it found paragraphs
+    if ($p.length > 0) {
+      return resolve($.length)
+    // If it found no paragraphs
+    } else {
+      // Rejects with a new error
+      return reject(Error('No P tags on page'))
+    }
+  })
+}
+
 function checkBrokenLinks (page) {
   // Adds a new set to the page attributes from the builtPageLinks function
   // The set will be a promise chain once the links have been built
@@ -62,5 +80,6 @@ module.exports = {
   loadThePage,
   checkBrokenLinks,
   checkTheH1,
+  checkForContent,
   checkAccessibility
 }

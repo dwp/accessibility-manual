@@ -35,6 +35,19 @@ urls.forEach(pageTest => {
         })
     })
 
+    it('should have content (p tags)', function () {
+      // Feed the page variable into the test
+      return common.checkForContent(page)
+        .then(numberOfPs => {
+          // Expect the number of P's to be more than 0
+          expect(numberOfPs).to.be.greaterThan(0)
+        })
+        .catch(err => {
+          // If the test does not pass throw an error
+          throw err
+        })
+    })
+
     it('should have no broken links on the page', function () {
       // Feed the page variable into the test
       return common.checkBrokenLinks(page)
