@@ -1,4 +1,4 @@
-# {Accessibility testing} Manual testing
+# {Accessibility testing:} Manual testing
 
 Manual accessibility testing is essential to make sure your website is accessible. 
 
