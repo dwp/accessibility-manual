@@ -8,8 +8,6 @@ urls.add({ title: 'Accessibility statement', url: `${testURL}/accessibility-stat
 urls.add({ title: 'Sitemap', url: `${testURL}/sitemap` })
 urls.add({ title: 'Privacy policy', url: `${testURL}/privacy-policy` })
 
-console.log(urls)
-
 urls.forEach(pageTest => {
   // Output which page is being checked
   describe(pageTest.title, function () {
