@@ -15,9 +15,9 @@
   "author": "Craig Abbott",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dwp/accessibility-manual"
+    "url": "https://www.accessibilitymanual.com"
   },
-  "homepage": "https://github.com/dwp/accessibility-manual#readme",
+  "homepage": "https://www.accessibilitymanual.com",
   "engines": {
     "node": "12.13.1"
   },
