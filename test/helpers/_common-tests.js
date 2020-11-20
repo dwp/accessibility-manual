@@ -45,13 +45,17 @@ function checkForContent (page) {
     const $ = cheerio.load(page.body)
     // Gets any P elements
     const $p = $('main').find('p')
+    const $ul = $('main').find('ul')
     // Checks if it found paragraphs
     if ($p.length > 0) {
-      return resolve($.length)
-    // If it found no paragraphs
+      return resolve(true)
+      // Else if - Checks if it found lists
+    } else if ($ul.length > 0) {
+      return resolve(true)
+      // If it found no paragraphs or lists
     } else {
       // Rejects with a new error
-      return reject(Error('No P tags on page'))
+      return reject(Error('No paragraphs or lists on page'))
     }
   })
 }

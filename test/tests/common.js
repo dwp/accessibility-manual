@@ -1,8 +1,14 @@
-const { getNavURLs } = require('../helpers/_helpers')
+const { getNavURLs, testURL } = require('../helpers/_helpers')
 const common = require('../helpers/_common-tests')
 const { expect } = require('chai')
 
 const urls = getNavURLs()
+// Add footer links to the tests
+urls.add({ title: 'Accessibility statement', url: `${testURL}/accessibility-statement` })
+urls.add({ title: 'Sitemap', url: `${testURL}/sitemap` })
+urls.add({ title: 'Privacy policy', url: `${testURL}/privacy-policy` })
+
+console.log(urls)
 
 urls.forEach(pageTest => {
   // Output which page is being checked
@@ -35,12 +41,12 @@ urls.forEach(pageTest => {
         })
     })
 
-    it('should have content (p tags)', function () {
+    it('should have page content', function () {
       // Feed the page variable into the test
       return common.checkForContent(page)
-        .then(numberOfPs => {
-          // Expect the number of P's to be more than 0
-          expect(numberOfPs).to.be.greaterThan(0)
+        .then(contentExists => {
+          // Expect the number of P's or lists to be more than 0
+          expect(contentExists).to.eql(true)
         })
         .catch(err => {
           // If the test does not pass throw an error
