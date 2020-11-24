@@ -1,7 +1,7 @@
 {# If the page is a section overview put the nav on the page #}
 {% if params.pageId === params.sectionId %}
   <div class="app-pane__subnav-mobile-overview govuk-!-padding-top-4">
-    <nav class="govuk-!-padding-bottom-6">
+    <nav class="govuk-!-padding-bottom-6" role="navigation">
 
       {# Loop through all the nav items #}
       {% for item in params.navItems %}
