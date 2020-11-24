@@ -21,8 +21,10 @@ To run the server (defaults to localhost:3000):
 ### Test suite
 The test will run a series of checks on each page. Before submitting a pull request you should run the test suite as your code will not be accepted with failing tests.
 
+The test suite uses a combination of [Selenium Webdriver](https://www.npmjs.com/package/selenium-webdriver) to check page content, and [Got](https://www.npmjs.com/package/got) to check broken links. It can be time consuming to test every link for a 200 response so be patient. Expect each page to take up to 1 minute to test.
+
 The tests will check check that each page has:
-- loaded with a 200 response
+- loaded
 - a H1, but not more than one
 - content on the page
 - no broken links
