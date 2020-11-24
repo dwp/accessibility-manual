@@ -28,9 +28,11 @@
 
             {# Output the section header if it's not blank #}
 						{% if pageSubsection.sectionHeading !== '' %}
-							<h4 class="app-mobile-nav__theme">
-								{{pageSubsection.sectionHeading}}
-							</h4>
+							<li>
+								<h4 class="app-mobile-nav__theme">
+									{{pageSubsection.sectionHeading}}
+								</h4>
+							</li>
 						{% endif %}
 
 						{# Loop through the pages for this section #}
