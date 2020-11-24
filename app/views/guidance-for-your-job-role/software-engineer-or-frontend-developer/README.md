@@ -14,7 +14,7 @@ By using existing libraries and frameworks such as GOV.UK Frontend and DWP CASA,
 
 You will need to work closely with [interaction designers](/guidance-for-your-job-role/interaction-designer) and [content designers](/guidance-for-your-job-role/content-designer) to make sure things like hover states, error messages and hidden text are considered.
 
-You will also want to work with [QA Testers](guidance-for-your-job-role/qa-tester) to make sure automated processes are in place for checking things with tools like aXe and putting in place accessibility criteria are part of your definition of done.
+You will also want to work with [QA Testers](/guidance-for-your-job-role/qa-tester) to make sure automated processes are in place for checking things with tools like aXe and putting in place accessibility criteria are part of your definition of done.
 
 <h2>Things to consider <span class="govuk-visually-hidden">as a Software Engineer or Frontend Developer</span></h2>
 

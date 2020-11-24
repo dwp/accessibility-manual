@@ -196,7 +196,7 @@
                 { "title": "Correct roles", "id": "correct-roles" },
                 { "title": "DWP CASA Framework", "id": "dwp-casa-framework" },
                 { "title": "Existing patterns and components", "id": "existing-patterns-and-components" },
-                { "title": "GOV.UK Frontend", "id": "govuk-frontend" },
+                { "title": "GOV.UK Frontend", "id": "gov-uk-frontend" },
                 { "title": "Heading hierarchy", "id": "heading-hierarchy" },
                 { "title": "Inputs and labels", "id": "inputs-and-labels" },
                 { "title": "Keyboard focus", "id": "keyboard-focus" },
