@@ -32,22 +32,39 @@
 								<h4 class="app-mobile-nav__theme">
 									{{pageSubsection.sectionHeading}}
 								</h4>
+								<ul class="app-mobile-nav__list">
+									{# Loop through the pages for this section #}
+									{% for subItem in pageSubsection.subsections %}
+
+										{# Work out if the page is the page currently being viewed #}
+										{% set currentPage = (subItem.id === params.pageId) %}
+
+										{# Add the page into list and set it to have the current class if it is currently being viewed #}
+										<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
+											<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
+												{{subItem.title}}
+											</a>
+										</li>
+									{% endfor %}
+								</ul>
 							</li>
+						{% else %}
+							{# Loop through the pages for this section #}
+							{% for subItem in pageSubsection.subsections %}
+
+								{# Work out if the page is the page currently being viewed #}
+								{% set currentPage = (subItem.id === params.pageId) %}
+
+								{# Add the page into list and set it to have the current class if it is currently being viewed #}
+								<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
+									<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
+										{{subItem.title}}
+									</a>
+								</li>
+							{% endfor %}
 						{% endif %}
 
-						{# Loop through the pages for this section #}
-						{% for subItem in pageSubsection.subsections %}
-
-							{# Work out if the page is the page currently being viewed #}
-							{% set currentPage = (subItem.id === params.pageId) %}
-
-							{# Add the page into list and set it to have the current class if it is currently being viewed #}
-							<li class="app-mobile-nav__subnav-item{{' app-mobile-nav__subnav-item--current' if currentPage}}">
-								<a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="{{subItem.link}}">
-									{{subItem.title}}
-								</a>
-							</li>
-						{% endfor %}
+						
 					{% endfor %}
 				</ul>
 			</li>
