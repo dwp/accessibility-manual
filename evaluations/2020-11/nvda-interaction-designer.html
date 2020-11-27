@@ -1,0 +1,837 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NVDA Test from 25 November 2020 - Interaction Designer - DWP Accessibility Manual</title>
+    <meta name="description" content="NVDA Test from 25 November 2020 - DWP Accessibility Manual">
+    <style>
+      html{font-family:sans-serif;font-size:1em;padding:0;margin:0}body{padding:0;margin:0}main{position:relative}h1{font-size:3rem}h2{font-size:2.25rem}h3{font-size:1.5rem}h4{font-size:1.1875rem}a,dd,dl,dt,li,p,span{font-size:1.1875rem}footer{margin-top:5rem}nav,section{margin-bottom:3rem;padding-bottom:2rem;border-bottom:1px solid #a7a7a7}a:focus{outline:3px solid transparent;color:#0b0c0c;background-color:#fd0;box-shadow:0 -2px #fd0,0 4px #0b0c0c;text-decoration:none}section:last-of-type{border:0;padding-bottom:0}.at-skip-link{position:absolute;width:1px;height:1px;margin:0;overflow:hidden;clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);white-space:nowrap;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:block;padding:10px 15px}.at-container{width:100%;max-width:660px;margin:auto}.at-keys{font-family:monospace;color:#c74424;background-color:#fdf4f2;padding-left:.5em;padding-right:.5em}dl.at-inline dd{display:inline;margin:0}dl.at-inline dd:after{display:block;content:''}dl.at-inline dt{font-weight:700;display:inline-block;min-width:6rem}.at-back-to-top__icon{padding-right:.5rem}@media screen and (min-width:1080px){.at-back-to-top{position:absolute;top:120vh;bottom:0;left:-10rem;padding:0}.at-back-to-top__link{position:-webkit-sticky;position:sticky;top:90vh;padding:0}}.at-visually-hidden{position:absolute;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0;white-space:nowrap}
+    </style>
+  </head>
+
+  <body id="top">
+    <a class="at-skip-link" href="#main">
+      Skip to main content
+    </a>
+    <div class="at-container">
+      <header role="banner">
+        <h1 id="nvda-testing">
+          NVDA Testing
+        </h1>
+
+        <h2 id="details">
+          Details
+        </h2>
+        <dl class="at-inline">
+          <dt>Site:</dt><dd><a href="https://www.accessibilitymanual.com">www.accessibilitymanual.com</a></dd>
+          <dt>Page:</dt><dd><a href="https://www.accessibilitymanual.com/guidance-for-your-job-role/interaction-designer">/guidance-for-your-job-role/interaction-designer</a></dd>
+          <dt>Date:</dt><dd>25 November 2020</dd>
+          <dt>Tester:</dt><dd><a href="https://github.com/abbott567">Craig Abbott</a></dd>
+          <dt>Browser:</dt><dd>Chrome 87</dd>
+          <dt>NVDA:</dt><dd>Version 2020</dd>
+        </dl>
+
+        <h2 id="about-this-document">
+          About this document
+        </h2>
+        <p>
+          This NVDA test is designed to test whether your website or service is likely to work using common functions of the NVDA screenreader. It will not tell you if your service will work for every user, but it will help you get an understanding as to how well you can expect your service to work for NVDA users.
+        </p>
+        <p>
+          You should also test your service with real users of NVDA and other assistive technologies.
+        </p>
+      </header>
+
+      <nav role="navigation">
+        <h2 id="tests">
+          Navigation
+        </h2>
+        <ul>
+          <li><a href="#read-all-page-content">Read all page content</a></li>
+          <li><a href="#element-list">Element list</a></li>
+          <li><a href="#landmarks-present">Landmarks present</a></li>
+          <li><a href="#dynamic-content">Dynamic content</a></li>
+          <li><a href="#validation-errors">Validation errors</a></li>
+          <li><a href="#page-title-is-descriptive">Page title is descriptive</a></li>
+          <li><a href="#links-make-sense-out-of-context">Links make sense out of context</a></li>
+          <li><a href="#no-automatic-change-of-context">No automatic change of context</a></li>
+          <li><a href="#bypass-blocks">Bypass blocks</a></li>
+          <li><a href="#navigate-by-landmarks">Navigate by landmarks</a></li>
+          <li><a href="#navigate-by-headings">Navigate by headings</a></li>
+          <li><a href="#navigate-by-links">Navigate by links</a></li>
+          <li><a href="#navigate-by-lists">Navigate by lists</a></li>
+          <li><a href="#navigate-by-buttons">Navigate by buttons</a></li>
+          <li><a href="#navigate-by-radio-buttons">Navigate by radio buttons</a></li>
+          <li><a href="#navigate-by-combo-box-drop-downs">Navigate by combo box (drop downs)</a></li>
+          <li><a href="#navigate-by-checkbox">Navigate by checkbox</a></li>
+          <li><a href="#navigate-by-form-element">Navigate by form element</a></li>
+          <li><a href="#navigate-by-table">Navigate by table</a></li>
+        </ul>
+      </nav>
+
+      <main id="main" role="main">
+        <section aria-describedby="read-all-page-content">
+          <h2 id="read-all-page-content">
+            Read all page content
+          </h2>
+          <p>
+            Confirm that the content on the page can be read by NVDA and that the navigation and page content follow a logical reading order.
+          </p>
+
+          <h3 id="how-to-check-read-all-page-content">
+            How to check<span class="at-visually-hidden">: Read all page content</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to go to the top of the page</li>
+            <li>Press <span class="at-keys">Insert + Down Arrow</span> to read all content from current position</li>
+            <li>Listen to all of the page content</li>
+          </ol>
+
+          <h3 id="what-to-check-read-all-page-content">
+            What to check<span class="at-visually-hidden">: Read all page content</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>all content is read out correctly</li>
+              <li>all content follows a logical reading order</li>
+              <li>the context is consistent between what is visible and what is read out</li>
+              <li>content is not repeated; unless the repeated content is intentional in the design</li>
+              <li>icons are read out in a meaningful way</li>
+              <li>images have meaningful alternative text</li>
+              <li>content does not rely on sensory characteristics, for example: "On the left"</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-read-all-page-content">
+            Observations<span class="at-visually-hidden">: Read all page content</span>
+          </h3>
+          <ul>
+            <li>
+              NVDA reads out "dot" for a full stop which immediately follows a link. Doesn't feel like a barrier, but can sound a bit weird.
+            </li>
+            <li>
+              The code examples are jarring as it just starts reading it out with no context. The code examples should have some kind of warning so the user knows it is code that is being read out.
+            </li>
+          </ul>
+        </section>
+
+        <section aria-describedby="element-list">
+          <h2 id="element-list">
+            Element list
+          </h2>
+          <p>
+            Confirm elements list is comprehensive.
+          </p>
+
+          <h3 id="how-to-check-element-list">
+            How to check<span class="at-visually-hidden">: Element list</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">Insert + F7</span> to display the "Element list"</li>
+            <li>Navigate between the sections and check that what is on the page is reflected correctly</li>
+          </ol>
+
+          <h3 id="what-to-check-element-list">
+            What to check<span class="at-visually-hidden">: Element list</span>
+          </h3>
+          <p>
+            Confirm that for each element in each category, it is read our correctly and can be interacted with.
+          </p>
+
+          <h3 id="observations-element-list">
+            Observations<span class="at-visually-hidden">: Element list</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="landmarks-present">
+          <h2 id="landmarks-present">
+            Landmarks present
+          </h2>
+          <p>
+            Confirm the page has semantic landmarks.
+          </p>
+
+          <h3 id="how-to-check-landmarks-present">
+            How to check<span class="at-visually-hidden">: Landmarks present</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">Insert + F7</span> to display the "Element list"</li>
+            <li>Select "Landmarks"</li>
+            <li>Check each landmark in the Element list</li>
+          </ol>
+
+          <h3 id="what-to-check-landmarks-present">
+            What to check<span class="at-visually-hidden">: Landmarks present</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>landmarks make sense and their role is accurate.</li>
+              <li>the page has a header landmark (banner).</li>
+              <li>the page has a footer landmark (contentinfo).</li>
+              <li>the page has a main landmark.</li>
+              <li>any aside landmarks are not contained inside another top level landmark such as the main.</li>
+              <li>any additional header and footers do not have the role of banner and contentinfo. For example an article header.</li>
+              <li>regions have not been incorrectly used to contain content that should otherwise be inside a named landmark.</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-landmarks-present">
+            Observations<span class="at-visually-hidden">: Landmarks present</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="dynamic-content">
+          <h2 id="dynamic-content">
+            Dynamic content
+          </h2>
+          <p>
+            Pop-ups, modals and expanded sections should be announced. Anything which causes the page content to change without refreshing must be available to screenreader users.
+          </p>
+
+          <h3 id="how-to-check-dynamic-content">
+            How to check<span class="at-visually-hidden">: Dynamic content</span>
+          </h3>
+          <ol>
+            <li>Activate the element which triggers the dynamic content to change</li>
+            <li>Wait for the screen reader to finish talking</li>
+            <li>Observe whether the changes were announced</li>
+          </ol>
+
+          <h3 id="what-to-check-dynamic-content">
+            What to check<span class="at-visually-hidden">: Dynamic content</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>when content changed dynamically the screenreader notifies you of changes</li>
+              <li>the announcement is polite, and does not interrupt the screenreader unless it is an emergency</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-dynamic-content">
+            Observations<span class="at-visually-hidden">: Dynamic content</span>
+          </h3>
+          <p>
+            There is no dynamic content on the page.
+          </p>
+        </section>
+
+        <section aria-describedby="validation-errors">
+          <h2 id="validation-errors">
+            Validation errors
+          </h2>
+          <p>
+            When a form cannot be submitted due to validation errors, those errors should be announced to a screenreader. When a validation error appears on the page, make sure it is the next thing which is announced and make sure that it makes sense.
+          </p>
+          
+          <h3 id="how-to-check-validation-errors">
+            How to check<span class="at-visually-hidden">: Validation errors</span>
+          </h3>
+          <ol>
+            <li>Fill in a form component incorrectly</li>
+            <li>Progress until the validation error appears</li>
+            <li>Once the error loads, wait for the screen reader to stop talking and observe whether it announced that there was an error</li>
+            <li>Press <span class="at-keys">Insert + T</span> to see if the title announces an error</li>
+            <li>Press <span class="at-keys">F</span> to move through the form fields and see if it obvious which field caused the error</li>
+            <li>Observe whether the field which caused the error explains how to fix it</li>
+          </ol>
+
+          <h3 id="what-to-check-validation-errors">
+            What to check<span class="at-visually-hidden">: Validation errors</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>when validation errors occur, the screenreader announced to the user that there is an error</li>
+              <li>
+                the title of the page changes to indicate there is an error, for example: <span class="at-keys">Error:&nbsp;Your&nbsp;details</span>
+              </li>
+              <li>it is clear from the screenreader which field caused the error and how to fix it</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-validation-errors">
+            Observations<span class="at-visually-hidden">: Validation errors</span>
+          </h3>
+          <p>
+            There are no validation errors to check.
+          </p>
+        </section>
+
+        <section aria-describedby="page-title-is-descriptive">
+          <h2 id="page-title-is-descriptive">
+            Page title is descriptive
+          </h2>
+          <p>
+            The page title should describe the current page, the website name and if it is a sub-site it should contain the parent site. For example:<br />
+            <span class="at-keys">What is your name? - Apply for Universal Credit - GOV.UK</span>
+          </p>
+          <p>
+            With the exception of a home page, the page title should match the H1. For example:<br />
+            <span class="at-keys">h1: What is your name?</span><br />
+            <span class="at-keys">title: What is your name? - Apply for Universal Credit - GOV.UK</span>
+          </p>
+          <p>
+            If the H1 contains personal information, then the H1 should match as closely as possible. If the service is using analytics software, the page title will be sent and stored, so personally identifiable information should never be used in the page title. For example:<br />
+            <span class="at-keys">h1: What is John Smith's date of birth?</span><br />
+            <span class="at-keys">title: What is your partners date of birth?</span>
+          </p>
+
+          <h3 id="how-to-check-page-title-is-descriptive">
+            How to check<span class="at-visually-hidden">: Page title is descriptive</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">Insert + T</span> to read out the page title</li>
+          </ol>
+
+          <h3 id="what-to-check-page-title-is-descriptive">
+            What to check<span class="at-visually-hidden">: Page title is descriptive</span>
+          </h3>
+          <p>Confirm that:</p>
+          <ul>
+            <li>the page title describes the page</li>
+            <li>the page title describes the website</li>
+            <li>the page title does not contain personally identifiable information</li>
+            <li>the page title and the h1 match (unless personally identifiable)</li>
+          </ul>
+
+          <h3 id="observations-page-title-is-descriptive">
+            Observations<span class="at-visually-hidden">: Page title is descriptive</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="links-make-sense-out-of-context">
+          <h2 id="links-make-sense-out-of-context">
+            Links make sense out of context
+          </h2>
+          <p>
+            Every link should be predictable, even if the surrounding context is removed. No links should just say 'Read more' or 'click here'.
+          </p>
+          
+          <h3 id="how-to-check-links-make-sense-out-of-context">
+            How to check<span class="at-visually-hidden">: Links make sense out of context</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">Insert + F7</span> to open the Element list</li>
+            <li>Navigate to the links list</li>
+            <li>Check every link</li>
+          </ol>
+
+          <h3 id="what-to-check-links-make-sense-out-of-context">
+            What to check<span class="at-visually-hidden">: Links make sense out of context</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>all links make sense out of context</li>
+              <li>all links work and their destination is expected</li>
+              <li>no links have the same description but different destinations</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-links-make-sense-out-of-context">
+            Observations<span class="at-visually-hidden">: Links make sense out of context</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="no-automatic-change-of-context">
+          <h2 id="no-automatic-change-of-context">
+            No automatic change of context
+          </h2>
+          <p>
+            Unless there is a clear warning that the behaviour of an element has been modified, an element should not cause a change of context unless they receive deliberate input. For example: a form should not submit when you select a checkbox.
+          </p>
+          <p>
+            A change in context means the content you were reading or the task you were busy doing has changed. For example, clicking a link and changing the page.
+          </p>
+
+          <h3 id="how-to-check-no-automatic-change-of-context">
+            How to check<span class="at-visually-hidden">: No automatic change of context</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to go back to the top of the page</li>
+            <li>Press <span class="at-keys">tab</span> to navigate through the interactive elements</li>
+            <li>Press <span class="at-keys">Arrow Keys</span> to navigate through radios and checkboxes</li>
+          </ol>
+
+          <h3 id="what-to-check-no-automatic-change-of-context">
+            What to check<span class="at-visually-hidden">: No automatic change of context</span>
+          </h3>
+          <p>
+            Confirm that one of the following is true:
+            <ul>
+              <li>there is no change in context without using a link or a button</li>
+              <li>there is a clear warning for any modifications which cause a change of context</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-no-automatic-change-of-context">
+            Observations<span class="at-visually-hidden">: No automatic change of context</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="bypass-blocks">
+          <h2 id="bypass-blocks">
+            Bypass blocks
+          </h2>
+          <p>
+            Content which is repeated on multiple pages should have a mechanism which allows the user to skip past it. For example: a skip to main content link.
+          </p>
+
+          <h3 id="how-to-check-bypass-blocks">
+            How to check<span class="at-visually-hidden">: Bypass blocks</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to go to the top of the page</li>
+            <li>Press <span class="at-keys">tab</span> and look for an element which skips over repetitive content such as navigation menus</li>
+          </ol>
+          
+          <h3 id="what-to-check-bypass-blocks">
+            What to check<span class="at-visually-hidden">: Bypass blocks</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>a skip link is present that links to the main content</li>
+              <li>the skip link is the first interactive element on the page</li>
+              <li>any other blocks of repetitive content are also skipped or have their own skip links</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-bypass-blocks">
+            Observations<span class="at-visually-hidden">: Bypass blocks</span>
+          </h3>
+          <p>
+            Skip link present. Links to main content.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-landmarks">
+          <h2 id="navigate-by-landmarks">
+            Navigate by landmarks
+          </h2>
+          <p>
+            A user should be able to navigate the page by landmarks. For example, you should be able to jump between the header to the main content to the footer without having to go through all of the elements contained in each of those sections.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-landmarks">
+            How to check<span class="at-visually-hidden">: Navigate by landmarks</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to go back to the top of the page</li>
+            <li>Press <span class="at-keys">D</span> to move through each landmark</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-landmarks">
+            What to check<span class="at-visually-hidden">: Navigate by landmarks</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every landmark on the page</li>
+              <li>it is obvious which landmark is selected</li>
+              <li>all landmarks are selected in a logical order</li>
+              <li>all important content is contained within a landmark</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-landmarks">
+            Observations<span class="at-visually-hidden">: Navigate by landmarks</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-headings">
+          <h2 id="navigate-by-headings">
+            Navigate by headings
+          </h2>
+          <p>
+            A user should be able to navigate the page by headings.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-headings">
+            How to check<span class="at-visually-hidden">: Navigate by headings</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">H</span> to move through each of the headings on the page</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-headings">
+            What to check<span class="at-visually-hidden">: Navigate by headings</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every heading on the page</li>
+              <li>all headings are read out correctly</li>
+              <li>all headings are selected in a logical order</li>
+              <li>headings levels are correct, for example: a H3 relates to the previous H2</li>
+              <li>any hidden headings relate to the content which follows it</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-headings">
+            Observations<span class="at-visually-hidden">: Navigate by headings</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-links">
+          <h2 id="navigate-by-links">
+            Navigate by links
+          </h2>
+          <p>
+            A user should be able to navigate the page by links.
+          </p>
+          
+          <h3 id="how-to-check-navigate-by-links">
+            How to check<span class="at-visually-hidden">: Navigate by links</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">K</span> to move through each of the links on the page</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-links">
+            What to check
+          </h3>
+          <p>
+            Confirm that:<span class="at-visually-hidden">: Navigate by links</span>
+            <ul>
+              <li>you can navigate to every link on the page</li>
+              <li>all links are read out correctly</li>
+              <li>all links are selected in a logical order</li>
+              <li>no hidden links can be selected, skip links should appear when focussed</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-links">
+            Observations<span class="at-visually-hidden">: Navigate by links</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-list">
+          <h2 id="navigate-by-lists">
+            Navigate by lists
+          </h2>
+
+          <p>
+            A user should be able to navigate the page by lists.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-lists">
+            How to check<span class="at-visually-hidden">: Navigate by lists</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">L</span> to move through each of the lists on the page</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-lists">
+            What to check<span class="at-visually-hidden">: Navigate by lists</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every list on the page</li>
+              <li>all lists are read out correctly</li>
+              <li>all lists are selected in a logical order</li>
+              <li>any hidden lists add value and do not cause confusion</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-lists">
+            Observations<span class="at-visually-hidden">: Navigate by lists</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-buttons">
+          <h2 id="navigate-by-buttons">
+            Navigate by buttons
+          </h2>
+          <p>
+            A user should be able to navigate the page by buttons.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-buttons">
+            How to check<span class="at-visually-hidden">: Navigate by buttons</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">B</span> to move through each of the buttons on the page</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-buttons">
+            What to check<span class="at-visually-hidden">: Navigate by buttons</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every button on the page</li>
+              <li>all button text is read out correctly</li>
+              <li>all buttons are selected in a logical order</li>
+              <li>no hidden buttons can be selected</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-buttons">
+            Observations<span class="at-visually-hidden">: Navigate by buttons</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-radio-buttons">
+          <h2 id="navigate-by-radio-buttons">
+            Navigate by radio buttons
+          </h2>
+          <p>
+            A user should be able to navigate the page by radio buttons.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-radio-buttons">
+            How to check<span class="at-visually-hidden">: Navigate by radio buttons</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">R</span> to move through each of the radio buttons on the page</li>
+            <li>Press <span class="at-keys">Arrow Keys</span> to move through each of the radio buttons in a group</li>
+            <li>Press <span class="at-keys">Space</span> to check and uncheck each radio button</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-radio-buttons">
+            What to check<span class="at-visually-hidden">: Navigate by radio buttons</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every radio button on the page</li>
+              <li>you can navigate to every radio button in each group</li>
+              <li>you can check and uncheck each radio button</li>
+              <li>whenever a radio button is checked it is announced</li>
+              <li>whenever a radio button is unchecked it is announced</li>
+              <li>all radio button labels are read out correctly</li>
+              <li>all radio buttons are navigated in a logical order</li>
+              <li>no hidden radio buttons can be selected</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-radio-buttons">
+            Observations<span class="at-visually-hidden">: Navigate by radio buttons</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-combo-box-drop-downs">
+          <h2 id="navigate-by-combo-box-drop-downs">
+            Navigate by combo box (drop-downs)
+          </h2>
+          <p>
+            A user should be able to navigate the page by combo boxes. A combo box can also be known as a drop-down list or a select element.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-combo-box-drop-downs">
+            How to check<span class="at-visually-hidden">: Navigate by combo box (drop downs)</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">C</span> to move through each of the combo boxes on the page</li>
+            <li>Press <span class="at-keys">Return</span> to bind NVDA controls to a combo box</li>
+            <li>Press <span class="at-keys">Return</span> again open the combo box</li>
+            <li>Press <span class="at-keys">Down Arrow Key</span> to move through the options</li>
+            <li>Press <span class="at-keys">Return</span> to select an option</li>
+            <li>Press <span class="at-keys">Escape</span> to unbind NVDA controls</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-combo-box-drop-downs">
+            What to check<span class="at-visually-hidden">: Navigate by combo box (drop downs)</span>
+          </h3>
+          <p>
+            Confirm that:
+          </p>
+          <ul>
+            <li>you can navigate to every combo box on the page</li>
+            <li>you can navigate to every option in each combo box</li>
+            <li>all combo boxes have a label which makes sense</li>
+            <li>you can select every option in each combo box</li>
+            <li>all combo box options read out correctly</li>
+            <li>all combo boxes are navigated in a logical order</li>
+            <li>no hidden combo boxes can be selected</li>
+          </ul>
+
+          <h3 id="observations-navigate-by-combo-box-drop-downs">
+            Observations<span class="at-visually-hidden">: Navigate by combo box (drop downs)</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-checkbox">
+          <h2 id="navigate-by-checkbox">
+            Navigate by checkbox
+          </h2>
+          <p>
+            A user should be able to navigate the page by checkboxes.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-checkbox">
+            How to check<span class="at-visually-hidden">: Navigate by checkbox</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">X</span> to move through each of the checkboxes on the page</li>
+            <li>Press <span class="at-keys">Arrow Keys</span> to move through each of the checkboxes in a group</li>
+            <li>Press <span class="at-keys">Space</span> to check and uncheck each checkbox</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-checkbox">
+            What to check<span class="at-visually-hidden">: Navigate by checkbox</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every checkbox on the page</li>
+              <li>you can navigate to every checkbox in each group</li>
+              <li>you can check and uncheck each checkbox</li>
+              <li>whenever a checkbox is checked it is announced</li>
+              <li>whenever a checkbox is unchecked it is announced</li>
+              <li>all checkbox labels are read out correctly</li>
+              <li>all checkbox are navigated in a logical order</li>
+              <li>no hidden checkbox can be selected</li>
+            </ul>
+          </p>
+          
+          <h3 id="observations-navigate-by-checkbox">
+            Observations<span class="at-visually-hidden">: Navigate by checkbox</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-form-element">
+          <h2 id="navigate-by-form-element">
+            Navigate by form element
+          </h2>
+          <p>
+            A user should be able to navigate the page by form elements. This includes radio buttons, checkboxes, text fields etc.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-element">
+            How to check<span class="at-visually-hidden">: Navigate by form element</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">F</span> to move through each of the form elements on the page</li>
+          </ol>
+          
+          <h3 id="what-to-check-navigate-by-element">
+            What to check<span class="at-visually-hidden">: Navigate by form element</span>
+          </h3>
+          <p>
+            Confirm that:
+            <ul>
+              <li>you can navigate to every form element on the page</li>
+              <li>all form elements are read out correctly</li>
+              <li>all form elements are selected in a logical order</li>
+              <li>no hidden form elements can be selected</li>
+            </ul>
+          </p>
+
+          <h3 id="observations-navigate-by-element">
+            Observations<span class="at-visually-hidden">: Navigate by form element</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <section aria-describedby="navigate-by-table">
+          <h2 id="navigate-by-table">
+            Navigate by table
+          </h2>
+          <p>
+            A user should be able to navigate the page by tables.
+          </p>
+
+          <h3 id="how-to-check-navigate-by-table">
+            How to check<span class="at-visually-hidden">: Navigate by table</span>
+          </h3>
+          <ol>
+            <li>Press <span class="at-keys">CTRL + Home</span> to navigate to the top of the page</li>
+            <li>Press <span class="at-keys">T</span> to move through each of the form elements on the page</li>
+            <li>Hold <span class="at-keys">CTRL + Alt</span> and use <span class="at-keys">Arrow Keys</span> to navigate between the columns and rows</li>
+          </ol>
+
+          <h3 id="what-to-check-navigate-by-table">
+            What to check<span class="at-visually-hidden">: Navigate by table</span>
+          </h3>
+          <p>
+            Confirm that:
+          </p>
+          <ul>
+            <li>you can navigate to every table on the page</li>
+            <li>all tables are selected in a logical order</li>
+            <li>all table headings are read out correctly</li>
+            <li>table headings are read out for each cell in the table</li>
+            <li>no hidden tables can be selected</li>
+          </ul>
+          
+          <h3 id="observations-navigate-by-table">
+            Observations<span class="at-visually-hidden">: Navigate by table</span>
+          </h3>
+          <p>
+            No issues found.
+          </p>
+        </section>
+
+        <div class="at-back-to-top">
+          <a class="at-back-to-top__link" href="#top">
+            <svg aria-hidden="true" focusable="false" class="at-back-to-top__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17">
+              <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
+            </svg>Back to top
+          </a>
+        </div>
+      </main>
+      
+      <footer role="contentinfo">
+        <a href="https://github.com/dwp/assistive-technology-testing-templates">
+          DWP NVDA Testing Template version 1.0
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
