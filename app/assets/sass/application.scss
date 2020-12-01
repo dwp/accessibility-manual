@@ -4,6 +4,9 @@
 // Override GOVUK Colour variables
 @import "../../assets/sass/overrides/dwp-colour-palette";
 
+// Override Transport font
+@import "../../assets/sass/overrides/app-font";
+
 // Import GOV.UK Frontend
 @import "node_modules/govuk-frontend/govuk/all";
 
@@ -18,5 +21,3 @@
 @import "../../assets/sass/overrides/app-mobile-navigation";
 @import "../../assets/sass/overrides/app-subnav";
 
-// Override GOVUK Frontend Styles
-@import "../../assets/sass/overrides/govuk-tag";
