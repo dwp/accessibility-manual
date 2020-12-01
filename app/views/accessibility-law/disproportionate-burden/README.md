@@ -6,8 +6,7 @@ Disproportionate burden means that making your website or mobile application com
 
 You cannot claim disproportionate burden if your organisation has simply not allocated time, budget or resources towards accessibility compliance.
 
-It is important to note that you cannot simply decide the burden is disproportionate. A thorough and transparent report will need to be conducted including financial figures and the impact it would have on 
-your users. Any report would need to be signed off by a legal professional to make sure it is lawful and aligns with the legislation.
+It is important to note that you cannot simply decide the burden is disproportionate. A thorough and transparent report will need to be conducted including financial figures and the impact it would have on your users. Any report would need to be signed off by a legal professional to make sure it is lawful and aligns with the legislation.
 
 Any disproportionate burden assessment will need to be reviewed annually and will be open to freedom of information requests.
 
