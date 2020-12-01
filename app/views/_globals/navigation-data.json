@@ -476,7 +476,15 @@
       "subsections": [
         {
           "sectionHeading": "",
-          "subsections": []
+          "subsections": [
+            {
+              "title": "Accessibility Principles",
+              "id": "accessibility-principles",
+              "link": "/community/accessibility-principles",
+              "sectionId": "accessibility-principles",
+              "subsections": []
+            }
+          ]
         }
       ]
     }
