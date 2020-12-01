@@ -12,7 +12,7 @@ const password = process.env.PASSWORD
 
 router.use(function (req, res, next) {
   const basicAuth = require('basic-auth')
-  if (useAuth) {
+  if (useAuth === 'true') {
     if (env === 'production' && useAuth === true) {
       if (!username || !password) {
         console.error('Username or password is not set.')
