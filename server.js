@@ -7,6 +7,16 @@ const nunjucks = require('nunjucks')
 const markdown = require('nunjucks-markdown')
 const marked = require('marked')
 const fileHelper = require('./app/utils/file-helper')
+const forceHttps = require('./app/utils/force-https')
+
+// Application
+const app = express()
+
+// Force https in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(forceHttps)
+  app.set('trust proxy', 1) // needed for secure cookies on heroku
+}
 
 // Routing
 const routes = require('./app/routes/index')
@@ -14,9 +24,6 @@ const autoRoutes = require('./app/routes/auto')
 
 // Port
 const port = process.env.PORT || 3000
-
-// Application
-const app = express()
 
 // Setup application
 const appViews = [
