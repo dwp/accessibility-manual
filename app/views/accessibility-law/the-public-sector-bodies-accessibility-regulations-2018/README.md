@@ -35,6 +35,5 @@ They apply to any software or hardware bought or built by a public sector body i
 
 ## What counts as a website?
 
-Sometimes there is confusion between what is a website or a computer programme. 
-For the purposes of the legislation, a website is anything which runs in 
-a web browser.
+Sometimes there is confusion between what is a website or a computer program. 
+For the purposes of the legislation, a website is anything which runs in a web browser.
