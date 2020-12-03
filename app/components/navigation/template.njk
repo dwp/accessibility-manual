@@ -9,7 +9,7 @@
       
       {# Output the high level nav and set it to have the current class if it is currently being viewed #}
       <li class="app-navigation__list-item{{ ' app-navigation__list-item--current' if current }}">
-        <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="{{item.link}}" data-topnav="{{item.title}}" {{ ' aria-current="page"' if item.selected}}>
+        <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="{{item.link}}" data-topnav="{{item.title}}"{% if current %} 'aria-current="page"'{% endif%}>
           {{item.title}}
         </a>
       </li>
