@@ -6,7 +6,7 @@ This doesn't cover fundamentals such [1.4.1 Use of Color](https://www.w3.org/WAI
 
 ## 2.2.1 Timing Adjustable (A)
 
-There are several ways we can meet these criteria.
+There are several ways we can meet this criteria.
 
 Most commonly we will use a [session time out](https://github.com/alphagov/govuk-design-system-backlog/issues/104) pattern to allow the user to extend.
 
@@ -20,7 +20,9 @@ There may be cases where a real-time event such as two-factor authentication whe
 
 ## 3.3.4 Error Prevention (Legal, Financial, Data)
 
-Following good practices for development means we should be validating the user input page by page and giving feedback to the user on how to correct any issues such as format using the [error messages](https://design-system.service.gov.uk/components/error-message/) pattern, however mostly we will not be asserting this data is correct.
+Following good practices for development means we should be validating the user input page by page and giving feedback to the user on how to correct any issues such as format using the [error messages](https://design-system.service.gov.uk/components/error-message/) pattern.
+
+However, the data can pass validation and still not be correct so we still need to give the user the option to check it.
 
 We recommend using the [check answers](https://design-system.service.gov.uk/patterns/check-answers/) pattern to give the user the opportunity to review and correct what they have inputted.
 
