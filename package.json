@@ -1,5 +1,5 @@
 {
-  "name": "dwp-design-system",
+  "name": "accessibility-manual",
   "version": "1.0.0-alpha",
   "description": "DWP Accessibility Manual",
   "main": "index.njk",
@@ -15,9 +15,9 @@
   "author": "Craig Abbott",
   "license": "MIT",
   "bugs": {
-    "url": "https://www.accessibilitymanual.com"
+    "url": "https://accessibility-manual.dwp.gov.uk"
   },
-  "homepage": "https://www.accessibilitymanual.com",
+  "homepage": "https://accessibility-manual.dwp.gov.uk",
   "engines": {
     "node": "12.13.1"
   },

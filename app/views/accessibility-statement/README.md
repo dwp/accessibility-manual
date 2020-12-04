@@ -1,6 +1,6 @@
 # Accessibility statement
 
-This accessibility statement applies to the DWP Accessibility Manual at [www.accessibilitymanual.com](/) .
+This accessibility statement applies to the DWP Accessibility Manual at [accessibility-manual.dwp.gov.uk](/) .
 
 This website is run by DWP. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
