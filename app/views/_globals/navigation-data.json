@@ -267,6 +267,13 @@
           "sectionHeading": "Design and development",
           "subsections": [
             {
+              "title": "Building frontends",
+              "id": "building-frontends",
+              "link": "/best-practice/building-frontends",
+              "sectionId": "best-practice",
+              "subsections": []
+            },
+            {
               "title": "Designing screens",
               "id": "designing-screens",
               "link": "/best-practice/designing-screens",
@@ -274,9 +281,9 @@
               "subsections": []
             },
             {
-              "title": "Building frontends",
-              "id": "building-frontends",
-              "link": "/best-practice/building-frontends",
+              "title": "Service features",
+              "id": "service-features",
+              "link": "/best-practice/service-features",
               "sectionId": "best-practice",
               "subsections": []
             },
