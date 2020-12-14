@@ -7,7 +7,7 @@ const { By } = require('selenium-webdriver')
 // Function to check all broken links
 async function checkBrokenLinks (driver) {
   // Find all the anchor tags on the page
-  const linkElements = await driver.findElements(By.tagName('a'))
+  const linkElements = await driver.findElements(By.css('a'))
   // Run this function on each link
   await asyncForEach(linkElements, async function (linkElements) {
     // Get the href and the link text
@@ -31,7 +31,7 @@ async function checkBrokenLinks (driver) {
 }
 async function checkH1 (driver) {
   // Find all the elements which are H1's
-  const h1Element = await driver.findElements(By.tagName('h1'))
+  const h1Element = await driver.findElements(By.css('h1'))
   const numberOfH1s = h1Element.length
   // Expect there to be exactly 1 on the page
   expect(numberOfH1s).to.eql(1)
