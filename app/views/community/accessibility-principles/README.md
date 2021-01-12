@@ -14,7 +14,7 @@ Anything can be made accessible, but complexity takes time and effort.
 Do not consider something finished until you are sure it is accessible. Accessibility is not a choice, it is law. It is always a priority, and if you neglect it you will create more work for yourself later.
 
 ## 5. This is _still_ for everyone
-Everything we design should be as inclusive, readable and usable as possible. We are still building for the needs of everyone. We provide services for some of the most vulnerable people in society, not just people who are using the web. 
+Everything we design should be as inclusive, readable and usable as possible. We are still building for the needs of everyone. We provide services for everybody in society, not just people who are using the web.
 
 <div class="govuk-inset-text">
 
