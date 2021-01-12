@@ -10,7 +10,7 @@
 			{# Output section links nav as togglers and set it to have the current class if it is currently being viewed #}
 			<li>
 				<div class="app-mobile-nav-subnav-toggler{{' app-mobile-nav__subnav-toggler--active' if currentSection}}">
-					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.link}}" id="js-mobile-nav-subnav-toggler-0">
+					<a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler" href="{{item.link}}" id="js-mobile-nav-subnav-toggler-{{loop.index}}">
 						{{item.title}}
 					</a>
 				</div>
