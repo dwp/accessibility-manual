@@ -19,7 +19,13 @@ router.get(/^\/([^.]+)$/, function (req, res) {
     if (err) {
       res.render(path + '/index', function (err2, html) {
         if (err2) {
-          res.status(404).send(err + '<br>' + err2)
+          res.render('error.njk', function (err3, html) {
+            if (err3) {
+              res.status(404).send('Page not found');
+            } else {
+              res.end(html);
+            }
+          });
         } else {
           res.end(html)
         }
