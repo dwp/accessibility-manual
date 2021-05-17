@@ -4,7 +4,7 @@ Every page should be tested using voice recognition software. If you're using Ap
 
 #### Voice recognition testing templates
 
-If you're unsure what to test, you can use our [voice recognition testing templates](http://localhost:3000/tools-and-resources/assistive-technology-testing#voice-recognition-testing-templates) to make sure you cover everything which is needed:
+If you're unsure what to test, you can use our [voice recognition testing templates](/tools-and-resources/assistive-technology-testing#voice-recognition-testing-templates) to make sure you cover everything which is needed:
 
 
 #### Common voice recognition software:

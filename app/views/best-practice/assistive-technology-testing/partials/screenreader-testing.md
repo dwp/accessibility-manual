@@ -8,7 +8,7 @@ If you have dynamic content, such as pop-ups or text which expands or collapses,
 
 #### Screen reader testing templates
 
-If you're unsure what to test, you can use our [screen reader testing templates](http://localhost:3000/tools-and-resources/assistive-technology-testing#screen-reader-testing-templates) to make sure you cover everything which is needed:
+If you're unsure what to test, you can use our [screen reader testing templates](/tools-and-resources/assistive-technology-testing#screen-reader-testing-templates) to make sure you cover everything which is needed:
 
 
 #### Common screenreaders:
