@@ -2,6 +2,8 @@
 
 Making the content as easy to understand as possible makes it better for everybody. There are common scenarios where people might benefit from simple content. For example, people where English is not their first language or people who have Dyslexia.
 
+If you want to see how your designs test with assistive technology, you can use our [assistive technology testing templates](/tools-and-resources/assistive-technology-testing)
+
 <h2>Things to consider <span class="govuk-visually-hidden">as a Content Designer</span></h2>
 
 {% include './partials/alternative-text-for-non-text-content.md' %}

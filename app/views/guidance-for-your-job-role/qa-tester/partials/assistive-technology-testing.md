@@ -6,7 +6,9 @@ WCAG 2.1 outlines that websites must be robust and work on a range of assistive 
 
 Some assistive technology requires a licence, but most devices have them built in and you can also get some for free. You can meet the [accessibility regulations](/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018) using these tools, but if you're working to the GOV.UK Service Standard you will need to make sure your service works on very particular technologies. You can [read more about assistive technology testing and the GOV.UK Service Standard](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
 
-#### Screenreaders
+You can use our [assistive technology testing templates](/tools-and-resources/assistive-technology-testing)
+
+#### Common screen reading software
 
 - [Voiceover on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Voiceover on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
@@ -16,14 +18,14 @@ Some assistive technology requires a licence, but most devices have them built i
 - [JAWS by Freedom Scientific](https://www.freedomscientific.com/products/software/jaws/)
 - [Fusion by Freedom Scientific](https://www.zoomtext.com/products/zoomtext-fusion/)
 
-#### Speech recognition
+#### Common voice recognition software
 
 - [Voice Control on Mac](https://www.apple.com/uk/accessibility/mac/mobility/)
 - [Voice Control on iPhone](https://www.apple.com/uk/accessibility/iphone/mobility/)
 - [Speech Recognition on Windows](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-10-83ff75bd-63eb-0b6c-18d4-6fae94050571)
 - [Dragon](https://shop.nuance.co.uk/store/nuanceeu/en_GB/Content/pbPage.home?currency=GBP&pgmid=95401100&utm_source=google&utm_medium=cpc&utm_campaign=EHK-AO-2020-DragonPC_Ecom+/+DBU+/+DPI+/+Dragon+/+-+/+Product+/+UK+-+EN+/+-+/+Exact+/+Desktop&keyword=nuance+dragon-e&gclid=Cj0KCQjw28T8BRDbARIsAEOMBcyn_wR_zdsppdTcsl4isEhZM6BOOR0fpzcjGhdwavDgiOYRoLBwqTkaAm4jEALw_wcB)
 
-#### Screen magnifiers
+#### Common screen magnification software
 
 - [Apple Zoom on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Apple Zoom on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)

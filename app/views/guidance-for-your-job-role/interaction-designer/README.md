@@ -4,6 +4,8 @@ As an Interaction Designer, you play an important part of making sure a service 
 
 Making screens and interactions simple makes things easier for everybody. Overcomplicated designs or using inaccessible design patterns can have a knock-on effect when it's time for developers to code up your designs.
 
+If you want to see how your designs test with assistive technology, you can use our [assistive technology testing templates](/tools-and-resources/assistive-technology-testing)
+
 <h2>Things to consider <span class="govuk-visually-hidden">as an Interaction Designer</span></h2>
 
 {% include './partials/1-thing-per-page.md' %}

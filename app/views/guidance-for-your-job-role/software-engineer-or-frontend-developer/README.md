@@ -10,6 +10,8 @@ By using existing libraries and frameworks such as GOV.UK Frontend and DWP CASA,
   From the [GOV.UK Accessibility statement information](https://design-system.service.gov.uk/accessibility/#using-the-design-system-and-frontend-in-your-service)
 </blockquote>
 
+If you want to see how your code test with assistive technology, you can use our [assistive technology testing templates](/tools-and-resources/assistive-technology-testing)
+
 ## Working with others
 
 You will need to work closely with [interaction designers](/guidance-for-your-job-role/interaction-designer) and [content designers](/guidance-for-your-job-role/content-designer) to make sure things like hover states, error messages and hidden text are considered.
