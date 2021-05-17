@@ -10,7 +10,7 @@ When testing using a screen magnifier, you should make sure that when zooming in
 
 When zoomed in all parts of the page should remain zoomed in. For example if you open a drop down menu, the menu should have also scaled.
 
-A list of common screen magnifiers:
+#### Common screen magnifiers:
 - [Apple Zoom on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Apple Zoom on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
 - [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198)

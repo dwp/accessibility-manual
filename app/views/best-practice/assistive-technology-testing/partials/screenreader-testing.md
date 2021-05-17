@@ -2,13 +2,16 @@
 
 Every page should be tested using common screenreaders. If you're using Apple devices you can use [Voiceover](https://www.apple.com/uk/accessibility/mac/vision/) for free, and if you're using Windows then you can use [NVDA](https://www.nvaccess.org/) for free.
 
-When testing the screenreader you should make sure that every piece of content on the page is read out as expected.
-
-You should also test the page using the screenreaders browse menu. In Voiceover this is called the [rotor](https://support.apple.com/en-gb/HT204783), and in the [NVDA documentation](https://www.nvaccess.org/files/nvda/documentation/userGuide.html) it is called the element list. Use this feature and make sure links all make sense without context and that the page has the correct landmarks and headings to be able to navigate it easily.
+When testing the screenreader you should test all of the functionality. Everyone is different, and some people will use different shortcut keys to navigate around, so making sure your website works with all of the offered functionality is the best way to make sure it works for everyone.
 
 If you have dynamic content, such as pop-ups or text which expands or collapses, then you need to make sure the dynamic content is announced to a screenreader when the page changes.
 
-A list of some common screenreaders:
+#### Screen reader testing templates
+
+If you're unsure what to test, you can use our [screen reader testing templates](http://localhost:3000/tools-and-resources/assistive-technology-testing#screen-reader-testing-templates) to make sure you cover everything which is needed:
+
+
+#### Common screenreaders:
 - [Voiceover on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Voiceover on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
 - [NVDA on Windows](https://www.nvaccess.org/)

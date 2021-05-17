@@ -255,7 +255,15 @@
                 { "title": "Before doing any manual testing", "id": "before-doing-any-manual-testing" },
                 { "title": "Manual testing against WCAG", "id": "manual-testing-against-wcag" },
                 { "title": "Using Accessibility Insights", "id": "using-accessibility-insights" },
-                { "title": "Keyboard only", "id": "keyboard-only" },
+                { "title": "Keyboard only", "id": "keyboard-only" }
+              ]
+            },
+            {
+              "title": "Assistive technology testing",
+              "id": "assistive-technology-testing",
+              "link": "/best-practice/assistive-technology-testing",
+              "sectionId": "best-practice",
+              "subsections": [
                 { "title": "Screenreader testing", "id": "screenreader-testing" },
                 { "title": "Voice recognition testing", "id": "voice-recognition-testing" },
                 { "title": "Screen magnifier testing", "id": "screen-magnifier-testing" }
@@ -457,7 +465,17 @@
               "subsections": [
                 { "title": "Accessibility Insights", "id": "accessibility-insights" },
                 { "title": "WebAim colour contrast checker", "id": "webaim-colour-contrast-checker" },
-                { "title": "WebAim WCAG 2.1 checklist", "id": "webaim-wcag-21-checklist" }
+                { "title": "WebAim WCAG 2.1 checklist", "id": "webaim-wcag-2-1-checklist" }
+              ]
+            },
+            {
+              "title": "Assistive technology testing",
+              "id": "assistive-technology-testing",
+              "link": "/tools-and-resources/assistive-technology-testing",
+              "sectionId": "tools-and-resources",
+              "subsections": [
+                { "title": "Screen reader testing templates", "id": "screen-reader-testing-templates" },
+                { "title": "Voice recognition testing templates", "id": "voice-recognition-testing-templates" }
               ]
             }
           ]

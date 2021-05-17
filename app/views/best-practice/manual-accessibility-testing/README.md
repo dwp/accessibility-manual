@@ -8,6 +8,3 @@ You can't rely on [automated testing](/tools-and-resources/automated-accessibili
 {% include './partials/manually-testing-against-wcag-2.1.md' %}
 {% include './partials/using-accessibility-insights.md' %}
 {% include './partials/keyboard-only.md' %}
-{% include './partials/screenreader-testing.md' %}
-{% include './partials/voice-recognition-testing.md' %}
-{% include './partials/screen-magnifier-testing.md' %}
