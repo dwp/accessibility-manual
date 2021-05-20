@@ -127,7 +127,7 @@
                 { "title": "Do not rely on sensory characteristics", "id": "do-not-rely-on-sensory-characteristics" },
                 { "title": "Logical reading order", "id": "logical-reading-order" },
                 { "title": "Summarise charts and graphs", "id": "summarise-charts-and-graphs" },
-                { "title": "Use appropriate table headers", "id": "use-appropriate-table-headers" },
+                { "title": "Use appropriate table headings", "id": "use-appropriate-table-headings" },
                 { "title": "Use HTML wherever possible", "id": "use-html-wherever-possible" },
                 { "title": "Use sufficient colour contrast", "id": "use-sufficient-colour-contrast" }
               ]
@@ -407,7 +407,7 @@
                 { "title": "Technology code of practice", "id": "technology-code-of-practice" },
                 { "title": "User profiles", "id": "user-profiles" },
                 { "title": "Using progressive enhancement", "id": "using-progressive-enhancement" },
-                { "title": "Writing for GOV.UK", "id": "writing-for-govuk"},
+                { "title": "Writing for GOV.UK", "id": "writing-for-gov-uk"},
                 { "title": "Writing for user interfaces", "id": "writing-for-user-interfaces"}
               ]
             },
