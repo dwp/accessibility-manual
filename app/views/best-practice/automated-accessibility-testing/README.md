@@ -10,7 +10,7 @@ A [GDS audit of automated tools](https://alphagov.github.io/accessibility-tool-a
 
 As part of your continuous integration (CI) pipeline, you should include automated accessibility testing. It won't find everything, but it may stop you from deploying code which has introduced accessibility errors into your service.
 
-There are a few tools which do this but we recommend using [AxeCore](https://github.com/dequelabs/axe-core).
+There are a few tools which do this but we recommend using [axe-core](https://github.com/dequelabs/axe-core).
 
 ## Using browser plugins
 
