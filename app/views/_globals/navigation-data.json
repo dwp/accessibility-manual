@@ -398,6 +398,7 @@
               "sectionId": "tools-and-resources",
               "subsections": [
                 { "title": "Accessibility for Developers: Introduction", "id": "accessibility-for-developers-introduction" },
+                { "title": "Accessibility Personas", "id": "accessibility-personas" },
                 { "title": "Common assistive technologies", "id": "common-assistive-technologies" },
                 { "title": "Make things accessible and inclusive", "id": "make-things-accessible-and-inclusive" },
                 { "title": "Record a goose sighting: Training", "id": "record-a-goose-sighting-training" },

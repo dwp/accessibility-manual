@@ -3,6 +3,7 @@
 A list of resources from GDS which are on GOV.UK.
 
 {% include './partials/accessibility-for-developers-introduction.md' %}
+{% include './partials/accessibility-personas.md' %}
 {% include './partials/common-assistive-technologies.md' %}
 {% include './partials/make-things-accessible-and-inclusive.md' %}
 {% include './partials/record-a-goose-sighting-training.md' %}

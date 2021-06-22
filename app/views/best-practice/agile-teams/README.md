@@ -16,6 +16,8 @@ Even though the accessibility regulations may not apply at this stage, the Equal
 
 You cannot build a service which works for everybody if you only include and design for people who don't have impairments.
 
+You can use the [GOV.UK Accessibility Personas](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles) in the early phases of discovery to start considering how users with impairments might be impacted.
+
 ## Alpha
 
 In Alpha, you shouldn't be building anything except prototypes. But this doesn't mean you shouldn't consider accessibility. When you get to the end of Alpha, you need to have a good understanding of what it is you're going to build and how you're going to make it accessible. 
