@@ -35,5 +35,6 @@ They apply to any software or hardware bought or built by a public sector body i
 
 ## What counts as a website?
 
-Sometimes there is confusion between what is a website or a computer program. 
-For the purposes of the legislation, a website is anything which runs in a web browser.
+The monitoring and reporting body for the regulations in the UK is CDDO (Central Digital and Data Office). When doing checks, CDDO will consider anything using web technologies as a website.
+
+It doesn't matter if it's for internal use only or if you call it a programme, a tool or a portal. If runs in a browser and it's using web technologies such as http protocols, then it is considered a website under the Public Sector Bodies Accessibility Regulations 2018.
