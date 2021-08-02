@@ -465,7 +465,7 @@
               "sectionId": "tools-and-resources",
               "subsections": [
                 { "title": "Accessibility Insights", "id": "accessibility-insights" },
-                { "title": "WebAim colour contrast checker", "id": "webaim-colour-contrast-checker" },
+                { "title": "Colour contrast", "id": "colour-contrast" },
                 { "title": "WebAim WCAG 2.1 checklist", "id": "webaim-wcag-2-1-checklist" }
               ]
             },
