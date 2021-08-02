@@ -1,5 +1,6 @@
 # Document structure
-This guidance will apply to any document format. If you're making a Word or PowerPoint document there is some additional guidance you can follow.
+
+This guidance is for making accessible documents. You should always try to use Open Document Formats and follow the [GOV.UK guidance for Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents).
 
 [SCULPT](/tools-and-resources/sculpt) by [Worcestershire County Council](https://www.worcestershire.gov.uk/) is a great tool to help you write accessible documents.
 

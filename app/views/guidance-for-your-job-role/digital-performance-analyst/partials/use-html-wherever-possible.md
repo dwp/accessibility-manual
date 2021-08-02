@@ -1,7 +1,7 @@
 ### Use HTML wherever possible
 
-Statistical documents have historically been in downloadable formats such as PDF. But, PDFs can be unpredictable depending on how they've been tagged for accessibility.
+Statistical documents have historically been in downloadable formats such as PDF. [You shouldn't publish PDFs](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/) as they are rarely accessible.
 
-Wherever possible, statistical documents should be produced using HTML. This will make them much more accessible for users who rely on assistive technology.
+Statistical documents should be produced using HTML. This will make them much more accessible for users who rely on assistive technology.
 
-If HTML is absolutely not possible, make sure the additional work is done to make sure the alternative documents are tagged correctly or available in a range of different formats.
+If your document does not meet the standards, you could be breaking the law. Always follow the [GOV.UK guidance for Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents).
