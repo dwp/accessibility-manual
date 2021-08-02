@@ -1,4 +1,4 @@
-### Screen reader testing
+## Screen reader testing
 
 Every page should be tested using common screen readers. If you’re using Apple devices [Voiceover](https://www.apple.com/uk/accessibility/mac/vision/) is built-in. If you’re using Windows for testing we recommend installing the open source [NVDA](https://www.nvaccess.org/) screen reader for free. NVDA has become one of the [most popular screen readers](https://webaim.org/projects/screenreadersurvey8/) and although it is less powerful than JAWS, it is better for catching many accessibility errors.
 
@@ -6,12 +6,12 @@ When testing the screen reader you should test all of the functionality. Everyon
 
 If you have dynamic content, such as pop-ups or text which expands or collapses, then you need to make sure the dynamic content is announced to a screen reader when the page changes.
 
-#### Screen reader testing templates
+### Screen reader testing templates
 
 If you're unsure what to test, you can use our [screen reader testing templates](/tools-and-resources/assistive-technology-testing#screen-reader-testing-templates) to make sure you cover everything which is needed:
 
 
-#### Common screen readers:
+### Common screen readers:
 - [Voiceover on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Voiceover on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
 - [NVDA on Windows](https://www.nvaccess.org/)
