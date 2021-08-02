@@ -1,6 +1,6 @@
 ### Keyboard only
 
-As part of your manual tests you need to make sure the page works as expected using just a keyboard. Every part of the page must be able to be viewed, and every interactive element must be usable.
+As part of your manual tests you need to make sure the page works as expected using [just a keyboard](https://webaim.org/techniques/keyboard/#testing). Every part of the page must be able to be viewed, and every interactive element must be usable.
 
 Links and form fields can be navigated using the tab key to go to the next item or shift + tab to move the previous one. Radio buttons can usually be navigated with arrow keys.
 
