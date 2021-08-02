@@ -6,7 +6,7 @@ Validation might be done in the frontend, in the back-end, or both. There are ac
 
 It is recommended that forms on a page are only validated once the user submits the form. Real-time validation can be annoying and inaccessible. It tends to throw errors before you've finished typing which can cause confusion.
 
-If you do opt to do real-time validation, you will need to consider how that is announced to a screenreader. If you're appending error messages to the page using JavaScript then you will need to do additional work to make sure you have used the right aria tags to announce the errors to a screenreader user in a non-intrusive way.
+If you do opt to do real-time validation, you will need to consider how that is announced to a screen reader. If you're appending error messages to the page using JavaScript then you will need to do additional work to make sure you have used the right aria tags to announce the errors to a screen reader user in a non-intrusive way.
 
 ### On submit validation
 

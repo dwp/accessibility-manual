@@ -4,7 +4,7 @@ Using sensory characteristics means you have structured your content in a way th
 
 For example, if you say 'use the menu on the right', you are assuming the user will always be looking at the page to be able to understand left from right.
 
-When we look at a page and see it visually, we usually have access to 2 dimensions. X and Y. It means we can understand relative positions such as Left, right, up and down. But, if you're blind and using a screenreader, the page is 1 dimensional. It's linear. The content is just ordered first to last, so you have no way of being able to perceive left or right from your current position.
+When we look at a page and see it visually, we usually have access to 2 dimensions. X and Y. It means we can understand relative positions such as Left, right, up and down. But, if you're blind and using a screen reader, the page is 1 dimensional. It's linear. The content is just ordered first to last, so you have no way of being able to perceive left or right from your current position.
 
 Always consider whether the content you are creating is reliant upon on shape, colour, size, visual location, orientation or sound. There should always be several ways to perceive the same information.
 

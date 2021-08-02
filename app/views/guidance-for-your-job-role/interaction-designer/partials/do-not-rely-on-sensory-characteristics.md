@@ -1,6 +1,6 @@
 ### Do not rely on sensory characteristics
 
-Do not design anything which relies solely on one of your senses. For example, "The button on the left" implies that the user can see and can decipher left from right. In reality, they could be blind and using a screenreader so cannot know which button you are referring to.
+Do not design anything which relies solely on one of your senses. For example, "The button on the left" implies that the user can see and can decipher left from right. In reality, they could be blind and using a screen reader so cannot know which button you are referring to.
 
 Another example is "Use the green button for yes and the red button for no". If your user is red/green colour blind then both buttons may look the same.
 

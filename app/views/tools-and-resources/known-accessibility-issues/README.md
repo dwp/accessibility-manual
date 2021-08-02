@@ -9,4 +9,4 @@ Sometimes we find issues which are not unique to services. These can be due to b
 {% include './partials/govuk-date-component-does-not-work-with-dragon.md' %}
 {% include './partials/govuk-details-component-does-not-work-with-dragon.md' %}
 {% include './partials/jaws-cannot-see-headings-inside-fieldsets.md' %}
-{% include './partials/screenreaders-read-out-p45-as-45p.md' %}
+{% include './partials/screen-readers-read-out-p45-as-45p.md' %}

@@ -2,7 +2,7 @@
 
 If the content contains images or other non-text content such as graphs or charts, then you need to define what the alt attribute should be.
 
-If an image is purely decorative then you need to provide an empty alt attribute so that it is hidden from screenreaders. However, if the image adds context to the content, then it should have a description.
+If an image is purely decorative then you need to provide an empty alt attribute so that it is hidden from screen readers. However, if the image adds context to the content, then it should have a description.
 
 Example of a decorative image:
 ```html

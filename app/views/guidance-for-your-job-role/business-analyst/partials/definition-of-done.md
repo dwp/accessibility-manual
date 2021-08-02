@@ -8,6 +8,6 @@ An example of accessibility considerations in a definition of done:
 - Automated accessibility tests passed using axe-core
 - Manual accessibility tests passed using Accessibility Insights
 - Manually checked usability using only a keyboard
-- Manually checked usability using a screenreader
+- Manually checked usability using a screen reader
 - Manually checked usability using a screen magnifier
 - Manually checked usability using speech recognition

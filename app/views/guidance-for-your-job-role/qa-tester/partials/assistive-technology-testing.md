@@ -1,8 +1,8 @@
 ### Assistive technology testing
 
-Each page needs to be tested with assistive technology devices. These are tools such as screenreaders, screen magnifiers and speech recognition software.
+Each page needs to be tested with assistive technology devices. These are tools such as screen readers, screen magnifiers and speech recognition software.
 
-WCAG 2.1 outlines that websites must be robust and work on a range of assistive technologies. It does not specifically state which ones, but we should assume a range includes screenreaders, screen magnifiers and voice recognition as a minimum.
+WCAG 2.1 outlines that websites must be robust and work on a range of assistive technologies. It does not specifically state which ones, but we should assume a range includes screen readers, screen magnifiers and voice recognition as a minimum.
 
 Some assistive technology requires a licence, but most devices have them built in and you can also get some for free. You can meet the [accessibility regulations](/accessibility-law/the-public-sector-bodies-accessibility-regulations-2018) using these tools, but if you're working to the GOV.UK Service Standard you will need to make sure your service works on very particular technologies. You can [read more about assistive technology testing and the GOV.UK Service Standard](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
 

@@ -17,4 +17,4 @@ For example:
 ~~</body>
 ```
 
-Skip links are often not visible on the page, they are styled to only appear when using screenreaders or when they receive keyboard focus. A skip link does not need to be hidden from the page, but they do need to be present to jump over anything which might be a burden for the user.
+Skip links are often not visible on the page, they are styled to only appear when using screen readers or when they receive keyboard focus. A skip link does not need to be hidden from the page, but they do need to be present to jump over anything which might be a burden for the user.

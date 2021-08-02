@@ -9,6 +9,6 @@ The 3 main types of assistive technology are:
 
 For compliance, as a minimum, you should test your service with at least 1 of each of the 3 main types. However, to make sure your website is as accessible as possible, you should follow the [GOV.UK Service Standard's recommendations for assistive technology combinations](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
 
-{% include './partials/screenreader-testing.md' %}
+{% include './partials/screen-reader-testing.md' %}
 {% include './partials/voice-recognition-testing.md' %}
 {% include './partials/screen-magnifier-testing.md' %}

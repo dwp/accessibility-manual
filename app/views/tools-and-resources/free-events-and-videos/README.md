@@ -13,7 +13,7 @@ This list is just some stuff we already know about. If you know of anything grea
 - [Introduction to Accessibility: Training by AbilityNet](https://www.youtube.com/watch?v=eVk_UnjbNgc&t=89s)
 - [Empathy in Accessibility: by Craig Abbott](https://www.youtube.com/watch?v=OyGuEXq2PCc)
 - [Getting your priorities straight: By Haydon Pickering](https://www.youtube.com/watch?v=MZfZO9mTKpU)
-- [How do screenreaders navigate data tables: by Leonié Watson](https://www.youtube.com/watch?v=X1KR4u94cho)
+- [How do screen readers navigate data tables: by Leonié Watson](https://www.youtube.com/watch?v=X1KR4u94cho)
 - [How technology can help people with Dyslexia: by Dafydd Henke-Reed](https://www.youtube.com/watch?v=14fs1T9--hs&t=3s)
 
 ## YouTube channels
