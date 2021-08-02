@@ -1,6 +1,6 @@
 ### Screen reader testing
 
-Every page should be tested using common screen readers. If you're using Apple devices you can use [Voiceover](https://www.apple.com/uk/accessibility/mac/vision/) for free, and if you're using Windows then you can use [NVDA](https://www.nvaccess.org/) for free.
+Every page should be tested using common screen readers. If you’re using Apple devices [Voiceover](https://www.apple.com/uk/accessibility/mac/vision/) is built-in. If you’re using Windows for testing we recommend installing the open source [NVDA](https://www.nvaccess.org/) screen reader for free. NVDA has become one of the [most popular screen readers](https://webaim.org/projects/screenreadersurvey8/) and although it is less powerful than JAWS, it is better for catching many accessibility errors.
 
 When testing the screen reader you should test all of the functionality. Everyone is different, and some people will use different shortcut keys to navigate around, so making sure your website works with all of the offered functionality is the best way to make sure it works for everyone.
 
