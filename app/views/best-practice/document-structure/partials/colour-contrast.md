@@ -8,4 +8,4 @@ Make sure the colour contrast is sufficient between text and surrounding element
 Large text is anything over 18pt, or bold text which is larger than 14pt.
 Normal text is anything under 18pt and is not bold.
 
-You can use the [WebAim Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) to make sure your colour combinations are accessible.
+You can use the [WebAim Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) or [Contrast Ratio](https://contrast-ratio.com/) to make sure your colour combinations are accessible.
