@@ -12,4 +12,4 @@ An example of a bad url:
 ~~/user/5625665526/post/87837847.php
 ```
 
-You should work with a Content Designer to make sure when the the URLs follow the most helpful format for the user.
+You should work with a Content Designer to make sure the URLs follow the most helpful format for the user.
