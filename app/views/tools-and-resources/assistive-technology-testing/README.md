@@ -10,3 +10,6 @@ These guides are new and are still being iterated and are open to feedback. You 
 
 ### Voice recognition testing templates
 - [OS X Voice Control testing template](https://htmlpreview.github.io/?https://github.com/dwp/assistive-technology-templates/blob/master/html/os-x-voice-control.html)
+
+### Screen magnifier testing templates
+- [OS X Zoom testing template](https://htmlpreview.github.io/?https://github.com/dwp/assistive-technology-templates/blob/master/html/os-x-zoom.html)
