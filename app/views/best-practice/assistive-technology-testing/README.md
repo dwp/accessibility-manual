@@ -1,4 +1,4 @@
-# {Accessibility testing:} Assitive technology testing
+# {Accessibility testing:} Assistive technology testing
 
 WCAG 2.1 states that in order to be compliant, a website must work with a range of user agents, including assistive technologies. A user agent is anything a person is using to navigate your website, such as a browser and a screen reader.
 
