@@ -490,6 +490,13 @@
               "link": "/tools-and-resources/free-events-and-videos",
               "sectionId": "training",
               "subsections": []
+            },
+            {
+              "title": "Online courses",
+              "id": "online-courses",
+              "link": "/tools-and-resources/online-courses",
+              "sectionId": "training",
+              "subsections": []
             }
           ]
         }
