@@ -54,7 +54,7 @@ Like the definition of ready, the definition of done is a list of criteria which
 If it’s not accessible it’s not done. As part of your definition of done, the service should be checked for accessibility using both automated and manual tests.
 
 An example of accessibility considerations in a definition of done:
-- Automated accessibility tests passed using AxeCore
+- Automated accessibility tests passed using axe-core
 - Manual accessibility tests passed using Accessibility Insights
 - Manually checked usability using only a keyboard
 - Manually checked usability using a screenreader

@@ -28,7 +28,7 @@ The tests will check check that each page has:
 - a H1, but not more than one
 - content on the page
 - no broken links
-- no violations on an AxeCore accessibility test
+- no violations on an axe-core accessibility test
 
 To run the tests (defaults to localhost:8080):
 ```npm test```

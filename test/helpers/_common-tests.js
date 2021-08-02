@@ -53,7 +53,7 @@ async function checkForPageContent (driver) {
 }
 
 async function checkAccessibility (driver) {
-  // Assign the browser for AxeCore to run
+  // Assign the browser for axe-core to run
   const a11y = await new AxeBuilder(driver)
   // Analyse the page
   const results = await a11y.analyze()
