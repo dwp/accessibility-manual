@@ -1,4 +1,4 @@
-### Screen magnifier testing
+## Screen magnifier testing
 
 As part of [WCAG 2.1 criterion 1.4.4 - Resize Text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html) you need to be able to zoom in to 200% without any loss of content or functionality. This means you need to use the browsers built in zoom first. You can use command (CMD) and the plus key on a Mac, or the control (CTRL) key and the plus key on Windows.
 
@@ -10,7 +10,7 @@ When testing using a screen magnifier, you should make sure that when zooming in
 
 When zoomed in all parts of the page should remain zoomed in. For example if you open a drop down menu, the menu should have also scaled.
 
-#### Common screen magnifiers:
+### Common screen magnifiers:
 - [Apple Zoom on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [Apple Zoom on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
 - [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198)

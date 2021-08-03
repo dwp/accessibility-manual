@@ -7,6 +7,7 @@ const nunjucks = require('nunjucks')
 const markdown = require('nunjucks-markdown')
 const marked = require('marked')
 const fileHelper = require('./app/utils/file-helper')
+const hljs = require('highlight.js')
 const forceHttps = require('./app/utils/force-https')
 
 // Application
@@ -77,9 +78,10 @@ marked.setOptions({
   smartLists: true,
   smartypants: true,
   highlight: function (code, language) {
-    const hljs = require('highlight.js')
-    const validLanguage = hljs.getLanguage(language) ? language : 'plaintext'
-    return hljs.highlight(validLanguage, code).value
+    const validLanguage = hljs.getLanguage(language) ? language : 'text'
+    if (validLanguage) {
+      return hljs.highlight(code, { language: validLanguage }).value
+    }
   }
 })
 

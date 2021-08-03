@@ -5,8 +5,8 @@ This list is just some stuff we already know about. If you know of anything grea
 ## Events
 - [Accessibility London](https://www.meetup.com/London-Accessibility-Meetup/)
 - [Chester Devs](https://chester.dev/)
-- [Design Exchange Nottingham (DXN)](https://dxnevent.com/)
-- [Middlesborough Frontend](https://middlesbroughfe.co.uk/)
+<!-- - [Design Exchange Nottingham (DXN)](https://dxnevent.com/) -->
+<!-- - [Middlesborough Frontend](https://middlesbroughfe.co.uk/) -->
 - [Webinars with AbilityNet](https://abilitynet.org.uk/free-resources/webinars)
 
 ## Recommended videos
