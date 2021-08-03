@@ -48,7 +48,7 @@ describe('Test application', async () => {
   })
 
   // Close the browser when finished
-  after(() => {
-    driver.quit()
+  after(async () => {
+    await driver.quit()
   })
 })
