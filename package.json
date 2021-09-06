@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "chromedriver": "^90.0.0 ",
+    "chromedriver": "^92.0.1 ",
     "express": "^4.16.3",
     "govuk-frontend": "^3.13.0",
     "gray-matter": "^4.0.3",
