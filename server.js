@@ -20,6 +20,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Routing
+const redirects = require('./app/routes/redirects')
 const routes = require('./app/routes/index')
 const autoRoutes = require('./app/routes/auto')
 
@@ -59,6 +60,7 @@ app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-fr
 app.use('/node_modules/govuk-frontend', express.static(path.join(__dirname, '/node_modules/govuk-frontend/govuk')))
 
 // Use routes
+app.use(redirects)
 app.use(routes)
 app.use(autoRoutes)
 

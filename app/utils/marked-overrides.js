@@ -12,10 +12,10 @@ const overrides = {
         }
         code = code.replace(/~~/g, '')
         if (!lang) {
-          return `<pre tabindex="0"><code>${(escaped ? code : escape(code, true))}</code></pre>\n`
+          return `<pre><code role="figure" tabindex="0" class="hljs">${code}</code></pre>\n`
         }
 
-        return `<pre tabindex="0"><code class="${this.options.langPrefix}${escape(lang, true)}">${(escaped ? code : escape(code, true))}</code></pre>\n`
+        return `<pre><code role="figure" tabindex="0" class="hljs ${this.options.langPrefix}${escape(lang, true)}">${code}</code></pre>\n`
       }
     },
     heading: function (renderer) {

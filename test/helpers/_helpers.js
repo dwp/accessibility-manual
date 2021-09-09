@@ -1,4 +1,4 @@
-const { navItems } = require('../../app/views/_globals/navigation-data.json')
+const { navItems } = require('../../app/views/_globals/navigation-data')
 
 function getNavURLs (testURL) {
   // Creates an set ready for Nav objects
