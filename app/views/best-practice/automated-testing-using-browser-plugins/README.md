@@ -11,7 +11,7 @@ Chrome Dev Tools has options for Elements, Console, Sources etc. One of those op
 
 We are not really interested in what passes, we want to see what fails. So, uncheck the option for 'show passes'. and choose 'Run tests'. 
 
-![](/public/images/arc-toolkit-2.jpg)
+![](/public/images/best-practice/browser-extension-examples/arc-toolkit-2.jpg)
 
 ARC Toolkit reports two types of issues, errors and warnings. Errors are what the tool has decided is definitely an issue. Warnings mean the tool could not decide if it was definitely an error, so you must check it manually. Errors are noted in the red column with the exclamation point `!` icon. Warnings are noted in the yellow column with the question mark `?`.
 
