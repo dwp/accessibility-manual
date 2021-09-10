@@ -927,12 +927,28 @@ module.exports = {
               sectionId: 'tools-and-resources',
               subsections: [
                 {
-                  title: 'Accessibility Insights',
-                  id: 'accessibility-insights'
+                  title: 'HTMLHint',
+                  id: 'htmlhint'
                 },
                 {
-                  title: 'Axe',
-                  id: 'axe'
+                  title: 'W3C Markup Validation Service',
+                  id: 'w3c-markup-validation-service'
+                },
+                {
+                  title: 'PA11Y',
+                  id: 'pa11y'
+                },
+                {
+                  title: 'axe-core',
+                  id: 'axe-core'
+                },
+                {
+                  title: 'ARC Toolkit',
+                  id: 'arc-toolkit'
+                },
+                {
+                  title: 'Axe DevTools',
+                  id: 'axe-devtools'
                 },
                 {
                   title: 'Wave',
@@ -971,8 +987,12 @@ module.exports = {
                   id: 'screen-reader-testing-templates'
                 },
                 {
-                  title: 'Voice recognition testing templates',
-                  id: 'voice-recognition-testing-templates'
+                  title: 'Voice controller testing templates',
+                  id: 'voice-controller-testing-templates'
+                },
+                {
+                  title: 'Screen magnifier testing templates',
+                  id: 'screen-magnifier-testing-templates'
                 }
               ]
             }

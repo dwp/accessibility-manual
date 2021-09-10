@@ -12,4 +12,4 @@ An example of accessibility considerations in a definition of done:
 - Manually checked usability using speech recognition
 - Accessibility statement updated
 
-If your team is unsure on how to test for accessibility, you can [read more on how to do accessibility testing](http://localhost:3000/best-practice/how-to-do-accessibility-testing).
+If your team is unsure on how to test for accessibility, you can [read more on how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).

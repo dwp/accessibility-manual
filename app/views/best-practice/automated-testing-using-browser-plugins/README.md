@@ -18,7 +18,7 @@ ARC Toolkit reports two types of issues, errors and warnings. Errors are what th
 ![](/public/images/best-practice/browser-extension-examples/arc-toolkit-3.jpg)
 
 ## Axe DevTools
-[Install Axe DevTools from the Chrome Web Store]()
+[Install Axe DevTools from the Chrome Web Store](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?utm_source=chrome-ntp-icon)
 
 Axe DevTools runs from the Chrome DevTools panel. Use `CMD + SHIFT + C` to open the Chrome Dev Tools. Alternatively you can right click on the page and choose 'Inspect'.
 
@@ -41,7 +41,7 @@ Choose each issue from the list. If there are more than one of the same issue, c
 ![](/public/images/best-practice/browser-extension-examples/axe-devtools-3.jpg)
 
 ## Wave
-[Install Wave from the Chrome Web Store]()
+[Install Wave](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?utm_source=chrome-ntp-icon)
 
 Wave runs from the extension icon. Select it and wait for it to analyse the page.
 

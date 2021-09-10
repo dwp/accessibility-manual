@@ -6,6 +6,12 @@ It is recommended to use multiple automated checkers, as each one might find err
 
 A [GDS audit of automated tools](https://alphagov.github.io/accessibility-tool-audit/) found that out of 142 known accessibility issues, the best tools only found around 30 to 40 percent. So it is important to make sure you do [manual testing](/best-practice/manual-accessibility-testing) also.
 
-{% include './partials/accessibility-insights.md' %}
-{% include './partials/axe.md' %}
+You can [read more on how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).
+
+{% include './partials/htmlhint.md' %}
+{% include './partials/w3c-markup-validation-service.md' %}
+{% include './partials/pa11y.md' %}
+{% include './partials/axe-core.md' %}
+{% include './partials/arc-toolkit.md' %}
+{% include './partials/axe-devtools.md' %}
 {% include './partials/wave.md' %}

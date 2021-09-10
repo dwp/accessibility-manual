@@ -3,7 +3,7 @@ Axe-core is an automated accessibility testing tool. It is the same engine which
 
 PA11Y is an automated testing tool which you can run from the command line or as part of your test suite. PA11Y uses [Puppeteer](https://developers.google.com/web/tools/puppeteer) to run its own headless Chrome browser. It uses [HTML Code Sniffer](https://squizlabs.github.io/HTML_CodeSniffer/) as its default runner, but it can also run axe-core at the same time if you tell it to.
 
-Axe-core and PA11Y combined will find around 35% of accessibility issues.
+Axe-core and PA11Y combined will find around 35% of accessibility issues. We have published [a detailed breakdown of axe-core vs PA11Y](https://github.com/abbott567/axe-core-vs-pa11y).
 
 ## Single page tests using axe-core and PA11Y
 Before you can install PA11Y you will need to [install NodeJS](https://nodejs.org/en/) to be able to use Node Package Manager (NPM).
