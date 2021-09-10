@@ -10,3 +10,5 @@ If you have any kind of timeout in your service then it must meet one of the fol
 - the user must be warned they are about to reach the time limit and be given at least 20 seconds to reset the timer. The user must be allowed to do reset the timer at least 10 times, and resetting the timer must not clear any of the information the user has already entered.
 
 The only exceptions are when the time limit is in real-time, such as an auction which ends at 5pm. Or, if the time limit is essential such as booking tickets where the tickets can only be placed on hold a reasonable amount of time.
+
+You should use the [Manage a session timeout pattern](https://design-system.dwp.gov.uk/patterns/manage-a-session-timeout) from the DWP Design System.

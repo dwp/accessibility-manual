@@ -6,13 +6,11 @@ This doesn't cover fundamentals such [1.4.1 Use of Color](https://www.w3.org/WAI
 
 ## 2.2.1 Timing Adjustable (A)
 
-There are several ways we can meet this criteria.
+There are several ways we can meet this criterion.
 
-Most commonly we will use a [session time out](https://github.com/alphagov/govuk-design-system-backlog/issues/104) pattern to allow the user to extend.
+You can use the [Manage a session time out pattern](https://design-system.dwp.gov.uk/patterns/manage-a-session-timeout) to allow the user to extend the time limit. This balances security with usability.
 
-This balances security with usability.
-
-We can also meet this by making our session longer than 20 hours, however, we need to apply this in the context of the service.
+You can also meet this criterion by making your session longer than 20 hours, however, we need to apply this in the context of the service.
 
 There may be cases where a real-time event such as two-factor authentication where a strike time limit is appropriate.
 

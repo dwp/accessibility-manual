@@ -328,10 +328,12 @@ p code {
   
   figcaption {
     padding: 0;
+    color: $govuk-secondary-text-colour;
   }
   img {
     border: 1px solid $govuk-border-colour;
     max-width: 100%;
+    margin-bottom: 0;
   }
 }
 

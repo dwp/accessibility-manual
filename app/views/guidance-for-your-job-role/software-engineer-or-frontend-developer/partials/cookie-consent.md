@@ -8,3 +8,5 @@ Here are some examples of how your cookie banner could make your site inaccessib
 - The cookie consent is a pop-up and the keyboard focus can disappear behind it. This fails 2.4.7 Focus visible.
 - The cookie consent is presented as a banner at the bottom of the page but is the first content made available to keyboard focus or screen readers. This fails WCAG 1.3.2 Meaningful sequence.
 - The cookie consent uses links which are styled to look like buttons but cannot be programmatically determined to be buttons. This fails WCAG 4.1.2 Name, Role, Value
+
+There is a [GOV.UK Cookie banner component](https://design-system.service.gov.uk/components/cookie-banner/) and a [GOV.UK Cookie banner page](https://design-system.service.gov.uk/patterns/cookies-page/) in the Design System.

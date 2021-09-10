@@ -9,6 +9,7 @@ You should read the [GOV.UK Content Design guidance](https://www.gov.uk/guidance
 {% include './partials/alternative-text-for-non-text-content.md' %}
 {% include './partials/captions-and-transcripts.md' %}
 {% include './partials/consistent-content.md' %}
+{% include './partials/do-not-rely-on-sensory-characteristics.md' %}
 {% include './partials/error-messages.md' %}
 {% include './partials/heading-hierarchy.md' %}
 {% include './partials/labels-and-instructions.md' %}

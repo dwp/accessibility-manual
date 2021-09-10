@@ -109,6 +109,10 @@ module.exports = {
                   id: 'consistent-content'
                 },
                 {
+                  title: 'Do not rely on sensory characteristics',
+                  id: 'do-not-rely-on-sensory-characteristics'
+                },
+                {
                   title: 'Error messages',
                   id: 'error-messages'
                 },
@@ -221,8 +225,8 @@ module.exports = {
                   id: 'alternative-text-for-non-text-content'
                 },
                 {
-                  title: 'Announce dynamic content',
-                  id: 'announce-dynamic-content'
+                  title: 'Avoid dynamic content',
+                  id: 'avoid-dynamic-content'
                 },
                 {
                   title: 'Conditionally revealing content',
@@ -231,6 +235,10 @@ module.exports = {
                 {
                   title: 'Do not rely on sensory characteristics',
                   id: 'do-not-rely-on-sensory-characteristics'
+                },
+                {
+                  title: 'Hidden content',
+                  id: 'hidden-content'
                 },
                 {
                   title: 'Links make sense out of context',
@@ -247,10 +255,6 @@ module.exports = {
                 {
                   title: 'Start with existing patterns and components',
                   id: 'start-with-existing-patterns-and-components'
-                },
-                {
-                  title: 'Summarise charts and graphs',
-                  id: 'summarise-charts-and-graphs'
                 },
                 {
                   title: 'Unique headings',
@@ -309,28 +313,20 @@ module.exports = {
               sectionId: 'guidance-for-your-job-role',
               subsections: [
                 {
-                  title: 'Assistive technology testing',
-                  id: 'assistive-technology-testing'
-                },
-                {
                   title: 'Automated accessibility testing',
                   id: 'automated-accessibility-testing'
-                },
-                {
-                  title: 'Definition of done',
-                  id: 'definition-of-done'
                 },
                 {
                   title: 'Manual accessibility testing',
                   id: 'manual-accessibility-testing'
                 },
                 {
-                  title: 'Page title',
-                  id: 'page-title'
+                  title: 'Assistive technology testing',
+                  id: 'assistive-technology-testing'
                 },
                 {
-                  title: 'Page url',
-                  id: 'page-url'
+                  title: 'Definition of done',
+                  id: 'definition-of-done'
                 },
                 {
                   title: 'Recording testing evidence',
@@ -983,16 +979,12 @@ module.exports = {
               sectionId: 'tools-and-resources',
               subsections: [
                 {
-                  title: 'Screen reader testing templates',
-                  id: 'screen-reader-testing-templates'
+                  title: 'Common assistive technologies',
+                  id: 'common-assistice-technologies'
                 },
                 {
-                  title: 'Voice controller testing templates',
-                  id: 'voice-controller-testing-templates'
-                },
-                {
-                  title: 'Screen magnifier testing templates',
-                  id: 'screen-magnifier-testing-templates'
+                  title: 'Testing templates',
+                  id: 'testing-templates'
                 }
               ]
             }

@@ -53,13 +53,15 @@ Like the definition of ready, the definition of done is a list of criteria which
 
 If it’s not accessible it’s not done. As part of your definition of done, the service should be checked for accessibility using both automated and manual tests.
 
+We have published guidance on [how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).
+
 An example of accessibility considerations in a definition of done:
-- Automated accessibility tests passed using axe-core
+- Automated accessibility tests passing in the acceptance tests
 - Manual accessibility tests passed using Accessibility Insights
-- Manually checked usability using only a keyboard
 - Manually checked usability using a screen reader
 - Manually checked usability using a screen magnifier
 - Manually checked usability using speech recognition
+- Accessibility statement updated
 
 ## Public Beta
 
@@ -76,3 +78,5 @@ An MVP must be accessible. It is not viable if it is not accessible. You can't r
 ## Live
 
 As with Public Beta, you will need to continue to test the accessibility of any iterations so that the service is compliant at all times. 
+
+We have published guidance on [how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).

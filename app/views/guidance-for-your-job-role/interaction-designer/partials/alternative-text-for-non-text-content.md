@@ -1,14 +1,5 @@
 ### Alternative text for non-text content
 
-For images, consider if they're meaningful or decorative. Do they add context or are they purely decorative?
+{% include '../../shared/alternative-text-for-non-text-content.md' %}
 
-If an image is meaningful, you must provide alternative text. This means somebody who cannot see the image can still understand what the image is showing.
-
-For example:
-```html
-~~<img src="cat.jpg" alt="A cat wearing sunglasses." />
-```
-
-You should work with a Content Designer to make sure your alternative text is clear and simple.
-
-If an image is purely decorative, you should work with a Frontend Developer to make sure it is hidden from screen readers.
+You should work with a content designer to make sure the content is clear and simple.

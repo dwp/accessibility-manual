@@ -7,3 +7,5 @@ Everyone on the team has a role to play to make sure accessibility is considered
 Often, there is a misconception that accessibility is a technical requirement and only affects developers and testers, but this is simply not true.
 
 Make sure accessibility is covered in ceremonies such as sprint planning and sprint review, so the team know what considerations they must make and whether the delivered feature meets the standards.
+
+If your team is unsure on how to test for accessibility, you can [read more on how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).

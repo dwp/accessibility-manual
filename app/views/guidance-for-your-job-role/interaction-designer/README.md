@@ -13,11 +13,11 @@ If you want to see how your designs test with assistive technology, you can use 
 {% include './partials/announce-dynamic-content.md' %}
 {% include './partials/conditionally-revealing-content.md' %}
 {% include './partials/do-not-rely-on-sensory-characteristics.md' %}
+{% include './partials/hidden-content.md' %}
 {% include './partials/links-make-sense-out-of-context.md' %}
 {% include './partials/logical-reading-order.md' %}
 {% include './partials/minimise-visual-stimulus.md' %}
 {% include './partials/start-with-existing-patterns-and-components.md' %}
-{% include './partials/summarise-charts-and-graphs.md' %}
 {% include './partials/unique-headings.md' %}
 {% include './partials/use-of-columns.md' %}
 {% include './partials/use-of-links-and-buttons.md' %}
