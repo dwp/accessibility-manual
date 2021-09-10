@@ -117,20 +117,12 @@ module.exports = {
                   id: 'heading-hierarchy'
                 },
                 {
-                  title: 'Hidden content',
-                  id: 'hidden-content'
-                },
-                {
                   title: 'Labels and instructions',
                   id: 'labels-and-instructions'
                 },
                 {
                   title: 'Links make sense out of context',
                   id: 'links-make-sense-out-of-context'
-                },
-                {
-                  title: 'Logical reading order',
-                  id: 'logical-reading-order'
                 },
                 {
                   title: 'Page title',
@@ -147,6 +139,10 @@ module.exports = {
                 {
                   title: 'Unique headings',
                   id: 'unique-headings'
+                },
+                {
+                  title: 'Use of tables',
+                  id: 'use-of-tables'
                 }
               ]
             },

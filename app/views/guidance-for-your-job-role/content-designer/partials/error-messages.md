@@ -1,6 +1,6 @@
 ### Error messages
 
-[WCAG 3.3.3 error](https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion) suggestion states that if an input error is detected then suggestions are made to the user provided it does not jeopardize security.
+[WCAG 3.3.3 error](https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion) suggestion states that if an input error is detected then suggestions are made to the user provided it does not jeopardise security.
 
 For example, a user does not fill in their name. We should create an error message which reads: "Enter your name".
 

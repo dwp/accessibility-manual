@@ -9,3 +9,5 @@ If you need to, you can use visually hidden text to add context to a link. This 
 ~~</a>
 ```
 Never use a link which tells the user to "Click here". The word "click" makes an assumption that a mouse is being used, but the user could be using a keyboard or some form of assistive technology.
+
+You can [read more about links in the GOV.UK guidance](https://www.gov.uk/guidance/content-design/links).
