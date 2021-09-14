@@ -12,4 +12,4 @@ By using these resources you will leverage a lot of best practices and research 
 
 For more in-depth accessibility considerations when designing screens you should read the following job role guidance:
 - [Interaction Designer](/guidance-for-your-job-role/interaction-designer)
-- [Content Designer](/guidance-for-your-job-role/interaction-designer)
+- [Content Designer](/guidance-for-your-job-role/content-designer)
