@@ -1,4 +1,4 @@
-# Accessibility regulations vs the Service Standard
+# Accessibility regulations vs the GOV.UK Service Standard
 
 There is a difference between being legally compliant and having a service which works for everyone. Legal compliance is the bare minimum, but it doesn't guarantee your service will work for all your users.
 

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "gulp",
     "lint": "standard",
-    "test": "PORT=8080 mocha --timeout 60000 --exit"
+    "test": "PORT=8080 NODE_ENV=test mocha --require test/assets/mocha.config.cjs --recursive --parallel --timeout 1200000 --exit",
+    "coverage": "PORT=8080 NODE_ENV=test nyc mocha --require test/assets/mocha.config.cjs --recursive --parallel --timeout 1200000 --exit"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,6 @@
     "node": "14.17.0"
   },
   "dependencies": {
-    "basic-auth": "^2.0.1",
     "chromedriver": "^92.0.1 ",
     "express": "^4.16.3",
     "govuk-frontend": "^3.13.0",
@@ -41,13 +41,17 @@
     "nunjucks-highlight.js": "0.0.5",
     "nunjucks-markdown": "^2.0.1",
     "require-dir": "^1.0.0",
+    "slugify": "^1.6.0",
     "webpack-stream": "^6.1.2"
   },
   "devDependencies": {
     "@axe-core/webdriverjs": "^4.2.2",
     "chai": "^4.3.4",
+    "chai-spies": "^1.0.0",
+    "chai-string": "^1.5.0",
     "got": "^11.8.2",
     "mocha": "^9.0.3",
+    "nyc": "^15.1.0",
     "selenium-webdriver": "^4.0.0-beta.4",
     "standard": "^16.0.3 "
   },

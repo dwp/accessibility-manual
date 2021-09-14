@@ -10,7 +10,8 @@
 
       <div class="govuk-grid-column-three-quarters">
         <div class="app-prose-scope">
-          {% markdown %}{% include './README.md' %}{% endmarkdown %}  
+          {% set mdcontent %}{% include './README.md' %}{% endset %}
+          {{mdcontent|markdown|safe}}
         </div>
       </div>     
 

@@ -11,3 +11,6 @@ public
 node_modules/*
 .tmuxp.*
 package-lock.json
+coverage
+.nyc_output
+.nyc_output/**/*

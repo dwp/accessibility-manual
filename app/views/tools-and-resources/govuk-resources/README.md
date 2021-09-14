@@ -1,4 +1,4 @@
-# GOV.UK Resources
+# GOV.UK resources
 
 A list of resources from GDS which are on GOV.UK.
 

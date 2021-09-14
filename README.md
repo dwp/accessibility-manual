@@ -35,10 +35,10 @@ To run the tests (defaults to localhost:8080):
 
 ### Building pages
 #### Navigation
-The navigation data for the header menu is contained in [views/_globals/navigation-data.json](https://github.com/dwp/accessibility-manual/blob/master/app/views/_globals/navigation-data.json). This is where you will need to structure your content.
+The navigation data for the header menu is contained in [views/_globals/navigation-data](https://github.com/dwp/accessibility-manual/blob/master/app/views/_globals/navigation-data). This is where you will need to structure your content.
 
 #### Content
-Each page is a folder contained within the [views folder](https://github.com/dwp/accessibility-manual/tree/master/app/views). Each page will need an `index.njk` file where you set the page title, the `pageID` and the `sectionID`. The ID's must match the ID's you set in the `_navigation-data.json` file for the active styles on the navigation menu to work.
+Each page is a folder contained within the [views folder](https://github.com/dwp/accessibility-manual/tree/master/app/views). Each page will need an `index.njk` file where you set the page title, the `pageID` and the `sectionID`. The ID's must match the ID's you set in the `_navigation-data` file for the active styles on the navigation menu to work.
 
 As well as an `index.njk` file, you will also need to provide a `README.md` file. The markdown file is your page content.
 

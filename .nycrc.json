@@ -1,0 +1,8 @@
+{
+  "include": [
+    "server.js",
+    "app/**/*"
+  ],
+  "reporter": [ "html", "text" ],
+  "report-dir": "coverage"
+}

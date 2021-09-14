@@ -28,12 +28,13 @@
       <div class="app-pane__content">
         <main class="app-content" role="main" id="main-content">
           <div class="app-prose-scope">
-            {% markdown %}{% include pathToREADME %}{% endmarkdown %}
+            {% set mdcontent %}{% include pathToREADME %}{% endset %}
+            {{mdcontent|markdown|safe}}
           </div>
 
           {{appPageNavigation(subNavParams)}}
 
-          {% include "../../components/back-to-top/template.njk" %}
+          {% include "../../views/components/back-to-top/template.njk" %}
         </main>
       </div>
     </div>

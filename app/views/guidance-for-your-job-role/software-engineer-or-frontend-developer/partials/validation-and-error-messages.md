@@ -6,21 +6,19 @@ Validation might be done in the frontend, in the back-end, or both. There are ac
 
 It is recommended that forms on a page are only validated once the user submits the form. Real-time validation can be annoying and inaccessible. It tends to throw errors before you've finished typing which can cause confusion.
 
-If you do opt to do real-time validation, you will need to consider how that is announced to a screen reader. If you're appending error messages to the page using JavaScript then you will need to do additional work to make sure you have used the right aria tags to announce the errors to a screen reader user in a non-intrusive way.
+If you do real-time validation, you will need to consider how that is announced to a screen reader. If you're appending error messages to the page using JavaScript then you will need to do additional work to make sure you have used the right aria tags to announce the errors to a screen reader user in a non-intrusive way.
 
-### On submit validation
+#### On submit validation
 
-If we do in browser validation on submit, we need to make sure that the user is alerted to the error each time they click submit, and they are taken to the relevant error.
+If you validate on form submission, you need to make sure you re-run the validation and that the user is alerted to the error each time they click submit.
 
-When we don't do this, often secondary form errors are not highlighted to screen reader users, as there is no change of state on the page. 
+If you don't do this, secondary form errors are often not highlighted to screen reader users as there is no change of state on the page. 
 
 #### Dealing with user input
 
-If you know what you're expecting, it can be tempting to lock down the fields. But you should not use limitations like a maxlength attribute. These can cause difficulties for people using voice recognition software such as Dragon.
+If you know what you are expecting the user to fill in, it can be tempting to lock down the fields. But you should not use limitations like the maxlength attribute. These can cause difficulties for people using voice controllers such as Dragon.
 
-When using voice recognition software, when the user pauses for breath it can automatically add a space. It is much more accessible to tell the user there is a character limit in the hint text, but don't actually limit the field. Then you can remove the whitespace and validate what was actually inputted once the form is submitted.
-
-<div class="govuk-inset-text">
+When using voice controllers, when the user pauses for breath it can automatically add a space. It is much more accessible to tell the user there is a character limit in the hint text, but don't actually limit the field. Then you can remove the whitespace and validate what was actually inputted once the form is submitted.
 
 For example, if you were trying to validate a National Insurance number you would use the following steps:
 
@@ -30,15 +28,13 @@ For example, if you were trying to validate a National Insurance number you woul
 4. check it is a valid National Insurance number
 5. accept the data as valid or reload the page with errors
 
-This way we aren't burdening the user with getting everything perfect. We know assistive technologies can add spaces, and we know some people won't use capital letters, so we can do the hard work to make it simple.
-
-</div>
+This way you are not burdening the user with getting everything perfect. We know assistive technologies can add spaces, and we know some people won't use capital letters, so we can do the hard work to make it simple.
 
 #### Do not add random database rules
 
 When analysing database schema, it is quite common to find character limits and rules which do not represent real world scenarios. Making assumptions about how long a persons name should be, or not allowing characters with accents or hyphens can quickly make things inaccessible.
 
-Many assistive technologies allow people to create their own dictionaries. These are words or phrases that are common to the user but not to the native language. Their name is one of the things they will most likely store. We should not be telling people they entered their name wrong, and we should not be creating barriers for assistive technology by forcing the user to format their name in a way which fits the rules we've made up.
+Many assistive technologies allow people to create their own dictionaries. These are words or phrases that are common to the user but not to the native language. Their name is one of the things they will most likely store. You should not be telling people they entered their name wrong, and you should not be creating barriers for assistive technology by forcing the user to format their name in a way which fits the rules you have made up.
 
 #### Error messages
 
