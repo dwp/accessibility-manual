@@ -54,14 +54,10 @@ We've published examples on:
 ## Manual testing
 You must do manual accessibility testing and assistive technology testing. You also need to retain your results as evidence.
 
-We recommend one of the following tools to manually test your service:
-1. the DWP WCAG 2.1 manual testing template
-2. the Accessibility Insights assessment tool
+We recommend the Accessibility Insights assessment tool.
 
 We have published examples on:
 - [how to use the accessibility insights assessment tool](/best-practice/manual-testing-using-tools/#accessibility-insights-assessment-extension)
-- [how to use the DWP WCAG 2.1 manual testing template](/best-practice/manual-testing-using-tools/#dwp-wcag-2-1-manual-testing-template
-)
 
 ## Assistive technology testing
 WCAG 2.1 states that in order to be compliant, a website must work with a range of user agents, including assistive technologies. A user agent is anything a person is using to navigate your website, such as a browser and a screen reader.
