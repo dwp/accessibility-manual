@@ -6,4 +6,4 @@ The [manual accessibility assessment](https://accessibilityinsights.io/docs/en/w
 
 The guided manual assessment will give you a better understanding of how accessible your website is, and it provides a HTML report which can be downloaded and kept as evidence.
 
-We have published guidance on [how to use Accessibility Insights](http://localhost:3000/best-practice/manual-testing-using-tools/#accessibility-insights-assessment-extension).
+We have published guidance on [how to use Accessibility Insights](/best-practice/manual-testing-using-tools/#accessibility-insights-assessment-extension).
