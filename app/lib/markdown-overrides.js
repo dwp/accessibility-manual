@@ -19,7 +19,7 @@ function heading (renderer) {
   renderer.heading = function (text, level) {
     const braces = (text || '').match(/\{(.*?)\}/)
     const pageHeading = text.replace(/\{(.*?)\}/, '').trim()
-    const id = slugify(pageHeading, { lower: true })
+    const id = slugify(pageHeading, { lower: true, strict: true })
 
     if (braces) {
       const sectionHeading = braces[0].replace(/\{|\}/g, '')

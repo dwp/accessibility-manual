@@ -968,7 +968,7 @@ module.exports = {
                 },
                 {
                   title: 'WebAim WCAG 2.1 checklist',
-                  id: 'webaim-wcag-2-1-checklist'
+                  id: 'webaim-wcag-21-checklist'
                 }
               ]
             },
