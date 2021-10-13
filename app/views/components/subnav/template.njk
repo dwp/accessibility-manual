@@ -1,11 +1,19 @@
+{% set subsectionH2 = false %}
+
 <nav class="app-subnav{% if params.classes %} {{ params.classes }}{% endif %}" aria-label="{{params.pageTitle}}" role="navigation">
   {% for item in params.navItems %}
     {% if item.id === params.sectionId %}
       {% for pageSubsection in item.subsections %}
         {% if pageSubsection.sectionHeading !== '' %}
-          <h4 class="app-subnav__theme">
+          {% if subsectionH2 === false %}
+            <h2 class="govuk-visually-hidden" id="app-subnav-heading">
+              Pages in this section
+            </h2>
+            {% set subsectionH2 = true %}
+          {% endif %}
+          <h3 class="app-subnav__theme">
             {{pageSubsection.sectionHeading}}
-          </h4>
+          </h3>
         {% endif %}
         <ul class="app-subnav__section">
           {% for subItem in pageSubsection.subsections %}

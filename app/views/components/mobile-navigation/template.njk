@@ -1,6 +1,6 @@
 <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation" aria-hidden="true">
+	<h2 class="govuk-visually-hidden">Menu</h2>
 	<ul class="app-mobile-nav__list">
-
 		{# Loop through all the nav items #}
 		{% for item in params.navItems %}
 
@@ -29,9 +29,9 @@
             {# Output the section header if it's not blank #}
 						{% if pageSubsection.sectionHeading !== '' %}
 							<li>
-								<h4 class="app-mobile-nav__theme">
+								<h3 class="app-mobile-nav__theme">
 									{{pageSubsection.sectionHeading}}
-								</h4>
+								</h3>
 								<ul class="app-mobile-nav__list">
 									{# Loop through the pages for this section #}
 									{% for subItem in pageSubsection.subsections %}
