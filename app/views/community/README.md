@@ -14,6 +14,7 @@ If you'd like to [collaborate, give feedback or add some content](https://github
 - [Marian Avery](https://twitter.com/madebymarian)
 - Esther Woods
 - Rosa Ryou
+- Sanjay Poyzer
 - [Terence Eden](https://twitter.com/edent)
 - [Oliver Byford](https://github.com/36degrees)
 - [Greg Stevenson](https://twitter.com/GT_Stevenson)

@@ -22,9 +22,15 @@ You can use the [GOV.UK Accessibility Personas](https://www.gov.uk/government/pu
 
 In Alpha, you shouldn't be building anything except prototypes. But this doesn't mean you shouldn't consider accessibility. When you get to the end of Alpha, you need to have a good understanding of what it is you're going to build and how you're going to make it accessible. 
 
+In Alpha, you should [focus on testing your riskiest assumptions](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works#focus-on-testing-your-riskiest-assumptions). You should take that approach with accessibility too. That means you don't need to test in Alpha with every single access need, just the ones that are most risky for your service. 
+
+For example, one of your assumptions could be "Users who use screen readers will be able to access the content". If your service exclusively uses design patterns which are tried and tested, that particular access need may not be risky. But if your service uses more unique interactions, it may be more risky and so this assumption would need to be tested in Alpha.
+
+Start by working out your accessibility assumptions and which access needs would affect the use of your service the most. You could use the [accessibility posters made by the Home Office](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/) as a starting point. Next, rank each one of these in terms of their risk level. Finally, test those assumptions and iterate your design until your confident that the risk level has gone down.
+
 You should use the [GOV.UK Design System](https://design-system.service.gov.uk/) and the [GOV.UK Prototyping Kit](https://github.com/alphagov/govuk-prototype-kit) to build and test your ideas. By using these two frameworks you will leverage a lot of best practices and research on accessibility automatically.
 
-When conceptualising ideas, you can use the [GOV.UK Sketch Kit](https://github.com/abbott567/sketch_wireframing_kit) to mock up screen designs and wire-frames.
+When conceptualising ideas, you can use the [GOV.UK Sketch Kit](https://github.com/dwp/sketch_wireframing_kit) to mock up screen designs and wire-frames.
 
 ## Private Beta
 
