@@ -1,6 +1,6 @@
 # Delivery Manager
 
-As a Delivery Manager you need to make sure that accessibility is considered when sizing up stories and that very feature is fully accessible before it is released.
+As a Delivery Manager you need to make sure that accessibility is considered when sizing up stories and that every feature is fully accessible before it is released.
 
 If your team is unsure on how to test for accessibility, you can [read more on how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).
 
