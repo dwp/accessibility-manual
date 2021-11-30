@@ -31,7 +31,7 @@ You will also want to work with [QA Testers](/guidance-for-your-job-role/qa-test
 {% include './partials/heading-hierarchy.md' %}
 {% include './partials/inputs-and-labels.md' %}
 {% include './partials/keyboard-focus.md' %}
-{% include './partials/links-make-sense-out-of-context.md' %}
+{% include './partials/link-text.md' %}
 {% include './partials/no-keyboard-traps.md' %}
 {% include './partials/no-reliance-on-javascript.md' %}
 {% include './partials/orientation-and-reflow.md' %}

@@ -1,5 +1,5 @@
-Every page should have a unique heading. Don't have multiple pages with the same vague H1, for example: "Your details".
+Every page should have a unique heading. Do not have multiple pages with the same vague H1, for example: “Your details”.
 
-Think about the journey as a whole. Consider the page that came before or the one that comes after.
+Think about the journey as a whole. Consider the page that came before and the one that comes after.
 
-If a screen reader user submits some information on one page, but the heading on the following page is the same, they may think the page has not changed, even if it's obvious to a sighted user that it has.
+For example, if all the pages in an online form have the same heading, an assistive technology user may not know which page they are on and if they have completed all of the form.

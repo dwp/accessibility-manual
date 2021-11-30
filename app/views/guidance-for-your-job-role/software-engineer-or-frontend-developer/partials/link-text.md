@@ -1,4 +1,4 @@
-### Links make sense out of context
+### Link text
 
 For any link, remove everything else on the page and make sure it still makes sense. For example "Change" is not clear when you view it in isolation, but "Change bank details" is.
 

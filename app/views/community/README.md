@@ -11,6 +11,9 @@ If you'd like to [collaborate, give feedback or add some content](https://github
 - [Jon Hurrell](https://twitter.com/monsterthoughts)
 - [Catherine Hope](https://twitter.com/CatherineCe)
 - [Mike Gifford](https://twitter.com/mgifford)
+- [Marian Avery](https://twitter.com/madebymarian)
+- Esther Woods
+- Rosa Ryou
 - [Terence Eden](https://twitter.com/edent)
 - [Oliver Byford](https://github.com/36degrees)
 - [Greg Stevenson](https://twitter.com/GT_Stevenson)

@@ -2,4 +2,4 @@
 
 {% include '../../shared/page-url.md' %}
 
-You should work with a Frontend Developer to make sure when the service is built the URLs can follow the most helpful format for the user.
+You should work with a Frontend Developer to make sure the URLs follow the most user-friendly format when the service is built.

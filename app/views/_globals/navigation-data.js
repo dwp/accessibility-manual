@@ -97,6 +97,22 @@ module.exports = {
               sectionId: 'guidance-for-your-job-role',
               subsections: [
                 {
+                  title: 'Page title',
+                  id: 'page-title'
+                },
+                {
+                  title: 'Page URL',
+                  id: 'page-url'
+                },
+                {
+                  title: 'Write in plain English',
+                  id: 'write-in-plain-english'
+                },
+                {
+                  title: 'Unique headings',
+                  id: 'unique-headings'
+                },
+                {
                   title: 'Alternative text for non-text content',
                   id: 'alternative-text-for-non-text-content'
                 },
@@ -109,8 +125,8 @@ module.exports = {
                   id: 'consistent-content'
                 },
                 {
-                  title: 'Do not rely on sensory characteristics',
-                  id: 'do-not-rely-on-sensory-characteristics'
+                  title: 'Link text',
+                  id: 'link-text'
                 },
                 {
                   title: 'Error messages',
@@ -121,32 +137,16 @@ module.exports = {
                   id: 'heading-hierarchy'
                 },
                 {
+                  title: 'Hidden content',
+                  id: 'hidden-content'
+                },
+                {
                   title: 'Labels and instructions',
                   id: 'labels-and-instructions'
                 },
                 {
-                  title: 'Links make sense out of context',
-                  id: 'links-make-sense-out-of-context'
-                },
-                {
-                  title: 'Page title',
-                  id: 'page-title'
-                },
-                {
-                  title: 'Page URL',
-                  id: 'page-url'
-                },
-                {
-                  title: 'Reading age',
-                  id: 'reading-age'
-                },
-                {
-                  title: 'Unique headings',
-                  id: 'unique-headings'
-                },
-                {
-                  title: 'Use of tables',
-                  id: 'use-of-tables'
+                  title: 'Logical reading order',
+                  id: 'logical-reading-order'
                 }
               ]
             },
@@ -241,8 +241,12 @@ module.exports = {
                   id: 'hidden-content'
                 },
                 {
-                  title: 'Links make sense out of context',
-                  id: 'links-make-sense-out-of-context'
+                  title: 'Labels and instructions',
+                  id: 'labels-and-instructions'
+                },
+                {
+                  title: 'Link text',
+                  id: 'link-text'
                 },
                 {
                   title: 'Logical reading order',
@@ -385,8 +389,8 @@ module.exports = {
                   id: 'keyboard-focus'
                 },
                 {
-                  title: 'Links make sense out of context',
-                  id: 'links-make-sense-out-of-context'
+                  title: 'Link text',
+                  id: 'link-text'
                 },
                 {
                   title: 'No keyboard traps',

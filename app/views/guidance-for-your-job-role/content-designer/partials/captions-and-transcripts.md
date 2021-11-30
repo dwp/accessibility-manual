@@ -1,7 +1,5 @@
 ### Captions and transcripts
 
-If you're providing audible content then you need to provide a transcript so that people with hearing impairments can still understand the information.
+If you have audio or video content, you need to make sure this it’s accessible to everyone. 
 
-The same applies if you provide a video. Closed captions should be available for any dialogue to help people with hearing impairments, and audio description should be available for people with visual impairments.
-
-A transcript can be provided as an alternative format to audio and video. It should be available in HTML and linked to on the same page as the video. It should include any dialogue and a description of what each scene in the video is portraying.
+GOV.UK has [guidance on captions and transcripts](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos) which can be used as best practice for all content designers. Your video may also need an audio description. The Government Communication Service has [guidance on using audio description](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/).
