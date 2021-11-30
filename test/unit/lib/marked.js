@@ -6,7 +6,7 @@ markdown.setup()
 const expect = require('chai').expect
 chai.use(require('chai-string'))
 
-describe('markedown', () => {
+describe('markdown', () => {
   it('should render a heading with a slugified id and a tabindex of -1', () => {
     const expectedResult = `
       <h1 id="potatoes-are-great" class="heading" tabindex="-1">

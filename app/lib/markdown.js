@@ -28,7 +28,7 @@ function setup () {
 }
 
 function compile (markdown) {
-  return marked(markdown)
+  return marked.parse(markdown)
 }
 
 module.exports = { compile, setup }
