@@ -135,18 +135,6 @@ module.exports = {
                 {
                   title: 'Heading hierarchy',
                   id: 'heading-hierarchy'
-                },
-                {
-                  title: 'Hidden content',
-                  id: 'hidden-content'
-                },
-                {
-                  title: 'Labels and instructions',
-                  id: 'labels-and-instructions'
-                },
-                {
-                  title: 'Logical reading order',
-                  id: 'logical-reading-order'
                 }
               ]
             },
