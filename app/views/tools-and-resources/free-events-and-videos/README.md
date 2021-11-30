@@ -10,6 +10,7 @@ This list is just some stuff we already know about. If you know of anything grea
 - [Webinars with AbilityNet](https://abilitynet.org.uk/free-resources/webinars)
 
 ## Recommended videos
+- [Accessibility Scotland](https://accessibility.scot/)
 - [Introduction to Accessibility: Training by AbilityNet](https://www.youtube.com/watch?v=eVk_UnjbNgc&t=89s)
 - [Empathy in Accessibility: by Craig Abbott](https://www.youtube.com/watch?v=OyGuEXq2PCc)
 - [Getting your priorities straight: By Haydon Pickering](https://www.youtube.com/watch?v=MZfZO9mTKpU)
