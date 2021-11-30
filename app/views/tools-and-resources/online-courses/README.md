@@ -1,6 +1,6 @@
 # Online courses
 
-Here are some links to online training for accessibility.
+Below are some links to online training for accessibility. Another good resource is [Mike Gifford's list of accessibility courses](https://github.com/accessibility/a11y-courses).
 
 ## Free courses
 - [W3C Digital Accessibility Foundations](https://www.w3.org/WAI/fundamentals/foundations-course/)

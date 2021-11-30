@@ -3,10 +3,9 @@
 This list is just some stuff we already know about. If you know of anything great which we've missed, please [recommend events, videos or channels](https://github.com/dwp/accessibility-manual/issues/new) for the list.
 
 ## Events
+- [Global Accessibility Awareness Day (GAAD)](https://globalaccessibilityawarenessday.org/)
 - [Accessibility London](https://www.meetup.com/London-Accessibility-Meetup/)
 - [Chester Devs](https://chester.dev/)
-<!-- - [Design Exchange Nottingham (DXN)](https://dxnevent.com/) -->
-<!-- - [Middlesborough Frontend](https://middlesbroughfe.co.uk/) -->
 - [Webinars with AbilityNet](https://abilitynet.org.uk/free-resources/webinars)
 
 ## Recommended videos
