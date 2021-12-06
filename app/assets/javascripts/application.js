@@ -1,4 +1,3 @@
-import './vendor/jQuery'
 import MobileNav from '../../views/components/mobile-navigation/mobile-navigation'
 import BackToTop from '../../views/components/back-to-top/back-to-top'
 
