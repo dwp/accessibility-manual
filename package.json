@@ -42,11 +42,13 @@
     "nunjucks-markdown": "^2.0.1",
     "require-dir": "^1.0.0",
     "slugify": "^1.6.3",
+    "wcagify": "^1.4.1",
     "webpack": "^5.64.4",
     "webpack-stream": "^7.0.0"
   },
   "devDependencies": {
     "@axe-core/webdriverjs": "^4.3.2",
+    "babel-eslint": "^10.1.0",
     "chai": "^4.3.4",
     "chai-spies": "^1.0.0",
     "chai-string": "^1.5.0",
