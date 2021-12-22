@@ -1,6 +1,7 @@
 const nunjucks = require('nunjucks')
 const markdown = require('./markdown')
 const path = require('path')
+const wcagify = require('wcagify')
 
 function setup (app) {
   app.set('view engine', 'njk')
@@ -21,7 +22,7 @@ function setup (app) {
   })
 
   nunjucksEnvironment.addFilter('markdown', markdown.compile)
-
+  nunjucksEnvironment.addFilter('wcagify', wcagify)
   return app
 }
 

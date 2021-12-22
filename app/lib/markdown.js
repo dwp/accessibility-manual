@@ -1,14 +1,18 @@
 const marked = require('marked')
 const overrides = require('./markdown-overrides')
 const hljs = require('highlight.js')
+const wcagifyMarked = require('wcagify/markedjs')
 
 function setup () {
   const renderer = new marked.Renderer()
+
+  wcagifyMarked(renderer)
 
   // Add custom functionality to Markdown
   overrides.code(renderer)
   overrides.heading(renderer)
   overrides.paragraph(renderer)
+  overrides.link(renderer)
 
   // Set render options
   marked.setOptions({

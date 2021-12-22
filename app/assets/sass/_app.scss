@@ -261,14 +261,34 @@ p code {
 
   h1 {
     @extend %govuk-heading-xl;
+    .caption {
+      @include govuk-font($size: 27);
+      display: block;
+      margin-bottom: govuk-spacing(1);
+      color: $govuk-secondary-text-colour;
+    }
   }
 
   h2 {
     @extend %govuk-heading-l;
+    .caption {
+      @include govuk-font($size: 24);
+      display: block;
+      margin-bottom: govuk-spacing(1);
+      color: $govuk-secondary-text-colour;
+      @include govuk-media-query($from: tablet) {
+        margin-bottom: 0;
+      }
+    }
   }
 
   h3 {
     @extend %govuk-heading-m;
+    .caption {
+      @include govuk-font($size: 19);
+      display: block;
+      color: $govuk-secondary-text-colour;
+    }
   }
 
   h4 {

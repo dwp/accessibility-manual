@@ -67,17 +67,30 @@ function paragraph (renderer) {
     }
     const isDL = text.match(/(.*)<br>:\s(.*)/g)
     if (isDL) {
-      let dl = '<dl>'
-      const sort = isDL[0].split('<br>')
-      sort.forEach(part => {
-        const isdt = part.charAt(0) !== ':'
-        const isdd = part.charAt(0) === ':'
-        if (isdt) {
-          dl += `<dt>${part}</dt>`
+      const array = text.split('<br>')
+      const rows = []
+      array.forEach(item => {
+        const isKey = item.charAt(0) !== ':'
+        const isValue = item.charAt(0) === ':'
+        if (isKey) {
+          rows.push({ dt: item, dd: [] })
         }
-        if (isdd) {
-          dl += `<dd>${part.replace(': ', '')}</dd>`
+        if (isValue) {
+          const lastIndex = rows.length - 1
+          rows[lastIndex].dd.push(item)
         }
+      })
+      let dl = '<dl class="govuk-summary-list">'
+      rows.forEach(row => {
+        dl += '<div class="govuk-summary-list__row">'
+        dl += `<dt class="govuk-summary-list__key">${row.dt}</dt>`
+        dl += '<dd class="govuk-summary-list__value">'
+        row.dd.forEach(subItem => {
+          const text = subItem.slice(2)
+          dl += `<p>${text}</p>`
+        })
+        dl += '</dd>'
+        dl += '</div>'
       })
       dl += '</dl>'
       return dl
@@ -85,5 +98,19 @@ function paragraph (renderer) {
     return `<p>${text}</p>`
   }
 }
+function link (renderer) {
+  let html
+  const linkRenderer = renderer.link
+  renderer.link = (href, title, text) => {
+    if (text.match(/{(.*)}/)) {
+      text = text.replace('{', '<span class="govuk-visually-hidden">')
+      text = text.replace('}', '</span>')
+      html = linkRenderer.call(renderer, href, title, text)
+    } else {
+      html = linkRenderer.call(renderer, href, title, text)
+    }
+    return html
+  }
+}
 
-module.exports = { code, heading, paragraph }
+module.exports = { code, heading, paragraph, link }
