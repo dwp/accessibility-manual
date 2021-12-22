@@ -2,7 +2,7 @@
 
 Always use the correct heading levels.
 
-A heading can have any level from H1 to H6. However, each heading level should relate to all the headings above it. The higher the number the more detail on the topic you should be going into.
+A heading can have any level from H1 to H6. Every page should have a single H1, and each heading level should relate to all the headings above it. The higher the number, the more detail on the topic you should be going into.
 
 For example, your might have a page to provide information on COVID-19. On that page you might have a section for information on how to protect yourself, and you might have another sections getting tested.
 

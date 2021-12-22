@@ -769,6 +769,131 @@ module.exports = {
       link: '/tools-and-resources',
       subsections: [
         {
+          sectionHeading: 'Testing tools',
+          subsections: [
+            {
+              title: 'Basic accessibility checks',
+              id: 'basic-accessibility-checks',
+              link: '/tools-and-resources/basic-accessibility-checks',
+              sectionId: 'tools-and-resources',
+              subsections: [
+                {
+                  title: '1. Responsive design',
+                  id: '1-responsive-design'
+                },
+                {
+                  title: '2. Automated tools',
+                  id: '2-automated-tools'
+                },
+                {
+                  title: '3. Keyboard accessibility',
+                  id: '3-keyboard-accessibility'
+                },
+                {
+                  title: '4. Headings and labels',
+                  id: '4-headings-and-labels'
+                },
+                {
+                  title: '5. Page title',
+                  id: '5-page-title'
+                },
+                {
+                  title: '6. Links and buttons',
+                  id: '6-links-and-buttons'
+                },
+                {
+                  title: '7. Colour contrast',
+                  id: '7-colour-contrast'
+                },
+                {
+                  title: '8. Images',
+                  id: '8-images'
+                },
+                {
+                  title: '9. Announcements and alerts',
+                  id: '9-announcements-and-alerts'
+                },
+                {
+                  title: '10. Session timeouts',
+                  id: '10-session-timeouts'
+                }
+              ]
+            },
+            {
+              title: 'Automated testing',
+              id: 'automated-accessibility-testing',
+              link: '/tools-and-resources/automated-accessibility-testing',
+              sectionId: 'tools-and-resources',
+              subsections: [
+                {
+                  title: 'HTMLHint',
+                  id: 'htmlhint'
+                },
+                {
+                  title: 'W3C Markup Validation Service',
+                  id: 'w3c-markup-validation-service'
+                },
+                {
+                  title: 'PA11Y',
+                  id: 'pa11y'
+                },
+                {
+                  title: 'axe-core',
+                  id: 'axe-core'
+                },
+                {
+                  title: 'ARC Toolkit',
+                  id: 'arc-toolkit'
+                },
+                {
+                  title: 'Axe DevTools',
+                  id: 'axe-devtools'
+                },
+                {
+                  title: 'Wave',
+                  id: 'wave'
+                }
+              ]
+            },
+            {
+              title: 'Manual testing',
+              id: 'manual-accessibility-testing',
+              link: '/tools-and-resources/manual-accessibility-testing',
+              sectionId: 'tools-and-resources',
+              subsections: [
+                {
+                  title: 'Accessibility Insights',
+                  id: 'accessibility-insights'
+                },
+                {
+                  title: 'Colour contrast',
+                  id: 'colour-contrast'
+                },
+                {
+                  title: 'WebAim WCAG 2.1 checklist',
+                  id: 'webaim-wcag-21-checklist'
+                }
+              ]
+            },
+            {
+              title: 'Assistive technology testing',
+              id: 'assistive-technology-testing',
+              link: '/tools-and-resources/assistive-technology-testing',
+              sectionId: 'tools-and-resources',
+              subsections: [
+                {
+                  title: 'Common assistive technologies',
+                  id: 'common-assistice-technologies'
+                },
+                {
+                  title: 'Testing templates',
+                  id: 'testing-templates'
+                }
+              ]
+            }
+          ]
+        },
+        {
           sectionHeading: 'Articles and guidance',
           subsections: [
             {
@@ -902,83 +1027,6 @@ module.exports = {
               link: '/tools-and-resources/sculpt',
               sectionId: 'tools-and-resources',
               subsections: []
-            }
-          ]
-        },
-        {
-          sectionHeading: 'Tools',
-          subsections: [
-            {
-              title: 'Automated testing',
-              id: 'automated-accessibility-testing',
-              link: '/tools-and-resources/automated-accessibility-testing',
-              sectionId: 'tools-and-resources',
-              subsections: [
-                {
-                  title: 'HTMLHint',
-                  id: 'htmlhint'
-                },
-                {
-                  title: 'W3C Markup Validation Service',
-                  id: 'w3c-markup-validation-service'
-                },
-                {
-                  title: 'PA11Y',
-                  id: 'pa11y'
-                },
-                {
-                  title: 'axe-core',
-                  id: 'axe-core'
-                },
-                {
-                  title: 'ARC Toolkit',
-                  id: 'arc-toolkit'
-                },
-                {
-                  title: 'Axe DevTools',
-                  id: 'axe-devtools'
-                },
-                {
-                  title: 'Wave',
-                  id: 'wave'
-                }
-              ]
-            },
-            {
-              title: 'Manual testing',
-              id: 'manual-accessibility-testing',
-              link: '/tools-and-resources/manual-accessibility-testing',
-              sectionId: 'tools-and-resources',
-              subsections: [
-                {
-                  title: 'Accessibility Insights',
-                  id: 'accessibility-insights'
-                },
-                {
-                  title: 'Colour contrast',
-                  id: 'colour-contrast'
-                },
-                {
-                  title: 'WebAim WCAG 2.1 checklist',
-                  id: 'webaim-wcag-21-checklist'
-                }
-              ]
-            },
-            {
-              title: 'Assistive technology testing',
-              id: 'assistive-technology-testing',
-              link: '/tools-and-resources/assistive-technology-testing',
-              sectionId: 'tools-and-resources',
-              subsections: [
-                {
-                  title: 'Common assistive technologies',
-                  id: 'common-assistice-technologies'
-                },
-                {
-                  title: 'Testing templates',
-                  id: 'testing-templates'
-                }
-              ]
             }
           ]
         },
