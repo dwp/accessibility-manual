@@ -6,7 +6,7 @@ If you are using [GOV.UK Frontend](https://frontend.design-system.service.gov.uk
 
 ### Links
 
-Links should be coded using valid html code, using an <a> tag, including an href attribute and meaningful text inside the link.
+Links should be coded using valid html code, using an `<a>` tag, including an href attribute and meaningful text inside the link.
 
 Example code:
 ```html
