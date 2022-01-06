@@ -74,9 +74,9 @@ Checklist:
 : Page has a main region, but not more than 1
 : Page has is a working skip-link
 Guidance:
-: [{Keyboard accessibility :}How to test]()
-: [{Keyboard accessibility: }Impact on users]()
-: [{Keyboard accessibility: }Technical considerations]()
+: [{Keyboard accessibility :}How to test](/tools-and-resources/basic-accessibility-checks/3-keyboard-accessibility-how-to-test)
+: [{Keyboard accessibility: }Impact on users](/tools-and-resources/basic-accessibility-checks/3-keyboard-accessibility-impact-on-users)
+: [{Keyboard accessibility: }Technical considerations](/tools-and-resources/basic-accessibility-checks/3-keyboard-accessibility-technical-considerations)
 
 ## 4. Headings and labels
 WCAG criteria:
