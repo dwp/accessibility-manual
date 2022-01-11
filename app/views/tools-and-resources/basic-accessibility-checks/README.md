@@ -59,19 +59,18 @@ Guidance:
 
 ## 3. Keyboard accessibility
 WCAG criteria:
-: [2.4.3 Focus Order]({wcagify})
-: [2.4.7 Focus Visible]({wcagify})
 : [2.1.1 Keyboard]({wcagify})
 : [2.1.2 No Keyboard Trap]({wcagify})
 : [2.4.1 Bypass Blocks]({wcagify})
+: [2.4.3 Focus Order]({wcagify})
+: [2.4.7 Focus Visible]({wcagify})
 : [4.1.2 Name, Role, Value]({wcagify})
 Checklist:
+: All interactions work using a keyboard
+: Focus is never trapped
 : Focus order is logical
 : Focus is always visible
 : Focus is contained within modals and popups
-: All interactions work using a keyboard
-: Focus is never trapped
-: Page has a main region, but not more than 1
 : Page has is a working skip-link
 Guidance:
 : [{Keyboard accessibility :}How to test](/tools-and-resources/basic-accessibility-checks/3-keyboard-accessibility-how-to-test)
