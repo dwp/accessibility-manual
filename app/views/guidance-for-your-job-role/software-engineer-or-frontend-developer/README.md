@@ -30,6 +30,7 @@ You will also want to work with [QA Testers](/guidance-for-your-job-role/qa-test
 {% include './partials/govuk-frontend.md' %}
 {% include './partials/heading-hierarchy.md' %}
 {% include './partials/inputs-and-labels.md' %}
+{% include './partials/inputs-control-purpose.md' %}
 {% include './partials/keyboard-focus.md' %}
 {% include './partials/link-text.md' %}
 {% include './partials/no-keyboard-traps.md' %}
