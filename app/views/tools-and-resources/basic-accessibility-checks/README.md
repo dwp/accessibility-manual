@@ -53,9 +53,9 @@ Checklist:
 : Axe Devtools used
 : Wave used
 Guidance:
-: [{Automated tools :}How to test]()
-: [{Automated tools: }Impact on users]()
-: [{Automated tools: }Technical considerations]()
+: [{Automated tools :}How to test](/tools-and-resources/basic-accessibility-checks/2-automated-tools-how-to-test)
+: [{Automated tools: }Impact on users](/tools-and-resources/basic-accessibility-checks/2-automated-tools-impact-on-users)
+: [{Automated tools: }Technical considerations](/tools-and-resources/basic-accessibility-checks/2-automated-tools-technical-considerations)
 
 ## 3. Keyboard accessibility
 WCAG criteria:
