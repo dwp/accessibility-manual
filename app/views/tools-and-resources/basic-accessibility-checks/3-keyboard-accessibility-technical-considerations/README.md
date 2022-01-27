@@ -191,4 +191,17 @@ Output:
 
 ## Focus visible
 
-The focus indicator is coded in the css.
+The focus styles on interactive elements must have a contrast ratio of 3:1 to meet WCAG 2.1 criterion [1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html). 
+
+In WCAG 2.2 there will also be a few extra considerations in order to meet [2.4.11 Focus Appearance (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html).
+
+If you are using GOVUK Frontend, as long as you use the correct classes for your elements, you should pass the focus styles automatically.
+
+For example:
+```html
+<a href="#" class="govuk-link">govuk-link</a>
+
+<button class="govuk-button" data-module="govuk-button">
+  Save and continue
+</button>
+```
