@@ -100,9 +100,9 @@ Checklist:
 : Page title desribes the current page
 : Page title describes the current website or service
 Guidance:
-: [{Page title :}How to test]()
-: [{Page title: }Impact on users]()
-: [{Page title: }Technical considerations]()
+: [{Page title :}How to test](/tools-and-resources/basic-accessibility-checks/5-page-title-how-to-test)
+: [{Page title: }Impact on users](/tools-and-resources/basic-accessibility-checks/5-page-title-impact-on-users)
+: [{Page title: }Technical considerations](/tools-and-resources/basic-accessibility-checks/5-page-title-technical-considerations)
 
 ## 6. Links and buttons
 WCAG criteria:
