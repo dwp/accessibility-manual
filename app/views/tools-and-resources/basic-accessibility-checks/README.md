@@ -89,7 +89,7 @@ Checklist:
 : Tables are captioned, headed and marked up correctly
 : All form fields have a label
 Guidance:
-: [{Headings and labels :}How to test]()
+: [{Headings and labels :}How to test](/tools-and-resources/basic-accessibility-checks/4-headings-and-labels-how-to-test)
 : [{Headings and labels: }Impact on users]()
 : [{Headings and labels: }Technical considerations]()
 
