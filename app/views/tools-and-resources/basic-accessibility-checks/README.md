@@ -118,9 +118,9 @@ Checklist:
 : Button icons have a text alternative
 : Buttons and links use the correct tags or roles
 Guidance:
-: [{Links and buttons :}How to test]()
-: [{Links and buttons: }Impact on users]()
-: [{Links and buttons: }Technical considerations]()
+: [{Links and buttons :}How to test](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-how-to-test)
+: [{Links and buttons: }Impact on users](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-impact-on-users)
+: [{Links and buttons: }Technical considerations](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-technical-considerations)
 
 ## 7. Colour contrast
 WCAG criteria: 
