@@ -30,9 +30,9 @@ You can check for table errors using automated tools. The WAVE extension will id
 
 You should check that the following items are present:
 
-	- **Caption** - should describe the content of the table
-	- **Headers** - each column and/or row should have a header, which should be correctly coded in a <code>&lt;th&gt;</code> tag
-	- **Data** - the information in each cell should relate to the column or row header.
+- **Caption** - should describe the content of the table
+- **Headers** - each column and/or row should have a header, which should be correctly coded in a <code>&lt;th&gt;</code> tag
+- **Data** - the information in each cell should relate to the column or row header.
 
 ## Form field labels
 
