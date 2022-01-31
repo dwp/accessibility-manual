@@ -1,12 +1,12 @@
 # {Headings and labels: }Technical considerations
 
-<p>If you are using <a href="https://frontend.design-system.service.gov.uk/">GOV.UK Frontend</a> you can use all of the responsive styles, layouts and components in the <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a>.</p>
+If you are using [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/) you can use all of the responsive styles, layouts and components in the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
-<h2>Headings<h2>
+## Headings
 
-<h3>HTML for headings</h3>
+### HTML for headings
 
-<p>It is important to mark up headings using valid HTML code. Headings should always be nested correctly rather than heading levels being selected to match formatting preferences. If necessary, the CSS can be amended to change formatting.</p>
+It is important to mark up headings using valid HTML code. Headings should always be nested correctly rather than heading levels being selected to match formatting preferences. If necessary, the CSS can be amended to change formatting.
 
 <pre>
 	<code>
@@ -21,15 +21,15 @@
 	</code>
 </pre>
 
-<p>In most circumstances, a page should only have one <code>&lt;h1&gt;</code> heading.</p>
+In most circumstances, a page should only have one <code>&lt;h1&gt;</code> heading.
 
-<h3>CSS for headings</h3>
+### CSS for headings
 
-<h2>Tables</h2>
+## Tables
 
-<h3>HTML for tables</h3>
+### HTML for tables
 
-<p>Tables should be coded as follows:</p>
+Tables should be coded as follows:
 
 <pre>
 	<code>
@@ -54,9 +54,9 @@
 	</code>
 </pre>
 
-<p>The <code>&lt;caption&gt;</code> tag should come immediately after the opening <code>&lt;table&gt;</code> tag.</p>
+The <code>&lt;caption&gt;</code> tag should come immediately after the opening <code>&lt;table&gt;</code> tag.
 
-<p>Output:</p>
+Output:
 <table>
 	<caption>Covid cases at Hogwarts</caption>
 		<tr>
@@ -76,6 +76,6 @@
 		</tr>
 </table>
 
-<h3>CSS for tables</h3>
+### CSS for tables
 
-<h2>Labels</h2>
+## Labels
