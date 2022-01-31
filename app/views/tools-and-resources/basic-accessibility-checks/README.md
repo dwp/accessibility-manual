@@ -133,9 +133,9 @@ Checklist:
 : Non-text elements have a contrast ratio of 3:1
 : Focus styles have a contrast ratio of 3:1
 Guidance:
-: [{Colour contrast :}How to test]()
-: [{Colour contrast: }Impact on users]()
-: [{Colour contrast: }Technical considerations]()
+: [{Colour contrast :}How to test](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-how-to-test)
+: [{Colour contrast: }Impact on users](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-impact-on-users)
+: [{Colour contrast: }Technical considerations](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-technical-considerations)
 
 ## 8. Images
 WCAG criteria:
@@ -146,9 +146,9 @@ Checklist:
 : Decorative images are hidden from screen readers
 : No images of text are being used
 Guidance:
-: [{Images: }How to test]()
-: [{Images: }Impact on users]()
-: [{Images: }Technical considerations]()
+: [{Images: }How to test](/tools-and-resources/basic-accessibility-checks/images-how-to-test)
+: [{Images: }Impact on users](/tools-and-resources/basic-accessibility-checks/images-impact-on-users)
+: [{Images: }Technical considerations](/tools-and-resources/basic-accessibility-checks/images-technical-considerations)
 
 ## 9. Announcements and alerts
 WCAG criteria:
@@ -162,9 +162,9 @@ Checklist:
 : Notification messages are announced to screen readers
 : Popups are announced to screen readers
 Guidance:
-: [{Announcements and alerts :}How to test]()
-: [{Announcements and alerts: }Impact on users]()
-: [{Announcements and alerts: }Technical considerations]()
+: [{Announcements and alerts :}How to test](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-how-to-test)
+: [{Announcements and alerts: }Impact on users](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-impact-on-users)
+: [{Announcements and alerts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-technical-considerations)
 
 ## 10. Session timeouts
 WCAG criteria:
@@ -172,6 +172,6 @@ WCAG criteria:
 Checklist:
 : There is a way to extend session timeouts without losing data
 Guidance:
-: [{Session timeouts :}How to test]()
-: [{Session timeouts: }Impact on users]()
-: [{Session timeouts: }Technical considerations]()
+: [{Session timeouts :}How to test](/tools-and-resources/basic-accessibility-checks/session-timeouts-how-to-test)
+: [{Session timeouts: }Impact on users](/tools-and-resources/basic-accessibility-checks/session-timeouts-impact-on-users)
+: [{Session timeouts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/session-timeouts-technical-considerations)
