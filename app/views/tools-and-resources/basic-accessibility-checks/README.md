@@ -146,9 +146,9 @@ Checklist:
 : Decorative images are hidden from screen readers
 : No images of text are being used
 Guidance:
-: [{Images: }How to test](/tools-and-resources/basic-accessibility-checks/images-how-to-test)
-: [{Images: }Impact on users](/tools-and-resources/basic-accessibility-checks/images-impact-on-users)
-: [{Images: }Technical considerations](/tools-and-resources/basic-accessibility-checks/images-technical-considerations)
+: [{Images: }How to test](/tools-and-resources/basic-accessibility-checks/8-images-how-to-test)
+: [{Images: }Impact on users](/tools-and-resources/basic-accessibility-checks/8-images-impact-on-users)
+: [{Images: }Technical considerations](/tools-and-resources/basic-accessibility-checks/8-images-technical-considerations)
 
 ## 9. Announcements and alerts
 WCAG criteria:
@@ -162,9 +162,9 @@ Checklist:
 : Notification messages are announced to screen readers
 : Popups are announced to screen readers
 Guidance:
-: [{Announcements and alerts :}How to test](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-how-to-test)
-: [{Announcements and alerts: }Impact on users](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-impact-on-users)
-: [{Announcements and alerts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/announcements-and-alerts-technical-considerations)
+: [{Announcements and alerts :}How to test](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-how-to-test)
+: [{Announcements and alerts: }Impact on users](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-impact-on-users)
+: [{Announcements and alerts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-technical-considerations)
 
 ## 10. Session timeouts
 WCAG criteria:
@@ -172,6 +172,6 @@ WCAG criteria:
 Checklist:
 : There is a way to extend session timeouts without losing data
 Guidance:
-: [{Session timeouts :}How to test](/tools-and-resources/basic-accessibility-checks/session-timeouts-how-to-test)
-: [{Session timeouts: }Impact on users](/tools-and-resources/basic-accessibility-checks/session-timeouts-impact-on-users)
-: [{Session timeouts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/session-timeouts-technical-considerations)
+: [{Session timeouts :}How to test](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-how-to-test)
+: [{Session timeouts: }Impact on users](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-impact-on-users)
+: [{Session timeouts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-technical-considerations)
