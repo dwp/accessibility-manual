@@ -257,6 +257,30 @@ module.exports = {
           ]
         },
         {
+          title: 'Communications',
+          id: 'communications',
+          link: '/tools-and-resources/communications',
+          sectionId: 'tools-and-resources',
+          subsections: [
+            {
+              title: 'Microsoft Word',
+              id: 'microsoft-word'
+            },
+            {
+              title: 'Microsoft PowerPoint',
+              id: 'microsoft-powerpoint'
+            },
+            {
+              title: 'Outlook',
+              id: 'outlook'
+            },
+            {
+              title: 'PDFs',
+              id: 'pdfs'
+            },
+          ]
+        },
+        {
           title: 'SCULPT',
           id: 'sculpt',
           link: '/tools-and-resources/sculpt',
