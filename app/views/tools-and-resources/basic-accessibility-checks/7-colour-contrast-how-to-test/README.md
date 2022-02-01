@@ -12,10 +12,10 @@ To check the colour contrast, you will need the hexadecimal colour codes for the
 
 The colour contrast ratio required for compliance depends on the size of text:
 
-	- Large text - 18pt or larger - minimum 3:1
-	- Large text - 14pt and bold or larger - minimum 3:1
-	- Normal text - smaller than large - minimum 4.5:1
-	- Non-text elements - minimum 3:1
-	- Focus styles - minimum 3:1
+- Large text - 18pt or larger - minimum 3:1
+- Large text - 14pt and bold or larger - minimum 3:1
+- Normal text - smaller than large - minimum 4.5:1
+- Non-text elements - minimum 3:1
+- Focus styles - minimum 3:1
 
 When looking at the pass/fail indicators on the contrast checker, remember that Public Sector Bodies must comply at AA level.
