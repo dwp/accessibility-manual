@@ -53,9 +53,9 @@ Checklist:
 : Axe Devtools used
 : Wave used
 Guidance:
-: [{Automated tools :}How to test]()
-: [{Automated tools: }Impact on users]()
-: [{Automated tools: }Technical considerations]()
+: [{Automated tools :}How to test](/tools-and-resources/basic-accessibility-checks/2-automated-tools-how-to-test)
+: [{Automated tools: }Impact on users](/tools-and-resources/basic-accessibility-checks/2-automated-tools-impact-on-users)
+: [{Automated tools: }Technical considerations](/tools-and-resources/basic-accessibility-checks/2-automated-tools-technical-considerations)
 
 ## 3. Keyboard accessibility
 WCAG criteria:
@@ -89,9 +89,9 @@ Checklist:
 : Tables are captioned, headed and marked up correctly
 : All form fields have a label
 Guidance:
-: [{Headings and labels :}How to test]()
-: [{Headings and labels: }Impact on users]()
-: [{Headings and labels: }Technical considerations]()
+: [{Headings and labels :}How to test](/tools-and-resources/basic-accessibility-checks/4-headings-and-labels-how-to-test)
+: [{Headings and labels: }Impact on users](/tools-and-resources/basic-accessibility-checks/4-headings-and-labels-impact-on-users)
+: [{Headings and labels: }Technical considerations](/tools-and-resources/basic-accessibility-checks/4-headings-and-labels-technical-considerations)
 
 ## 5. Page title
 WCAG criteria: 
@@ -100,9 +100,9 @@ Checklist:
 : Page title desribes the current page
 : Page title describes the current website or service
 Guidance:
-: [{Page title :}How to test]()
-: [{Page title: }Impact on users]()
-: [{Page title: }Technical considerations]()
+: [{Page title :}How to test](/tools-and-resources/basic-accessibility-checks/5-page-title-how-to-test)
+: [{Page title: }Impact on users](/tools-and-resources/basic-accessibility-checks/5-page-title-impact-on-users)
+: [{Page title: }Technical considerations](/tools-and-resources/basic-accessibility-checks/5-page-title-technical-considerations)
 
 ## 6. Links and buttons
 WCAG criteria:
@@ -118,9 +118,9 @@ Checklist:
 : Button icons have a text alternative
 : Buttons and links use the correct tags or roles
 Guidance:
-: [{Links and buttons :}How to test]()
-: [{Links and buttons: }Impact on users]()
-: [{Links and buttons: }Technical considerations]()
+: [{Links and buttons :}How to test](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-how-to-test)
+: [{Links and buttons: }Impact on users](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-impact-on-users)
+: [{Links and buttons: }Technical considerations](/tools-and-resources/basic-accessibility-checks/6-links-and-buttons-technical-considerations)
 
 ## 7. Colour contrast
 WCAG criteria: 
@@ -133,9 +133,9 @@ Checklist:
 : Non-text elements have a contrast ratio of 3:1
 : Focus styles have a contrast ratio of 3:1
 Guidance:
-: [{Colour contrast :}How to test]()
-: [{Colour contrast: }Impact on users]()
-: [{Colour contrast: }Technical considerations]()
+: [{Colour contrast :}How to test](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-how-to-test)
+: [{Colour contrast: }Impact on users](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-impact-on-users)
+: [{Colour contrast: }Technical considerations](/tools-and-resources/basic-accessibility-checks/7-colour-contrast-technical-considerations)
 
 ## 8. Images
 WCAG criteria:
@@ -146,9 +146,9 @@ Checklist:
 : Decorative images are hidden from screen readers
 : No images of text are being used
 Guidance:
-: [{Images: }How to test]()
-: [{Images: }Impact on users]()
-: [{Images: }Technical considerations]()
+: [{Images: }How to test](/tools-and-resources/basic-accessibility-checks/8-images-how-to-test)
+: [{Images: }Impact on users](/tools-and-resources/basic-accessibility-checks/8-images-impact-on-users)
+: [{Images: }Technical considerations](/tools-and-resources/basic-accessibility-checks/8-images-technical-considerations)
 
 ## 9. Announcements and alerts
 WCAG criteria:
@@ -162,9 +162,9 @@ Checklist:
 : Notification messages are announced to screen readers
 : Popups are announced to screen readers
 Guidance:
-: [{Announcements and alerts :}How to test]()
-: [{Announcements and alerts: }Impact on users]()
-: [{Announcements and alerts: }Technical considerations]()
+: [{Announcements and alerts :}How to test](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-how-to-test)
+: [{Announcements and alerts: }Impact on users](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-impact-on-users)
+: [{Announcements and alerts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/9-announcements-and-alerts-technical-considerations)
 
 ## 10. Session timeouts
 WCAG criteria:
@@ -172,6 +172,6 @@ WCAG criteria:
 Checklist:
 : There is a way to extend session timeouts without losing data
 Guidance:
-: [{Session timeouts :}How to test]()
-: [{Session timeouts: }Impact on users]()
-: [{Session timeouts: }Technical considerations]()
+: [{Session timeouts :}How to test](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-how-to-test)
+: [{Session timeouts: }Impact on users](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-impact-on-users)
+: [{Session timeouts: }Technical considerations](/tools-and-resources/basic-accessibility-checks/10-session-timeouts-technical-considerations)
