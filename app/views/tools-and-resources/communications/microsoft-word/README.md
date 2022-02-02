@@ -28,3 +28,39 @@ Screen readers read out both bulleted and numbered lists, first stating that it 
 
 Tables should only be used to display data. Never use tables for layout. Layout will be covered in a later section.
 
+## Layout
+
+In Word, there are often different methods of creating the same end result. It is quite possible to have two documents which look identical but one will be completely accessible and the other not at all accessible. Much of this comes down to layout choices.
+
+### Paragraph and line spacing
+
+### Columns
+
+### Borders and shading
+
+## Colour contrast
+
+### Normal and large text
+
+### Colour codes
+
+### Contrast checker
+
+## Images
+
+### Wrapping
+
+### Alternate text
+
+## Hyperlinks
+
+### Meaningful text on page
+
+### Colours
+
+## Language
+
+### Plain English
+
+### Language of document
+
