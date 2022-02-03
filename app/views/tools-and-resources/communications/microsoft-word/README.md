@@ -14,7 +14,7 @@ In order to make a Word document accessible, these visual items need to be creat
 
 Word has many built-in heading styles and their formatting depends on the **design** that is selected. You may want to choose a different design before working on headings. The following video will show you how to select a different design, along with colours and fonts.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OtiqW_KAoQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IGnzI2qX3Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Styling and modifying headings
 
