@@ -24,6 +24,8 @@ The first step in making headings accessible is to style them correctly by marki
 
 Once you have styled your headings correctly, you may want to modify and format them. The following video covers this.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ehuymyn0fNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Lists
 
 Screen readers read out both bulleted and numbered lists, first stating that it is a list, then the number of items. The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals.
