@@ -26,6 +26,10 @@ Once you have styled your headings correctly, you may want to modify and format 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ehuymyn0fNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Before moving on from headings, it might be helpful to hear how a screen reader reads a document with and without properly styled headings. The following video will do this.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4aHpQxpY7E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Lists
 
 Screen readers read out both bulleted and numbered lists, first stating that it is a list, then the number of items. The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals.
@@ -38,7 +42,7 @@ Tables should be as uniform as possible. Try to avoid merging cells, as this can
 
 ## Layout
 
-In Word, there are often different methods of creating the same end result. It is quite possible to have two documents which look identical but one will be completely accessible and the other not at all accessible. Much of this comes down to layout choices.
+In Word, there are often different methods of creating the same visual result. It is quite possible to have two documents which look identical but one will be completely accessible and the other not at all accessible. Much of this comes down to layout choices.
 
 ### Paragraph and line spacing
 
