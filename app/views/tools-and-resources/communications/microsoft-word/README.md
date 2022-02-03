@@ -18,7 +18,11 @@ Word has many built-in heading styles and their formatting depends on the **desi
 
 ### Styling and modifying headings
 
-Text and video here.
+The first step in making headings accessible is to style them correctly by marking them as headings from the Styles menu. The following video will explain how to do that.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2XUFggj5g0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Once you have styled your headings correctly, you may want to modify and format them. The following video covers this.
 
 ### Lists
 
