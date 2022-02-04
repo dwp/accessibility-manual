@@ -32,13 +32,27 @@ Before moving on from headings, it might be helpful to hear how a screen reader 
 
 ### Lists
 
-Screen readers read out both bulleted and numbered lists, first stating that it is a list, then the number of items. The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals.
+Screen readers read out both bulleted and numbered lists. Depending on how the user navigates a list, the screen reader may read the items alone, preceded by the number or bullet, or it may also announce the number of items in the list.
+
+It is essential to use the bullets and numbering in the **Paragraph** section of the **Home** ribbon to mark lists. If you use a hyphen, this may not be read correctly.
+
+The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals. Although these are read by a screen reader, they are annouced for each item, using their full name, e.g. **black diamond minus white X** or **eye eye eye** (for iii). This can be confusing but also quite irritating.
+
+
 
 ### Tables
 
 Tables should only be used to display data. **Never use tables for layout.** Layout will be covered in a later section.
 
 Tables should be as uniform as possible. Try to avoid merging cells, as this can cause confusion for some people. Make sure that each column and/or row has a header cell and that these are marked as such. Use the table design menu to select the best type of table for your data.
+
+#### Table title
+
+There are various ways of giving a table a title, which is visible on the page. However, screen reader users have the ability to list all of the tables in a document by name and for this to work, the table has to be given a title in the table properties, alt text tab. The following video shows you how to do this.
+
+#### Column and row headers
+
+Tables have different header requirements. Some have column or row headers only, others have both. It is important for header rows and columns to be marked correctly. This enables a screen reader to announce the contents of the cell but also the headers that apply to it. When a user cannot see content, this helps to orient them within the data.
 
 ## Layout
 
