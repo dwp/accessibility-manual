@@ -1,8 +1,8 @@
 # Microsoft Word
 
-## Headings and other visual information
+## Structure
 
-When a sighted person looks at a document, they subconsciously take in a lot of visual information, such as:
+When a sighted person looks at a document, they subconsciously take in a lot of visual and structural information, such as:
 
 - Headings and subheadings
 - Lists (bulleted and numbered)
@@ -36,7 +36,7 @@ Screen readers read out both bulleted and numbered lists. Depending on how the u
 
 It is essential to use the bullets and numbering in the **Paragraph** section of the **Home** ribbon to mark lists. If you use a hyphen, this may not be read correctly.
 
-The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals. Although these are read by a screen reader, they are annouced for each item, using their full name, e.g. **black diamond minus white X** or **eye eye eye** (for iii). This can be confusing but also quite irritating.
+The information will be clearer if standard black, round bullet points are used and numbers as digits. Please avoid using fancy bullet points or Roman numerals. Although these are read by a screen reader, they are annouced for each item, using the name of the symbol, e.g. **black diamond minus white X** or **eye eye eye** (for iii). This can be confusing but also quite irritating.
 
 
 
@@ -44,7 +44,7 @@ The information will be clearer if standard black, round bullet points are used 
 
 Tables should only be used to display data. **Never use tables for layout.** Layout will be covered in a later section.
 
-Tables should be as uniform as possible. Try to avoid merging cells, as this can cause confusion for some people. Make sure that each column and/or row has a header cell and that these are marked as such. Use the table design menu to select the best type of table for your data.
+Tables should be as uniform as possible. Try to avoid merging cells, as this can cause confusion for some people. Make sure that each column or row has a header cell and that these are marked as such. Use the table design menu to select the best type of table for your data.
 
 #### Table title
 
