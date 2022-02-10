@@ -35,7 +35,7 @@ Output:
 
 <button>Submit</button>
 
-3.  Use the `<input>` tag, choose the relevant type attribute, and give the value attribute the name of the button.  
+2.  Use the `<input>` tag, choose the relevant type attribute, and give the value attribute the name of the button.  
 
 Example code:
 
@@ -48,7 +48,7 @@ Output:
 
 <input type="submit" value="Submit"> <input type="button" value="Save">
 
-5.  If the button is an image, put the name of the button in the alt attribute.  
+3.  If the button is an image, put the name of the button in the alt attribute.  
 
 Example code:
 
@@ -56,7 +56,7 @@ Example code:
 <input type="image" src="submit.png" alt="submit" />
 ```
 
-7.  Alternatively, you can use the title attribute. If you use both, the alt attribute overrides the title attribute.  
+4.  Alternatively, you can use the title attribute. If you use both, the alt attribute overrides the title attribute.  
 
 Example code:
 

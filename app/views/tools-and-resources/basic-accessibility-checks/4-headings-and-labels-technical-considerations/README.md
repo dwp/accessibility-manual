@@ -21,8 +21,6 @@ It is important to mark up headings using valid HTML code. Headings should alway
 
 In most circumstances, a page should only have one `<h1>` heading.
 
-### CSS for headings
-
 ## Tables
 
 ### HTML for tables
@@ -54,13 +52,25 @@ The `<caption>` tag should come immediately after the opening `<table>` tag.
 
 Output:
 
-<caption>Covid cases at Hogwarts</caption>
-
-| Month | Griffindor | Slytherin |
-| --- | --- | --- |
-| November | 37 | 178 |
-| December | 41 | 200 |
-
-### CSS for tables
+<table class="govuk-table">
+<caption class="govuk-table__caption--m">Covid cases at Hogwarts</caption>
+<tr class="govuk-table__row">
+<th scope="col" class="govuk-table__header">Month</th>
+<th scope="col" class="govuk-table__header">Griffindor</th>
+<th scope="col" class="govuk-table__header">Slytherin</th>
+</tr>
+<tr class="govuk-table__row">
+<th scope="row" class="govuk-table__header">November</th>
+<td class="govuk-table__cell">37</td>
+<td class="govuk-table__cell">178</td>
+</tr>
+<tr class="govuk-table__row">
+<th scope="row" class="govuk-table__header">December</th>
+<td class="govuk-table__cell">41</td>
+<td class="govuk-table__cell">200</td>
+</tr>
+</table>
 
 ## Labels
+
+Correct html code for form labels is shown on the [Keyboard Accessibility: technical considerations](3-keyboard-accessibility-technical-considerations) page.
