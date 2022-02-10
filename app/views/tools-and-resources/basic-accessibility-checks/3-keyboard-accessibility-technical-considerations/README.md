@@ -33,7 +33,7 @@ Example code:
 
 Output:
 
-<button>Submit</button>
+<button class="govuk-button">Submit</button>
 
 2.  Use the `<input>` tag, choose the relevant type attribute, and give the value attribute the name of the button.  
 
