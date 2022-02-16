@@ -94,6 +94,9 @@ $app-code-color: #d13118;
   // source:
   // http://code.iamkate.com/html-and-css/fixing-browsers-broken-monospace-font-handling/
   
+  figure {
+    margin-left: 0;
+  }
   pre,
   code {
     font-family: monospace, monospace; // [1]
