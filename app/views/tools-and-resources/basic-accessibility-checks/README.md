@@ -157,7 +157,7 @@ WCAG criteria:
 : [4.1.3 Status Messages]({wcagify})
 Checklist:
 : Validation errors are announced to screen readers
-: Validation are explained
+: Validation errors are clear
 : Expanded or collapsed sections are announced to screen readers
 : Notification messages are announced to screen readers
 : Popups are announced to screen readers
