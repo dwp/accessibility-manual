@@ -19,9 +19,9 @@ htmlhint http://localhost:3000
 
 Example output from HTMLHint
 ```
-~~L299 |... viewBox="0 0 13 17">
-~~          ^ The attribute name of [ viewBox ] 
-~~          must be in lowercase. (attr-lowercase)
+L299 |... viewBox="0 0 13 17">
+          ^ The attribute name of [ viewBox ] 
+          must be in lowercase. (attr-lowercase)
 
 Scanned 1 files, found 1 errors in 1 files (55 ms)
 ```
@@ -31,9 +31,9 @@ You can [configure HTMLHint](https://htmlhint.com/docs/user-guide/configuration)
 Create a `htmlhint.json` file in your project and add your [HTMLHint rules](https://htmlhint.com/docs/user-guide/list-rules). For example:
 
 ```json
-~~{
-~~  "attr-lowercase": ["viewBox"] // Ignore rule for viewBox only
-~~}
+{
+  "attr-lowercase": ["viewBox"] // Ignore rule for viewBox only
+}
 ```
 
 Then use your config file when running HTMLHint:
@@ -48,9 +48,9 @@ To use the W3C Markup Validation Service, Put your URL in, configure your option
 
 Example output from W3C Markup Validation Service:
 ```
-~~Error: An img element must have an alt attribute, except under certain conditions...
-~~
-~~From line 7, column 1; to line 7, column 21
-~~
-~~<img src="cat.jpg" />
+Error: An img element must have an alt attribute, except under certain conditions...
+
+From line 7, column 1; to line 7, column 21
+
+<img src="cat.jpg" />
 ```

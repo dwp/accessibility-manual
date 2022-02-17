@@ -6,7 +6,7 @@ A common example of this is styling links to look like buttons. We should not re
 
 For example:
 ```html
-~~<a href="/apply-now" class="btn" role="button">Apply now</a> 
+<a href="/apply-now" class="btn" role="button">Apply now</a> 
 ```
 
 By giving the link a role of button, it can now be determined to be a button. So if somebody is using voice recognition software such as Dragon, when they say "click button", Dragon will be able to find it on the page.

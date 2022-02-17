@@ -48,11 +48,11 @@ In order to get the correct indentation on code blocks, you will need to add a d
 
 For example
 ```html
-~~<div>
-~~  <p>
-~~    This is a code snippet.
-~~  </p>
-~~</div>
+<div>
+  <p>
+    This is a code snippet.
+  </p>
+</div>
 ```
 
 The function also adds `tab-index="0"` to any `<pre>` tags so that they can be highlighted and navigated by a keyboard. This is to pass [WCAG 2.1 criterion 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html).

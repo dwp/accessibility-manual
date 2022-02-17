@@ -36,31 +36,31 @@ For example, the following table is to show the number of different beverages se
 
 The HTML structure for the table is as follows:
 ```html
-~~<table>
-~~  <caption>Daily beverage consumption</caption>
-~~  <thead>
-~~    <tr>
-~~      <th>Person</th>
-~~      <th>Cold drink</th>
-~~      <th>Hot drink</th>
-~~    </tr>
-~~  </thead>
-~~  <tbody>
-~~    <tr>
-~~      <th>Chris</th>
-~~      <td>5 cups</td>
-~~      <td>0 cups</td>
-~~    </tr>
-~~    <tr>
-~~      <th>Paul</th>
-~~      <td>2 cups</td>
-~~      <td>4 cups</td>
-~~    </tr>
-~~    <tr>
-~~      <th>Sarah</th>
-~~      <td>0 cups</td>
-~~      <td>5 cups</td>
-~~    </tr>
-~~  </tbody>
-~~</table>
+<table>
+  <caption>Daily beverage consumption</caption>
+  <thead>
+    <tr>
+      <th>Person</th>
+      <th>Cold drink</th>
+      <th>Hot drink</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Chris</th>
+      <td>5 cups</td>
+      <td>0 cups</td>
+    </tr>
+    <tr>
+      <th>Paul</th>
+      <td>2 cups</td>
+      <td>4 cups</td>
+    </tr>
+    <tr>
+      <th>Sarah</th>
+      <td>0 cups</td>
+      <td>5 cups</td>
+    </tr>
+  </tbody>
+</table>
 ```

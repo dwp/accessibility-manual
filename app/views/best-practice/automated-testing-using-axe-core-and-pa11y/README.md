@@ -36,19 +36,19 @@ Again, make sure you pass in both HTML Code Sniffer and axe-core as runners. If 
 
 An example automated test using PA11Y and axe-core:
 ```javascript
-~~const pa11y = require('pa11y')
-~~
-~~describe('Home page', async () => {
-~~  it('should have no PA11Y issues', async () => {
-~~    const results = await pa11y('http://localhost:3000', {
-~~      runners: [
-~~          'axe',
-~~          'htmlcs'
-~~      ]
-~~    })
-~~    expect(results.issues.length).to.equal(0)
-~~  })
-~~})
+const pa11y = require('pa11y')
+
+describe('Home page', async () => {
+  it('should have no PA11Y issues', async () => {
+    const results = await pa11y('http://localhost:3000', {
+      runners: [
+          'axe',
+          'htmlcs'
+      ]
+    })
+    expect(results.issues.length).to.equal(0)
+  })
+})
 ```
 
 ## Acceptance tests using axe-core and Selenium
@@ -68,48 +68,48 @@ Axe-core uses the same engine as the Axe DevTools Chrome extension. So you can a
 
 An example automated test using Selenium, ChromeDriver and axe-core:
 ```javascript
-~~const chrome = require('selenium-webdriver/chrome')
-~~const chromedriver = require('chromedriver')
-~~const AxeBuilder = require('@axe-core/webdriverjs')
-~~const { Builder } = require('selenium-webdriver')
-~~const { expect } = require('chai')
-~~
-~~chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build())
-~~
-~~describe('Home page', async () => {
-~~  const driver = new Builder().forBrowser('chrome').build()
-~~
-~~  it('should have no axe-core voilations', async () => {
-~~    await driver.get('http://localhost:3000')
-~~    const a11y = await new AxeBuilder(driver)
-~~    const results = await a11y.analyze()
-~~    if (results.violations) {
-~~      results.violations.forEach(violation => {
-~~        violation.nodes.forEach(node => {
-~~          console.log(`
-~~            ${violation.description}
-~~            ${node.html}
-~~            impact: ${node.impact}
-~~          `)
-~~        })
-~~      })
-~~    }
-~~    if (results.incomplete) {
-~~      results.incomplete.forEach(incompleteTest => {
-~~        incompleteTest.nodes.forEach(node => {
-~~          console.log(`
-~~            ${incompleteTest.description}
-~~            ${node.html}
-~~            impact: ${node.impact}
-~~          `)
-~~        })
-~~      })
-~~    }
-~~    expect(results.violations.length).to.equal(0)
-~~  })
-~~
-~~  after(async () => {
-~~    await driver.quit()
-~~  })
-~~})
+const chrome = require('selenium-webdriver/chrome')
+const chromedriver = require('chromedriver')
+const AxeBuilder = require('@axe-core/webdriverjs')
+const { Builder } = require('selenium-webdriver')
+const { expect } = require('chai')
+
+chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build())
+
+describe('Home page', async () => {
+  const driver = new Builder().forBrowser('chrome').build()
+
+  it('should have no axe-core voilations', async () => {
+    await driver.get('http://localhost:3000')
+    const a11y = await new AxeBuilder(driver)
+    const results = await a11y.analyze()
+    if (results.violations) {
+      results.violations.forEach(violation => {
+        violation.nodes.forEach(node => {
+          console.log(`
+            ${violation.description}
+            ${node.html}
+            impact: ${node.impact}
+          `)
+        })
+      })
+    }
+    if (results.incomplete) {
+      results.incomplete.forEach(incompleteTest => {
+        incompleteTest.nodes.forEach(node => {
+          console.log(`
+            ${incompleteTest.description}
+            ${node.html}
+            impact: ${node.impact}
+          `)
+        })
+      })
+    }
+    expect(results.violations.length).to.equal(0)
+  })
+
+  after(async () => {
+    await driver.quit()
+  })
+})
 ```
