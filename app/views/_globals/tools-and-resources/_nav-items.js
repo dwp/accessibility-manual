@@ -13,12 +13,12 @@ module.exports = {
           sectionId: 'tools-and-resources',
           subsections: [
             {
-              title: '1. Responsive design',
-              id: '1-responsive-design'
+              title: '1. Automated tools',
+              id: '1-automated-tools'
             },
             {
-              title: '2. Automated tools',
-              id: '2-automated-tools'
+              title: '2. Responsive design',
+              id: '2-responsive-design'
             },
             {
               title: '3. Keyboard accessibility',
@@ -277,7 +277,7 @@ module.exports = {
             {
               title: 'PDFs',
               id: 'pdfs'
-            },
+            }
           ]
         },
         {

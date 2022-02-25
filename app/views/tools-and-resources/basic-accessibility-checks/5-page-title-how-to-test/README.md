@@ -1,28 +1,30 @@
 # {Page title: }How to test
 
-These tests can be conducted using any browser on a PC or laptop.
-
 There are two ways you can test this criterion:
 
 1. Visually check the browser tab
-2. Use a screen reader.
+2. Manually check the title tag
 
-## Check the browser tab
+If you hover the mouse over the browser tab which has the page loaded, the page title should be displayed after a few sections.
 
-The browser tab should have a meaningful title which describes the content of the page and the service it is a part of. 
+Alternatively you can inspect the HTML and look for the `<title>` tag.
 
-If the title is too long to fit on the tab, hovering the mouse over the tab will display the whole title.
+In Chrome, you can do this by pressing <kbd>F12</kbd> or right-clicking the page and choosing 'inspect'.
 
-## Use a screen reader
+Inside the `<head>` tag you will need to look for the `<title>` tag.
 
-### Windows 10/11
+## Checking the page title
+The page title should be made up of at least two parts. The H1 of the page you're currently on, and the name of the website or service. For example:
+```html
+<title>Accessibility Law - DWP Accessibility Manual</title>
+...
+<h1>Accessibility Law</h1>
+```
 
-Open the Narrator app. With the web page as the active window, press <kbd>INSERT + T</kbd> and the page title will be read aloud. Check that the title is unique, describes the page content and gives the service it is a part of.
+If the service is part of GOV.UK, then that should also be in the title. For example:
 
-If you have access to JAWS, the command to read the title is the same.
-
-### MacBook
-
-Turn VoiceOver on, either through the settings menu or by pressing <kbd>CMD + F5</kbd>.
-
-Press <kbd>CTRL + OPTION + SHIFT + I</kbd> to read out the page title. 
+```html
+<title>What is your name? - Apply for Pension Credit - GOV.UK</title>
+...
+<h1>What is your name?</h1>
+```

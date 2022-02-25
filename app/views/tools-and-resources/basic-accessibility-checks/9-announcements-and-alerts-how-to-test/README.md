@@ -1,6 +1,6 @@
 # {Announcements and alerts: }How to test
 
-These tests can be conducted using any screen reader. If you're on a Mac, we recommend using Voiceover. If you're on PC we recommend using NVDA.
+These tests can be conducted using any screen reader. If you're on a Mac, we recommend using Voiceover. If you're on a PC you can use NVDA or Narrator.
 
 If you are new to screen readers, we have published additional guidance on [screen reader testing](https://accessibility-manual.dwp.gov.uk/best-practice/screen-reader-testing).
 

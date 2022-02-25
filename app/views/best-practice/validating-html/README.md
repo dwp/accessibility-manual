@@ -44,7 +44,7 @@ htmlhint --config htmlhint.json http://localhost:3000
 ## W3C Markup Validation Service
 If your website is on a public URL you can use the [W3C Markup Validation Service](https://validator.w3.org/). If you need to validate HTML on your local machine HTMLHint is a better option.
 
-To use the W3C Markup Validation Service, Put your URL in, configure your options and select 'Check'. 
+If the webpages are live, you can copy and paste the URI into the 'Validate by URI' tab. If you are working with html files, these can be uploaded and validated on the 'Validate by file upload' tab.
 
 Example output from W3C Markup Validation Service:
 ```

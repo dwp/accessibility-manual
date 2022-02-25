@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "govuk-frontend": "^3.14.0",
+    "govuk-frontend": "^4.0.1",
     "gray-matter": "^4.0.3",
     "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
