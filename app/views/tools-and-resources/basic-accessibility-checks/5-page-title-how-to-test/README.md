@@ -7,7 +7,7 @@ There are two ways you can test this criterion:
 
 If you hover the mouse over the browser tab which has the page loaded, the page title should be displayed after a few sections.
 
-Alternatively you can inspect the HTML and look for the `<title>` tag.
+Alternatively, you can inspect the HTML and look for the `<title>` tag.
 
 In Chrome, you can do this by pressing <kbd>F12</kbd> or right-clicking the page and choosing 'inspect'.
 

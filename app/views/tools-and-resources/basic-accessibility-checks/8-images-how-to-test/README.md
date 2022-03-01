@@ -10,7 +10,7 @@ For example:
 <img src="cat.jpg" alt="A tabby cat wearing sunglasses" />
 ```
 
-If an image is purely decorative, it has no meaning, content or purpose, then it can be marked as decorative by leaving the alt attribute blank, as follows:
+If an image is purely decorative, it has no meaning, content, or purpose, then it can be marked as decorative by leaving the alt attribute blank, as follows:
 ```html
 <img src="pattern.jpg" alt="" />
 ```

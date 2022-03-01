@@ -6,10 +6,10 @@ These tests use the Chrome browser and the chrome Web Developer Tool extension. 
 Headings and labels must be descriptive. Every heading should give a clear indication of what information will follow it, and every label should clearly explain what information you are required to enter.
 
 ## Page has a H1, but not more than 1
-Every page should have a H1. All of the content on that page should be related to the H1. A page can technically have more than 1, but it can become confusing for the user. If you need more than a single H1, it is usually a sign that your design is too complicated.
+Every page should have a H1. All the content on that page should be related to the H1. A page can technically have more than 1, but it can become confusing for the user. If you need more than a single H1, it is usually a sign that your design is too complicated.
 
 ## No heading levels have been skipped
-You cannot use a heading level if the content is not related to the number which came before it. Headings should be used to break content down into smaller related chunks. So you can't have a H4 if it is not related to a H3, and you can't have a H3 if it is not related to a H2. 
+You cannot use a heading level if the content is not related to the number which came before it. Headings should be used to break content down into smaller related chunks. So, you can't have a H4 if it is not related to a H3, and you can't have a H3 if it is not related to a H2. 
 
 Using the Web Developer tool, it is easy to show the document structure for any web page. Open the web page and click on the Web Developer extension to bring up a menu.
 

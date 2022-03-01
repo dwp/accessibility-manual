@@ -34,7 +34,7 @@ You will need to make sure that:
 - You can't horizontal scroll on the page unless it is on something which requires horizontal scrolling to make sense, such as a map or data table.
 
 How to test in Chrome:
-1. Open the developer tools. You can right-click and choose inspect, or you can use the <kbd>F12</kbd> key.
+1. Open the developer tools. You can right-click and choose 'inspect', or you can use the <kbd>F12</kbd> key.
 2. Select the icon for the developer toolbar view or press <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd>.
 3. From the dimensions menu, choose 'responsive' and use the handles or the width input field to resize the page.
 4. Scale the page down gradually to 320px wide while checking the content.

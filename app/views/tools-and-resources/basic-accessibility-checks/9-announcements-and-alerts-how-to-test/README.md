@@ -41,5 +41,5 @@ Pop-ups are often invisible to screen readers because they require additional at
 
 To test:
 1. Activate the pop-up.
-2. Obsere whether the screen reader announced there was a pop-up.
+2. Observe whether the screen reader announced there was a pop-up.
 3. Make sure all the content in the pop-up can be accessed via the screen reader and that it is not reading the page behind it.

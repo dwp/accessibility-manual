@@ -8,4 +8,4 @@ For screen reader users, if the HTML is not valid it can cause what is read out 
 
 For voice controller users, it can cause buttons or links to be unusable without using complex commands.
 
-For keyboard users, using the incorrect elements or event triggers can cause them to be unfocusable or unusable.
+For keyboard users, using the incorrect elements or event triggers can cause them to be un-focusable or unusable.

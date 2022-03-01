@@ -1,16 +1,16 @@
 # {Links and buttons: }How to test
 
 ## The purpose of each link and button is clear
-For each button and link, it must be obvious what will happen if you use it. The text on the page should be meaningful rather than generic, e.g. 'Accessibility Guidelines' rather than 'click here' or 'read more'.
+For each button and link, it must be obvious what will happen if you use it. The text on the page should be meaningful rather than generic. For example, 'Accessibility Guidelines' rather than 'click here' or 'read more'.
 
 ## No broken or internal-only links
-All links must work. This means no 404 errors, but also no internal links. If you are putting the website live on the internet, and you are linking to a page on your organisations intranet, then that link isn't going to work for some users.
+All links must work. This means no 404 errors, but also no internal links. If you are putting the website live on the internet, and you are linking to a page on your organisation's intranet, then that link isn't going to work for some users.
 
 ## Navigation menus on more than 1 page are in the same order
-If you have a common navigation menu then it must be in the same order on every page. If the order switches then it can cause confusion for people and may cause them to click on the wrong thing.
+If you have a common navigation menu, then it must be in the same order on every page. If the order switches, then it can cause confusion for people and may cause them to click on the wrong thing.
 
 ## Buttons on more than 1 page are labelled consistently
-If you have buttons which have a common functionality then they should be labelled the same whenever they appear on different pages. For example, if you are using a button labelled 'continue' at the bottom of each step, then it should consistantly be labelled 'continue'. If one of the pages used a 'next' button instead, this could cause confusion.
+If you have buttons which have a common functionality, then they should be labelled the same whenever they appear on different pages. For example, if you are using a button labelled 'continue' at the bottom of each step, then it should consistently be labelled 'continue'. If one of the pages used a 'next' button instead, this could cause confusion.
 
 ## Button icons have a text alternative
 For any buttons which only have an icon, such as a 'play' button, they should also have a text alternative. Depending on how the button is built, this can be added via an `aria-label` attribute, using alt text on an image, or by using hidden text. For example:
@@ -29,7 +29,7 @@ For any buttons which only have an icon, such as a 'play' button, they should al
 ```
 
 ## Buttons and links use the correct tags or roles 
-It is essential that links and buttons are coded correcty and that users can activate them, expecting a predictable response.
+It is essential that links and buttons are coded correctly and that users can activate them, expecting a predictable response.
 
 Links should be used for users to navigate to other pages or parts of the same page. Buttons should be used as controls. This could be to open and close parts of the page or to interact with forms.
 
