@@ -2,8 +2,8 @@
 
 There are two ways you can test this criterion:
 
-1. Visually check the browser tab
-2. Manually check the title tag
+1. Visually check the browser tab.
+2. Manually check the title tag.
 
 If you hover the mouse over the browser tab which has the page loaded, the page title should be displayed after a few sections.
 

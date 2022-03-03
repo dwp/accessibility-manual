@@ -44,8 +44,8 @@ If your service is live, you can use the [WAVE Web Accessibility Evaluation Tool
 If your service is hosted locally, you will need to use the Chrome browser and [install the WAVE extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?utm_source=chrome-ntp-icon) to be able to do this test.
 
 To run the tests:
-1. Open the page to be checked
-2. Select the Wave extension icon
+1. Open the page to be checked.
+2. Select the Wave extension icon.
 
 We've published more in-depth guidance on [how to test using Wave](/best-practice/automated-testing-using-browser-plugins#wave).
 

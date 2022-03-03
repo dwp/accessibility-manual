@@ -22,7 +22,8 @@ We grouped the tests into a logical order based on how easy the tests are to exe
 
 <div class="govuk-inset-text">
 
-  [Download the basic accessibility checklist as Open Document Text format (ODT)](/odt).
+  [Download the basic accessibility checklist as an Excel Document (.xlsx)](/public/docs/basic-accessibility-checks.xlsx)
+  [Download the basic accessibility checklist as an Open Document Spreadsheet (.ods)](/public/docs/basic-accessibility-checks.ods)
 
 </div>
 
@@ -67,7 +68,7 @@ WCAG criteria:
 Checklist:
 : All interactions work using a keyboard
 : Focus is never trapped
-: Page has is a working skip-link
+: Page has is a working skip link
 : Focus order is logical
 : Focus is always visible
 : Focus is contained within modals and pop-ups

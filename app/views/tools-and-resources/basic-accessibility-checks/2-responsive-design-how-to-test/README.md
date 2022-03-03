@@ -2,9 +2,6 @@
 
 We do these tests using the Chrome browser and the built in Devtools. You can do these tests in a different browser, but some of the steps may be different.
 
-No horizontal scrolling on banned elements at 320px
-All information available in portrait and landscape
-
 The keyboard shortcuts in this section are for Mac devices. If you are using Windows, then you will need to use the <kbd>CTRL</kbd> key rather than the <kbd>CMD</kbd> key.
 
 ## Scale the font size by zooming
@@ -42,10 +39,10 @@ How to test in Chrome:
 ## Check portrait and landscape mode
 To meet WCAG, your service needs to work in both portrait mode and landscape mode.
 
-You need to make sure:
-- The service is not locked to a single orientation.
-- The layout and text are not broken in portrait mode.
-- The layout and text are not broken in landscape mode.
+You need to make sure the:
+- service is not locked to a single orientation
+- layout and text are not broken in portrait mode
+- layout and text are not broken in landscape mode
 
 How to test in Chrome:
 1. Open the developer tools. You can right-click and choose inspect, or you can use the <kbd>F12</kbd> key.

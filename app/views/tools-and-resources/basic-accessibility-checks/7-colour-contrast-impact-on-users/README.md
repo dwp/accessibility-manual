@@ -1,11 +1,15 @@
 # {Colour contrast: }Impact on users
 
-## Low vision
+## Text contrast
+Liz didn't have any difficulty with reading until she was in her fifties, when her close vision began to deteriorate. 
 
-Liz didn't have any difficulty with reading until they were in their fifties, when their close vision began to deteriorate. Now, she finds it very difficult to read from screens, often needing to increase the font size. They had never even thought about colour contrast being a problem until it happened to them. Now they constantly find that text with low contrast is impossible to read, even when they increase the size.
+Now, she finds it very difficult to read from screens, often needing to increase the font size. 
 
-When reading webpages with good colour contrast, Liz can concentrate for long periods of time and complete most tasks quite easily. When the contrast is poor, they get tired quickly and often experience headaches.
+Liz had never even thought about colour contrast, but now she constantly finds that pastel colours and grey text on a white background is almost always impossible to read, even when she increases the size.
 
-## Colour blindness
+When reading webpages with good colour contrast, Liz can concentrate for long periods of time and complete most tasks quite easily. When the contrast is poor, she get tired quickly and often experience headaches.
 
-Paulo has been colour-blind from birth. They don't really think about it most of the time, until they encounter something with poor colour contrast. They tend to just ignore it if it isn't something that directly affects them but if it is an essential service, this causes a lot of stress, as they cannot make out the different colours. Colour contrasts involving reds and greens are particularly difficult for Paulo to see.
+## Non-text contrast
+Paulo has been colour-blind from birth. He doesn't really notice most of the time, but bright reds and greens can get lost against white backgrounds and can be particularly difficult for him to see. 
+
+He doesn't notice most of the time if isn't something that directly affects him. But, if it is an essential part of a service such as a button or a notification banner, he can get stuck. It can cause him a lot of stress and it lowers his confidence using digital services. 

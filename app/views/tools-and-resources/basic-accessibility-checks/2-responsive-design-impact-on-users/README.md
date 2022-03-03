@@ -4,7 +4,7 @@ There is a common misconception that reflow and orientation are only for mobile 
 
 The following personas have been designed to help you understand why responsive design is important in real world situations.
 
-## Font resizing
+## Increased font size
 Blake struggles to read small text. They can read large print like billboards and newspaper headlines, but they struggle with small print like restaurant menus. They have prescription reading glasses, but they rarely wear them and often misplace them. 
 
 Blake has found browsing the web is fine without their glasses most of the time by changing the default font size in the browser to the "very large" setting.

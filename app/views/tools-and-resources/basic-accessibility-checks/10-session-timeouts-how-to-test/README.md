@@ -18,4 +18,4 @@ To pass WCAG 2.1 one of the following statements needs to be true:
 - the session timeout is longer than 20 hours by default
 - before the session times out, the user is given an opportunity to extend the session without losing any data, using a simple interaction
 - there is a way to turn the session timeout off before the user encounters it
-- there is a way to extend the session timeout to at least 10 times it's default setting before the user encounters it
+- there is a way to extend the session timeout to at least 10 times the default setting before the user encounters it
