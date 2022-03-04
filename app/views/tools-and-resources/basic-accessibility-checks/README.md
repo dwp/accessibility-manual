@@ -86,7 +86,7 @@ WCAG criteria:
 Checklist:
 : No heading levels have been skipped
 : Tables are captioned, headed and marked up correctly
-: Page has a H1, but not more than 1
+: Page has a H1, but not more than one
 : Headings and labels are clear and descriptive
 : All form fields have a label
 Guidance:
@@ -114,8 +114,8 @@ WCAG criteria:
 Checklist:
 : The purpose of each link and button is clear
 : No broken or internal-only links
-: Navigation menus on more than 1 page are in the same order
-: Buttons on more than 1 page are labelled consistently
+: Navigation menus on more than one page are in the same order
+: Buttons on more than one page are labelled consistently
 : Button icons have a text alternative
 : Buttons and links use the correct tags or roles
 Guidance:

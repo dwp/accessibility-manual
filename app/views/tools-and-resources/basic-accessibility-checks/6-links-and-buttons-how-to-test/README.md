@@ -6,10 +6,10 @@ For each button and link, it must be obvious what will happen if you use it. The
 ## No broken or internal-only links
 All links must work. This means no 404 errors, but also no internal links. If you are putting the website live on the internet, and you are linking to a page on your organisation's intranet, then that link isn't going to work for some users.
 
-## Navigation menus on more than 1 page are in the same order
+## Navigation menus on more than one page are in the same order
 If you have a common navigation menu, then it must be in the same order on every page. If the order switches, then it can cause confusion for people and may cause them to click on the wrong thing.
 
-## Buttons on more than 1 page are labelled consistently
+## Buttons on more than one page are labelled consistently
 If you have buttons which have a common functionality, then they should be labelled the same whenever they appear on different pages. For example, if you are using a button labelled 'continue' at the bottom of each step, then it should consistently be labelled 'continue'. If one of the pages used a 'next' button instead, this could cause confusion.
 
 ## Button icons have a text alternative

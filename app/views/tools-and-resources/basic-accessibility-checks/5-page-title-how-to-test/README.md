@@ -9,7 +9,7 @@ If you hover the mouse over the browser tab which has the page loaded, the page 
 
 Alternatively, you can inspect the HTML and look for the `<title>` tag.
 
-In Chrome, you can do this by pressing <kbd>F12</kbd> or right-clicking the page and choosing 'inspect'.
+In Chrome, you can do this by pressing <kbd>F12</kbd> or right-clicking anywhere on the page content and choosing 'view page source'.
 
 Inside the `<head>` tag you will need to look for the `<title>` tag.
 

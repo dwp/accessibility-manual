@@ -42,12 +42,12 @@ For a sighted user, one of the biggest challenges in keyboard navigation is bein
 
 It should be easy and clear to see where the focus is on the page at any given time. The focus indicator should have a minimum contrast ratio of 3:1. You can use a border, underline, background colour or a combination of these to make sure the focus is visible.
 
-If you tab and no item is visibly in focus, then you will fail [2.4.7 Focus Visible]({wcagify}).
-
 ## Focus is contained within modals and popups
 As part of focus visible, if there are pop-ups on the page then the keyboard focus must be contained if the pop-up is open.
 
 This is because the focus can be hidden or obscured by the pop-up if it is moving around the page behind it, and therefore the focus is not visible.
 
 ## Focus does not submit forms or click links
-All interactions should be deliberate. If any interactive element is activated just by focusing it with a keyboard then it will fail [3.2.1 On Focus]({wcagify}).
+All interactions should be deliberate. 
+
+If any interactive element is activated just by focusing it with a keyboard then it can cause confusion for some users and may lead to them submitting information they did not intend to.

@@ -4,12 +4,12 @@ WCAG criteria:
 : [3.3.2 Labels or Instructions]({wcagify})
 Things to check:
 : All headings and labels are clear and accurate
-: All pages have a H1, but not more than 1
+: All pages have a H1, but not more than one
 : [No heading levels are skipped](/guidance-for-your-job-role/software-engineer-or-frontend-developer#heading-hierarchy)
 : Tables are captioned and headed correctly
 : [All form fields have labels](/guidance-for-your-job-role/software-engineer-or-frontend-developer#inputs-and-labels)
 
-Every page should have a single heading level 1. This sets the user up to immediately know what content to expect on the page.
+Every page should have a single heading level one. This sets the user up to immediately know what content to expect on the page.
 
 Headings and labels should be clear and accurately describe the content which follows. Any content below a heading should be related to the heading, and every heading should be related to the one above it.
 

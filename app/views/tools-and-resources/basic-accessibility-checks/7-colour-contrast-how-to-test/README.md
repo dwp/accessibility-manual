@@ -6,7 +6,7 @@ The colour contrast ratio required for compliance depends on what the element is
 
 If the tool cannot read the font details, you will need to use the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). You will need the font size and the hexadecimal colour codes for the background and foreground colours. If either of these is a multicoloured image, take the colour where the contrast is at its lowest. Insert the colour codes into the relevant fields in the contrast checker and read the results against the font size.
 
-When looking at the pass/fail indicators on the contrast checker, remember that Public Sector Bodies must comply at AA level.
+When looking at the pass and fail indicators on the contrast checker, remember that Public Sector Bodies must comply at AA level.
 
 ## Text
 WCAG describes font sizes using points (pt). In most situations, 1 point will be 1.333 pixels. So you can multiply the points by 1.333 to get a rough pixel equivalent. For example, 18 multiplied by 1.333 = 23.99 pixels, which would round up to 24px. This is not an exact science, but it might help you to understand why the [font sizes in the GOVUK Design System](https://design-system.service.gov.uk/styles/typography/) were chosen.
