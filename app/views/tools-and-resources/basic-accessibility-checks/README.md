@@ -2,7 +2,7 @@
 
 WCAG 2.1 covers a lot of criteria and a lot of scenarios. Because it is a full standard, it has to cover every eventuality. To be able to say your service is fully compliant, you will need to check everything. There is no getting around it.
 
-However, when testing we find most WCAG failures fall under the same 15 to 20 criteria. So, we've made a checklist of our top 10 things to test. We think this should cover a lot of the serious accessibility barriers people face.
+However, when testing we find most WCAG failures fall under the same 15 to 20 criteria. So, we've made a checklist of our top 10 things to test. We think this should cover a lot of the serious accessibility barriers people face and should tell you quite quickly how accessible your website or digital service is.
 
 To make this checklist, we combined the common failures found by 8 different accessibility auditors along with the findings from the [Accessibility monitoring of public sector websites and mobile apps 2020-2021 corporate report](https://www.gov.uk/government/publications/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-2020-2021/accessibility-monitoring-of-public-sector-websites-and-mobile-apps-2020-2021).
 
@@ -64,7 +64,6 @@ WCAG criteria:
 : [2.4.3 Focus Order]({wcagify})
 : [2.4.7 Focus Visible]({wcagify})
 : [3.2.1 On Focus]({wcagify})
-: [4.1.2 Name, Role, Value]({wcagify})
 Checklist:
 : All interactions work using a keyboard
 : Focus is never trapped

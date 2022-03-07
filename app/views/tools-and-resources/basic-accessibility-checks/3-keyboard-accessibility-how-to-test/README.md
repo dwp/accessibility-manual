@@ -8,7 +8,7 @@ If you're using the Chrome browser, you will need to use the following keys:
 - <kbd>ENTER</kbd> activates a link or button or selects an option.
 - <kbd>SPACE</kbd> activates a button, checks or unchecks a checkbox, expands a dropdown menu.
 - <kbd>UP</kbd> and <kbd>DOWN</kbd> arrows move through radio button options, menu options and autocomplete options.
-- <kbd>SHIFT</kbd> and <kbd>SHIFT</kbd> + <kbd>SPACE</kbd> will scroll up or down by page, unless you currently have a form control focused.
+- <kbd>SPACE</kbd> and <kbd>SHIFT</kbd> + <kbd>SPACE</kbd> will scroll up or down by page, unless you currently have a form control focused.
 - <kbd>ESC</kbd> closes a dialogue box.
 
 If you're using a different browser, the keys you need to use might be different.
