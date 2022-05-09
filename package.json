@@ -1,6 +1,6 @@
 {
   "name": "accessibility-manual",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "DWP Accessibility Manual",
   "main": "index.njk",
   "scripts": {
