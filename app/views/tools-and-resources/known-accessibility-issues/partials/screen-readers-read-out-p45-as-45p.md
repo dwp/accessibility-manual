@@ -7,7 +7,7 @@ We found that the language settings of the device caused the issue. If the devic
 We found that we could fix the issue for JAWs by adding a visually hidden non- breaking space. However NVDA would still read out 45p. For example:
 
 ```html
-~~P<span class="govuk-visually-hidden">&nbsp;</span>45
+P<span class="govuk-visually-hidden">&nbsp;</span>45
 ```
 
 We recommend adding the visually hidden non-breaking space and adding the following paragraph to your accessibility statement:

@@ -17,7 +17,7 @@ Accessibility relies on your HTML being correct. Before running any accessibilit
 You should validate your HTML as soon as you have finished building a page. Running it on your local machine can save you time by allowing you to fix issues before you write git commits or push code. 
 
 We've published examples on:
-- [how to validate HTML using HTMLHint](/best-practice/validating-html/#htmlhint).
+- [how to validate HTML using HTML Validator](/best-practice/validating-html/#html-validator).
 - [how to validate HTML using W3C Markup Validation Service](/best-practice/validating-html/#w3c-markup-validation-service).
 
 ### Automated testing using browser plugins

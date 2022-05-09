@@ -1,56 +1,47 @@
 # Validating HTML
-## HTMLHint
-Before you can install HTMLHint you will need to [install NodeJS](https://nodejs.org/en/) to be able to use Node Package Manager (NPM).
+We previously advocated for using HTMLHint. But we've found that HTML Validator seems to be a much more thorough and consistent tool. So we've updated our guidance to reflect this.
 
-You can use [HTMLHint](https://htmlhint.com/docs/user-guide/getting-started) to validate your HTML on your local machine.
+## HTML Validator
+Before you can install HTMLValidator you will need to [install NodeJS](https://nodejs.org/en/) to be able to use Node Package Manager (NPM).
 
-To use HTMLhint from the command line you need to install it globally. Open the Terminal app and use the following command:
+You can use [HTMLValidator](https://www.npmjs.com/package/html-validator) to validate your HTML on your local machine or in your acceptance tests.
+
+To use HTMLValidator from the command line you need to install the command line tool globally. Open the Terminal app and use the following command:
 
 ```
-npm install htmlhint -g
+npm i html-validator-cli -g
 ```
 
-Once you've installed HTMLhint you can run it by passing in a URL or a filename. You can also use it against localhost URLs if your server is running.
+Once you've installed HTMLValidator you can run it by passing in a URL or a filename. You can also use it against localhost URLs if your server is running.
 
-To use HTMLhint:
+To use HTMLValidator you can just pass in a URL, or you can add the `--verbose` flag to get a full read out of any errors:
 ```
-htmlhint http://localhost:3000
-```
-
-Example output from HTMLHint
-```
-~~L299 |... viewBox="0 0 13 17">
-~~          ^ The attribute name of [ viewBox ] 
-~~          must be in lowercase. (attr-lowercase)
-
-Scanned 1 files, found 1 errors in 1 files (55 ms)
+html-validator http://localhost:3000
+// or
+html-validator http://localhost:3000 --verbose
 ```
 
-You can [configure HTMLHint](https://htmlhint.com/docs/user-guide/configuration) to ignore false positives such as viewBox not being lowercase. 
-
-Create a `htmlhint.json` file in your project and add your [HTMLHint rules](https://htmlhint.com/docs/user-guide/list-rules). For example:
-
-```json
-~~{
-~~  "attr-lowercase": ["viewBox"] // Ignore rule for viewBox only
-~~}
+Example output from HTML Validator
+```
+Page is not valid
+//or
+Error: Attribute “aria” not allowed on element “svg” at this point.
+From line 1091, column 9; to line 1091, column 164
+There were errors.
 ```
 
-Then use your config file when running HTMLHint:
-```
-htmlhint --config htmlhint.json http://localhost:3000
-```
+You can [configure HTMLValidator](https://www.npmjs.com/package/html-validator#:~:text=console.error(error)%0A%20%20%7D%0A%7D)()-,ignore,-String%20or%20array) to ignore false positives such as viewBox not being lowercase. 
 
 ## W3C Markup Validation Service
-If your website is on a public URL you can use the [W3C Markup Validation Service](https://validator.w3.org/). If you need to validate HTML on your local machine HTMLHint is a better option.
+If your website is on a public URL you can use the [W3C Markup Validation Service](https://validator.w3.org/). If you need to validate HTML on your local machine HTML Validator is a better option.
 
-To use the W3C Markup Validation Service, Put your URL in, configure your options and select 'Check'. 
+If the webpages are live, you can copy and paste the URI into the 'Validate by URI' tab. If you are working with html files, these can be uploaded and validated on the 'Validate by file upload' tab.
 
 Example output from W3C Markup Validation Service:
 ```
-~~Error: An img element must have an alt attribute, except under certain conditions...
-~~
-~~From line 7, column 1; to line 7, column 21
-~~
-~~<img src="cat.jpg" />
+Error: An img element must have an alt attribute, except under certain conditions...
+
+From line 7, column 1; to line 7, column 21
+
+<img src="cat.jpg" />
 ```

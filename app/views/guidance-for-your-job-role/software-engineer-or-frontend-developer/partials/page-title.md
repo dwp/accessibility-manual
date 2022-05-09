@@ -7,7 +7,7 @@ The standard format for titles on a service is to set the context in 3 parts and
 
 For example:
 ```html
-~~<title>What is your name? – Apply for Universal Credit – GOV.UK</title>
+<title>What is your name? – Apply for Universal Credit – GOV.UK</title>
 ```
 
 If there are errors on the page, then the page context part of the title should be prefixed with `Error:`. You can read more about this on the [GOV.UK pattern for validation errors](https://design-system.service.gov.uk/patterns/validation/).

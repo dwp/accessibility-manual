@@ -10,9 +10,8 @@ function code (renderer) {
         code = out
       }
     }
-    code = code.replace(/~~/g, '')
-    if (!lang) return `<pre><code role="figure" tabindex="0" class="hljs">${code}</code></pre>\n`
-    return `<pre><code role="figure" tabindex="0" class="hljs ${this.options.langPrefix}${escape(lang, true)}">${code}</code></pre>\n`
+    if (!lang) return `<figure><figcaption class="govuk-visually-hidden">Code example</figcaption><pre><code tabindex="0" class="hljs">${code}</code></pre></figure>\n`
+    return `<figure><figcaption class="govuk-visually-hidden">Code example</figcaption><pre><code tabindex="0" class="hljs ${this.options.langPrefix}${escape(lang, true)}">${code}</code></pre></figure>\n`
   }
 }
 function heading (renderer) {

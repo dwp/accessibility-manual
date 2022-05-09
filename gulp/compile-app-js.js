@@ -11,7 +11,7 @@ gulp.task('compile-app-js', function () {
         mode: 'production',
         stats: 'errors-only',
         output: {
-          filename: 'application.js',
+          filename: 'application.js'
         },
         externals: {
           jquery: 'jQuery'

@@ -6,14 +6,14 @@ The language of the page should always be set on the HTML tag, but you also need
 
 For example:
 ```html
-~~<!DOCTYPE html>
-~~<html lang="en">
-~~  ...
-~~  <nav>
-~~    <ul>
-~~      <li><a href="home">Home</a></li>
-~~      <li><a href="welsh" lang="cy">Cymraeg</a></li>
-~~      ...
+<!DOCTYPE html>
+<html lang="en">
+  ...
+  <nav>
+    <ul>
+      <li><a href="home">Home</a></li>
+      <li><a href="welsh" lang="cy">Cymraeg</a></li>
+      ...
 ```
 
 If you don't set the language of the page, you will fail WCAG 3.1.1 Language of page, and if you don't tag up any differences in language correctly you will fail WCAG 3.1.2 Language of parts.

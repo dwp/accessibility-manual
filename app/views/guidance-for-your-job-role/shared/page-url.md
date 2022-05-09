@@ -4,10 +4,10 @@ The page purpose should be clear from the URL. URLs are often overlooked as some
 
 An example of a good url is:
 ```text
-~~/guidance/help-with-your-tax-return
+/guidance/help-with-your-tax-return
 ```
 
 An example of a bad url is:
 ```text
-~~/user/5625665526/post/87837847.php
+/user/5625665526/post/87837847.php
 ```
