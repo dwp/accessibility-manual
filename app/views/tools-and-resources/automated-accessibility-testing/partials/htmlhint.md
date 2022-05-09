@@ -1,5 +1,5 @@
-## HTMLHint
+## HTML Validator
 
-[HTMLHint](https://htmlhint.com/docs/user-guide/getting-started) is a HTML validator you can run from the command line. It will run against any URL your machine can access.
+[HTML Validator](https://www.npmjs.com/package/html-validator) is a HTML validator you can run from your test suite or from the command line. It will run against any URL your machine can access.
 
-We have published guidance on [how to validate HTML using HTMLHint](/best-practice/validating-html/#htmlhint).
+We have published guidance on [how to validate HTML using HTML Validator](/best-practice/validating-html/#html-validator).

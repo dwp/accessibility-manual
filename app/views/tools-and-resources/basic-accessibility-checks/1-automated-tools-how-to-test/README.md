@@ -12,7 +12,7 @@ Valid html code must:
 
 We recommend validating your HTML using one of the following tools:
 - [W3C Markup Validation Service](/best-practice/validating-html/#w3c-markup-validation-service)
-- [HTMLHint](/best-practice/validating-html/#htmlhint)
+- [HTML Validator](/best-practice/validating-html/#html-validator)
 
 ## Axe DevTools
 You will need to use the Chrome browser and [install the Axe DevTools extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?utm_source=chrome-ntp-icon) to be able to do this test.

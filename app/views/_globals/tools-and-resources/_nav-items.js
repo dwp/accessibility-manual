@@ -61,8 +61,8 @@ module.exports = {
           sectionId: 'tools-and-resources',
           subsections: [
             {
-              title: 'HTMLHint',
-              id: 'htmlhint'
+              title: 'HTML Validator',
+              id: 'html-validator'
             },
             {
               title: 'W3C Markup Validation Service',

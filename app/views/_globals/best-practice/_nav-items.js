@@ -66,8 +66,8 @@ module.exports = {
           sectionId: 'best-practice',
           subsections: [
             {
-              title: 'HTMLHint',
-              id: 'htmlhint'
+              title: 'HTML Validator',
+              id: 'html-validator'
             },
             {
               title: 'W3C Markup Validation Service',
