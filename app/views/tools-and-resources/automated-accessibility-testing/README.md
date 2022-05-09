@@ -8,7 +8,7 @@ A [GDS audit of automated tools](https://alphagov.github.io/accessibility-tool-a
 
 You can [read more on how to do accessibility testing](/best-practice/how-to-do-accessibility-testing).
 
-{% include './partials/htmlhint.md' %}
+{% include './partials/html-validator.md' %}
 {% include './partials/w3c-markup-validation-service.md' %}
 {% include './partials/pa11y.md' %}
 {% include './partials/axe-core.md' %}

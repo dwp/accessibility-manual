@@ -305,6 +305,10 @@ module.exports = {
               id: 'inputs-and-labels'
             },
             {
+              title: 'Inputs control purpose',
+              id: 'inputs-control-purpose'
+            },
+            {
               title: 'Keyboard focus',
               id: 'keyboard-focus'
             },
