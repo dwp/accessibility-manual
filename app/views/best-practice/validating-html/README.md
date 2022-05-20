@@ -30,8 +30,6 @@ From line 1091, column 9; to line 1091, column 164
 There were errors.
 ```
 
-You can [configure HTMLValidator](https://www.npmjs.com/package/html-validator#:~:text=console.error(error)%0A%20%20%7D%0A%7D)()-,ignore,-String%20or%20array) to ignore false positives such as viewBox not being lowercase. 
-
 ## W3C Markup Validation Service
 If your website is on a public URL you can use the [W3C Markup Validation Service](https://validator.w3.org/). If you need to validate HTML on your local machine HTML Validator is a better option.
 
