@@ -20,11 +20,11 @@
   },
   "homepage": "https://accessibility-manual.dwp.gov.uk",
   "engines": {
-    "node": "14.17.0"
+    "node": "16.15.0"
   },
   "dependencies": {
     "express": "^4.18.1",
-    "govuk-frontend": "^4.0.1",
+    "govuk-frontend": "^3.14.0",
     "gray-matter": "^4.0.3",
     "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
