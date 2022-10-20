@@ -6,9 +6,9 @@ This website is run by DWP. We want as many people as possible to be able to use
 
 - change colours, contrast levels and fonts
 - zoom in up to 300% without the text spilling off the screen
-- navigate most of the website using just a keyboard
-- navigate most of the website using speech recognition software
-- listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
+- navigate all of the website using just a keyboard
+- navigate all of the website using speech recognition software
+- listen to all of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)
 
 We’ve also made the website text as simple as possible to understand.
 
