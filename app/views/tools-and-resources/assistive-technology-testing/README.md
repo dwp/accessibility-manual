@@ -14,7 +14,7 @@ You can [read more on how to do accessibility testing](/best-practice/how-to-do-
 - [Narrator on Windows](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
 - [TalkBack on Android](https://support.google.com/accessibility/android/answer/6283677?hl=en-GB)
 - [JAWS by Freedom Scientific](https://www.freedomscientific.com/products/software/jaws/)
-- [Fusion by Freedom Scientific](https://www.zoomtext.com/products/zoomtext-fusion/)
+- [Fusion by Freedom Scientific](https://www.freedomscientific.com/products/software/fusion/)
 
 ### Voice controllers
 - [OS X Voice Control on Mac](https://www.apple.com/uk/accessibility/mac/mobility/)
@@ -26,8 +26,8 @@ You can [read more on how to do accessibility testing](/best-practice/how-to-do-
 - [OS X Zoom on Mac](https://www.apple.com/uk/accessibility/mac/vision/)
 - [iOS Zoom on iPhone](https://www.apple.com/uk/accessibility/iphone/vision/)
 - [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198)
-- [ZoomText by Freedom Scientific](https://www.zoomtext.com/products/zoomtext-magnifier/)
-- [Fusion by Freedom Scientific](https://www.zoomtext.com/products/zoomtext-fusion/)
+- [ZoomText by Freedom Scientific](https://www.freedomscientific.com/products/software/zoomtext/)
+- [Fusion by Freedom Scientific](https://www.freedomscientific.com/products/software/fusion/)
 
 ## Testing templates
 ### OS X Voiceover
