@@ -12,7 +12,7 @@ Thanks to:
 - [Emily Ball](https://twitter.com/Emilyball53)
 - Nick Cowan
 
-## Designing for users with dyscalculia or low numeracy skills
+## Designing for users with dyscalculia or low numeracy
 
 This poster was made in a combined effort between DWP and HMRC, as an addition to the Home Office Accessibility posters.
 
