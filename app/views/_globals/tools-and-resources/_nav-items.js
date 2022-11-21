@@ -235,10 +235,6 @@ module.exports = {
               id: 'gov-uk-accordion-component-is-non-compliant'
             },
             {
-              title: 'GOV.UK conditional reveals are non-compliant',
-              id: 'gov-uk-conditional-reveals-are-non-compliant'
-            },
-            {
               title: 'GOV.UK Date component does not work with Dragon',
               id: 'gov-uk-date-component-does-not-work-with-dragon'
             },

@@ -5,7 +5,6 @@ Sometimes we find issues which are not unique to services. These can be due to b
 {% include './partials/aria-attributes-not-allowed-on-conditional-reveals.md' %}
 {% include './partials/colour-contrast-fails-on-hm-government-logo.md' %}
 {% include './partials/govuk-accordion-component-is-non-compliant.md' %}
-{% include './partials/govuk-conditional-reveals-are-non-compliant.md' %}
 {% include './partials/govuk-date-component-does-not-work-with-dragon.md' %}
 {% include './partials/govuk-details-component-does-not-work-with-dragon.md' %}
 {% include './partials/jaws-cannot-see-headings-inside-fieldsets.md' %}
