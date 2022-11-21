@@ -23,7 +23,7 @@ You can:
 - [Read the research on the dyscalculia poster](https://github.com/abbott567/dyscalculia-poster#readme)
 
 This poster was designed and created by:
-- [Jayne McFadyen](https://twitter.com/mcfadyen_jane)
+- [Jane McFadyen](https://twitter.com/mcfadyen_jane)
 - [Laura Parker](https://twitter.com/LauraParkerUX)
 - [Rachel Malic](https://twitter.com/GirlCalledMalic)
       
