@@ -210,11 +210,20 @@ module.exports = {
           ]
         },
         {
-          title: 'Home Office posters',
-          id: 'home-office-posters',
-          link: '/tools-and-resources/home-office-posters',
+          title: 'Accessibility posters',
+          id: 'accessibility-posters',
+          link: '/tools-and-resources/accessibility-posters',
           sectionId: 'tools-and-resources',
-          subsections: []
+          subsections: [
+            {
+              title: 'Home Office posters',
+              id: 'home-office-posters'
+            },
+            {
+              title: 'Dyscalculia poster',
+              id: 'designing-for-users-with-dyscalculia-or-low-numeracy-skills'
+            }
+          ]
         },
         {
           title: 'Known issues',

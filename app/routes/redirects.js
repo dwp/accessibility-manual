@@ -21,6 +21,11 @@ router.use((req, res, next) => {
     return res.status(301).send()
   }
 
+  if (req.url === '/tools-and-resources/home-office-posters') {
+    res.set('location', '/tools-and-resources/accessibility-posters')
+    return res.status(301).send()
+  }
+
   next()
 })
 
