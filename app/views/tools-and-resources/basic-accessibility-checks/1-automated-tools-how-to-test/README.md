@@ -24,7 +24,7 @@ To run the tests:
 4. Select Axe DevTools.
 5. Select 'scan entire page'.
 
-We've published more in-depth guidance on [how to test using Axe DevTools](/best-practice/automated-testing-using-browser-plugins#arc-toolkit).
+We've published more in-depth guidance on [how to test using Axe DevTools](/best-practice/automated-testing-using-browser-plugins#axe-devtools).
 
 ## ARC Toolkit
 You will need to use the Chrome browser and [install the ARC Toolkit extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce?hl=en) to be able to do this test.
